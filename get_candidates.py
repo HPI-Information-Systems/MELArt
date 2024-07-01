@@ -4,6 +4,7 @@ import requests
 import json
 import os
 from tqdm import tqdm
+import paths
 
 def main(args):
 
@@ -43,8 +44,7 @@ def main(args):
         
 
     #save dictionary to json file
-    file_path = Path('data_files/dict_candidates.json')
-    file_path.parent.mkdir(parents=True, exist_ok=True)
+    file_path = paths.DICT_CANDIDATES_PATH
 
     with open(file_path, 'w') as fp:
         json.dump(dict_candidates, fp)
@@ -68,20 +68,21 @@ def main(args):
         if len(candidate_ids) == 1:
             only_one_candidate+=1
 
-    only_one_candidate
+    print(f"Only one candidate for {only_one_candidate} mentions")
 
-    folder = Path("data_files/el_candidates/")
+    folder = paths.CANDIDATES_FOLDER_PATH
 
     for candidate_ids in tqdm(candidates_set):
         #request to wikidata to get the information about the candidate https://www.wikidata.org/w/rest.php/wikibase/v0/entities/items/Q7617093
-        if not Path(f"{folder}/{candidate_ids}.json").exists():
+        candidate_path=folder / f"{candidate_ids}.json"
+        if candidate_path.exists():
             url=f"https://www.wikidata.org/w/rest.php/wikibase/v0/entities/items/{candidate_ids}"
             response = requests.get(url)
             res_obj = response.json()
-            with open(f"{folder}/{candidate_ids}.json", 'w') as fp:
+            with open(candidate_path, 'w') as fp:
                 json.dump(res_obj, fp)
 
-    # iterate trouh the json files in /el_candidates/ and extract the image urls into a set, then save the set in a text file line by line
+    # iterate trough the json files in /el_candidates/ and extract the image urls into a set, then save the set in a text file line by line
 
     image_urls = set()
 
@@ -99,16 +100,13 @@ def main(args):
                         except:
                             pass
 
-    images_folder = folder / "images"
-    images_folder.mkdir(parents=True, exist_ok=True)
-
-    with open(images_folder / "image_urls.txt", 'w') as f:
+    with open(paths.CANDIDATES_IMAGES_TXT_PATH, 'w') as f:
         for item in image_urls:
             f.write("%s\n" % item)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Get the candidates from wikidata, and build a file with all the images urls')
-    parser.add_argument('file_path', type=str, help='artpedia2wiki_el.json file path')
+    parser.add_argument('--file_path', type=str, help='artpedia2wiki_matched.json file path', default=paths.ARTPEDIA2WIKI_MATCHED_PATH)
     args = parser.parse_args()
     main(args)
 

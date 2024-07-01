@@ -5,8 +5,8 @@
 ### Configuration
 
 1. Create a `.env` file (you can use `.env_sample` as a tempate) and set the access token for Wikimedia API and the user agent.
-2. Install required libraries
-3. Install spacy model `python -m spacy download en_core_web_sm`
+2. Install required libraries. The easiest way is to use the provided conda environment `environment.yaml`
+3. Install spacy English model `python -m spacy download en_core_web_sm`
 
 ### Input files
 1. Create a folder called `input_files`.
@@ -21,13 +21,10 @@ You can also avoid having the `input_files/` folder, by adjusting the paths in t
 
 2. `get_artpedia_depicted.sh`: This script first creates a text file to filter the Wikidata dump by qid, and then creates a ndjson file with the information from the depicted entities from the Wikidata dump.
 
-3. `text_matcher.py`: matches the labels of the depcited entities in the visual and contextual sentences.
+3. `text_matcher.py`: Matches the labels of the depcited entities in the visual and contextual sentences.
 
+4. `get_candidates.py`: Get the candidates for the depicted entities in the visual and contextual sentences, using Wikidata search API. For each candidates, it creates a json file with its information in the `aux_files/el_candidates` folder. Also creates a file with the list of entity image paths.
 
-- text_matcher.py: matches the labels of the depcited entities in the visual and contextual sentences.
+5. `get_candidate_types.py`: Reads each candidate information, builds a set of all the types, and uses Wikidata's API to get the type labels. The types information is stored in the `aux_files/candidate_types_dict.json` file.
 
-- build_candidate_desceiptions.py: build the textual descriptions from a set of json objects (one oine per candidate)
-
-- get_candidates.py: get the candidates for the depicted entities in the visual and contextual sentences, using wikidata search API.
-
-- crawl_images.py: crawl the images from the imgs_url file (from get_candidates.py) (requres dotenv file with the API key and [python-dotenv](https://github.com/theskumar/python-dotenv) package)
+6. `crawl_images.py`: crawl the images from Wikimedia Commons basd on the `imgs_url.txt` file (from get_candidates.py)
