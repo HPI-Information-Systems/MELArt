@@ -1,0 +1,6634 @@
+{
+  "Q3207989": [
+    {
+      "text": "Crucifixion is a painting of the Crucifixion of Christ, usually attributed to Perugino, with or without assistance from Luca Signorelli.",
+      "entities": [
+        {
+          "start": 48,
+          "end": 54,
+          "qid": "Q302",
+          "text": "Christ"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "To the left of the cross stand saint Jerome (inspiration for the Jesuati) and Francis of Assisi.",
+      "entities": [
+        {
+          "start": 37,
+          "end": 43,
+          "qid": "Q44248",
+          "text": "Jerome"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "To its right are Mary Magdalene touching Christ's feet, Blessed Giovanni Colombini (founder of the Jesuati) and John the Baptist (patron saint of Florence).",
+      "entities": [
+        {
+          "start": 17,
+          "end": 31,
+          "qid": "Q63070",
+          "text": "Mary Magdalene"
+        },
+        {
+          "start": 41,
+          "end": 49,
+          "qid": "Q302",
+          "text": "Christ's"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "John points to Christ, whilst Jerome has thrown down his cardinal's cap at the foot of the cross, symbolising his rejection of earthly honours\nGiorgio Vasari saw all three paintings in their original positions over the church's side altars, but after the church was destroyed in the 1529 Siege of Florence all three paintings were moved to the order's new monastery of San Giovanni Battista della Calza near the city's Porta Romana.",
+      "entities": [
+        {
+          "start": 15,
+          "end": 21,
+          "qid": "Q302",
+          "text": "Christ"
+        },
+        {
+          "start": 30,
+          "end": 36,
+          "qid": "Q44248",
+          "text": "Jerome"
+        }
+      ],
+      "sentence_type": "visual"
+    }
+  ],
+  "Q1224572": [
+    {
+      "text": "The painting depicts Bonaparte leading his army through the Alps on a mule, a journey Napoleon and his army of soldiers made in the spring of 1800, in an attempt to surprise the Austrian army in Italy.",
+      "entities": [
+        {
+          "start": 21,
+          "end": 30,
+          "qid": "Q517",
+          "text": "Bonaparte"
+        },
+        {
+          "start": 86,
+          "end": 94,
+          "qid": "Q517",
+          "text": "Napoleon"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Bonaparte Crossing the Alps (also called Napoleon Crossing the Alps, despite the existence of another, more well-known painting with that name) is an 1848\u20131850 oil-on-canvas portrait of Napoleon Bonaparte, by French artist Paul Delaroche.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 9,
+          "qid": "Q517",
+          "text": "Bonaparte"
+        },
+        {
+          "start": 41,
+          "end": 49,
+          "qid": "Q517",
+          "text": "Napoleon"
+        },
+        {
+          "start": 186,
+          "end": 204,
+          "qid": "Q517",
+          "text": "Napoleon Bonaparte"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The work was inspired by Jacques-Louis David's series of five Napoleon Crossing the Alps paintings (1801\u20131805).",
+      "entities": [
+        {
+          "start": 62,
+          "end": 70,
+          "qid": "Q517",
+          "text": "Napoleon"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "David's works also show Napoleon's journey through the Great St. Bernard Pass, but there are significant stylistic differences between the two conceptions.",
+      "entities": [
+        {
+          "start": 24,
+          "end": 34,
+          "qid": "Q517",
+          "text": "Napoleon's"
+        },
+        {
+          "start": 55,
+          "end": 72,
+          "qid": "Q623424",
+          "text": "Great St. Bernard"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Delaroche's Napoleon is cold and downcast, whereas David's wears a pristine uniform, and is idealized as a hero.",
+      "entities": [
+        {
+          "start": 12,
+          "end": 20,
+          "qid": "Q517",
+          "text": "Napoleon"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Many of those who were in the latter state of mind felt that Delaroche was trying to match the genius of Napoleon in some way, and had failed miserably in doing so.",
+      "entities": [
+        {
+          "start": 105,
+          "end": 113,
+          "qid": "Q517",
+          "text": "Napoleon"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q2741541": [
+    {
+      "text": "The panel depicts Mary with the  Child on her womb, subject of the  adoration of the three Magi.",
+      "entities": [
+        {
+          "start": 18,
+          "end": 22,
+          "qid": "Q345",
+          "text": "Mary"
+        },
+        {
+          "start": 33,
+          "end": 38,
+          "qid": "Q942467",
+          "text": "Child"
+        },
+        {
+          "start": 91,
+          "end": 95,
+          "qid": "Q51671",
+          "text": "Magi"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Joseph, behind Mary, is perhaps pointing at them with an amazed expression.",
+      "entities": [
+        {
+          "start": 15,
+          "end": 19,
+          "qid": "Q345",
+          "text": "Mary"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "All the characters' glances converge on the baby Jesus, who, instead, looks towards the observer.",
+      "entities": [
+        {
+          "start": 49,
+          "end": 54,
+          "qid": "Q942467",
+          "text": "Jesus"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "At left is a landscape with the Magi procession, with several buildings and lake where grooms and horses are resting.",
+      "entities": [
+        {
+          "start": 32,
+          "end": 36,
+          "qid": "Q51671",
+          "text": "Magi"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Another portion of landscape is in the middle part, with two shepherds pointing at something, an aged woman and a child: the latter characters could be a reference to St. Elizabeth and the young St. John the Baptist visiting Jesus.",
+      "entities": [
+        {
+          "start": 225,
+          "end": 230,
+          "qid": "Q942467",
+          "text": "Jesus"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The Monforte Altarpiece  (c. 1470) is an oil on oak panel painting of the Adoration of the Magi by the Flemish painter Hugo van der Goes, now in the Gem\u00e4ldegalerie,  Berlin, Germany.",
+      "entities": [
+        {
+          "start": 91,
+          "end": 95,
+          "qid": "Q51671",
+          "text": "Magi"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Old copies of the work show the Nativity and Circumcision of Jesus on the wing panels.",
+      "entities": [
+        {
+          "start": 61,
+          "end": 66,
+          "qid": "Q942467",
+          "text": "Jesus"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "This is what remains of the angels flying towards the comet, and are now lost; a similar theme appears in Jan Gossaert's Adoration of the Magi.",
+      "entities": [
+        {
+          "start": 138,
+          "end": 142,
+          "qid": "Q51671",
+          "text": "Magi"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q626791": [
+    {
+      "text": "Jerome is shown here contemplating one of his symbols, the skull, a reminder of the inevitability of death and the vanity of worldly things.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 6,
+          "qid": "Q44248",
+          "text": "Jerome"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Saint Jerome in Meditation (c. 1605) is a painting by the Italian Baroque master Caravaggio, now in the Museum of Montserrat, next to the Monastery of Santa Maria, Montserrat (Museu del Monestir de Santa Maria).Saint Jerome, hermit, Father of the Church, and responsible for the translation of the Bible into Latin, (the Vulgate Bible) was a popular figure in Caravaggio's time, and the artist painted him at least eight times (only three survive).",
+      "entities": [
+        {
+          "start": 0,
+          "end": 12,
+          "qid": "Q44248",
+          "text": "Saint Jerome"
+        },
+        {
+          "start": 217,
+          "end": 223,
+          "qid": "Q44248",
+          "text": "Jerome"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Benedetto built up a large collection of religious works by the artist, and a St Jerome of the same dimensions as this one is in the Giustiniani inventory of 1638.",
+      "entities": [
+        {
+          "start": 81,
+          "end": 87,
+          "qid": "Q44248",
+          "text": "Jerome"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q2354033": [
+    {
+      "text": "Completed between 1880 and 1883, the work shows a seething, huddled mass attending the annual religious procession (crucession) carrying the famous icon Our Lady of Kursk from its home at the Korennaya Monastery to the nearby city of Kursk in western Russia.",
+      "entities": [
+        {
+          "start": 153,
+          "end": 170,
+          "qid": "Q196181",
+          "text": "Our Lady of Kursk"
+        }
+      ],
+      "sentence_type": "visual"
+    }
+  ],
+  "Q2270778": [
+    {
+      "text": "It depicts Peter denying Jesus after Jesus was arrested.",
+      "entities": [
+        {
+          "start": 11,
+          "end": 16,
+          "qid": "Q33923",
+          "text": "Peter"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The Denial of Saint Peter (La Negazione di Pietro) is a painting finished around 1610 by the Italian painter Caravaggio.",
+      "entities": [
+        {
+          "start": 4,
+          "end": 25,
+          "qid": "Q130704",
+          "text": "Denial of Saint Peter"
+        },
+        {
+          "start": 27,
+          "end": 49,
+          "qid": "Q130704",
+          "text": "La Negazione di Pietro"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q1994120": [
+    {
+      "text": "The painting depicts a bedroom where an Annunciation takes place following an unusual scheme: the angel is on the right, holding a white lily, and has got in from a loggia which opens to a garden  (the hortus conclusus).",
+      "entities": [
+        {
+          "start": 40,
+          "end": 52,
+          "qid": "Q154326",
+          "text": "Annunciation"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "His right arm is pointing at the Father God who has shown in a cloud and is blessing Mary from inside the loggia.",
+      "entities": [
+        {
+          "start": 85,
+          "end": 89,
+          "qid": "Q345",
+          "text": "Mary"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Mary is portrayed in the left foreground, looking at the spectator and raising her hands in a surprised gesture.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 4,
+          "qid": "Q345",
+          "text": "Mary"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The Madonna who face the seer and the angel who tries to draw her attention are taken instead from Titian works.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 11,
+          "qid": "Q345",
+          "text": "The Madonna"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Lotto's Virgin is a good girl; the message takes her by surprise while praying in her room; she cannot even turn her head; her gesture, almost a defensive one, is that of somebody who is struck at the back by a sudden call",
+      "entities": [
+        {
+          "start": 8,
+          "end": 14,
+          "qid": "Q345",
+          "text": "Virgin"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The Recanati Annunciation (Italian: Annunciazione di Recanati)  is a painting by the Italian Renaissance painter Lorenzo Lotto, executed around 1534 and housed in the Civic Museum of Villa Colloredo Mels, Recanati, Italy.",
+      "entities": [
+        {
+          "start": 13,
+          "end": 25,
+          "qid": "Q154326",
+          "text": "Annunciation"
+        },
+        {
+          "start": 36,
+          "end": 49,
+          "qid": "Q154326",
+          "text": "Annunciazione"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "According to Italian art historian Giulio Carlo Argan:\n\nTitian's Virgin is a praying queen who nobly turns to receive the divine messenger in her palace.",
+      "entities": [
+        {
+          "start": 65,
+          "end": 71,
+          "qid": "Q345",
+          "text": "Virgin"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q2629419": [
+    {
+      "text": "It depicts Saint Joseph, the Virgin Mary, and the baby Jesus.",
+      "entities": [
+        {
+          "start": 25,
+          "end": 40,
+          "qid": "Q345",
+          "text": "the Virgin Mary"
+        },
+        {
+          "start": 55,
+          "end": 60,
+          "qid": "Q942467",
+          "text": "Jesus"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The Madonna with Beardless St. Joseph is an early painting by Raphael, produced in 1506, now at the Hermitage Museum.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 11,
+          "qid": "Q345",
+          "text": "The Madonna"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q1133103": [
+    {
+      "text": "The Vendramin Family venerating a Relic of the True Cross, Portrait of the Vendramin Family etc.",
+      "entities": [
+        {
+          "start": 4,
+          "end": 20,
+          "qid": "Q3555436",
+          "text": "Vendramin Family"
+        },
+        {
+          "start": 75,
+          "end": 91,
+          "qid": "Q3555436",
+          "text": "Vendramin Family"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The canvas was commissioned by the patrician Vendramin family, and portrays, as dictated by Venetian custom, only male members of the dynasty.",
+      "entities": [
+        {
+          "start": 45,
+          "end": 54,
+          "qid": "Q3555436",
+          "text": "Vendramin"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It includes the brothers Andrea and Gabriele Vendramin, and Andrea's seven sons.",
+      "entities": [
+        {
+          "start": 45,
+          "end": 54,
+          "qid": "Q3555436",
+          "text": "Vendramin"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "This was connected with a miracle in 1370-82 depicted by Vittorio Carpaccio, Gentile Bellini and other artists - when accidentally dropped into a canal during a congested procession it did not sink but hovered over the water, evading others trying to help, until an earlier Andrea Vendramin dived in and retrieved it.",
+      "entities": [
+        {
+          "start": 281,
+          "end": 290,
+          "qid": "Q3555436",
+          "text": "Vendramin"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The relic is a central part of the portrait and was seen as both a symbol of the Serene Republic, and a personal symbol for the Vendramin family.",
+      "entities": [
+        {
+          "start": 128,
+          "end": 137,
+          "qid": "Q3555436",
+          "text": "Vendramin"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The painting was clearly designed for a specific location, presumably in one of the various Vendramin palaces in Venice, perhaps on a stairway.",
+      "entities": [
+        {
+          "start": 92,
+          "end": 101,
+          "qid": "Q3555436",
+          "text": "Vendramin"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q1059211": [
+    {
+      "text": "The picture depicts the Baptism of Jesus by John the Baptist as recorded in the Biblical Gospels of Matthew, Mark and Luke.",
+      "entities": [
+        {
+          "start": 24,
+          "end": 40,
+          "qid": "Q217048",
+          "text": "Baptism of Jesus"
+        },
+        {
+          "start": 44,
+          "end": 60,
+          "qid": "Q40662",
+          "text": "John the Baptist"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The Baptism of Christ is a painting finished around 1475 in the studio of the Italian Renaissance painter Andrea del Verrocchio and generally ascribed to him and his pupil Leonardo da Vinci.",
+      "entities": [
+        {
+          "start": 4,
+          "end": 21,
+          "qid": "Q217048",
+          "text": "Baptism of Christ"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q3399482": [
+    {
+      "text": "Portrait of Madame Pastoret is a 1791 portrait by Jacques-Louis David.",
+      "entities": [
+        {
+          "start": 12,
+          "end": 27,
+          "qid": "Q15615032",
+          "text": "Madame Pastoret"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It shows Ad\u00e9laide Pastoret, n\u00e9e Piscatory de Vaufreland",
+      "entities": [
+        {
+          "start": 9,
+          "end": 26,
+          "qid": "Q15615032",
+          "text": "Ad\u00e9laide Pastoret"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q3699475": [
+    {
+      "text": "The painting depicts Jesus and the Apostles during the Last Supper, with Judas dressed in blue turning back towards the viewer and away from the table.",
+      "entities": [
+        {
+          "start": 21,
+          "end": 26,
+          "qid": "Q302",
+          "text": "Jesus"
+        },
+        {
+          "start": 35,
+          "end": 43,
+          "qid": "Q4155679",
+          "text": "Apostles"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Other than Jesus, the most prominent figure is Judas.",
+      "entities": [
+        {
+          "start": 11,
+          "end": 16,
+          "qid": "Q302",
+          "text": "Jesus"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Jesus is dressed in red and has a yellow halo surrounding his head with his face tilted upwards.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 5,
+          "qid": "Q302",
+          "text": "Jesus"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Jesus is located centrally in the painting surrounded by his disciples with six on each side, and he holds a loaf of bread with a cup of wine in front of him.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 5,
+          "qid": "Q302",
+          "text": "Jesus"
+        }
+      ],
+      "sentence_type": "visual"
+    }
+  ],
+  "Q649408": [
+    {
+      "text": "The subject, the birth of Mary, is shown in a secondary location of the lower part of the painting.",
+      "entities": [
+        {
+          "start": 26,
+          "end": 30,
+          "qid": "Q345",
+          "text": "Mary"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The Nativity of the Virgin is a  painting by the  German Renaissance artist Albrecht Altdorfer, dating to c. 1520, which is currently housed in the Alte Pinakothek of Munich, Germany.",
+      "entities": [
+        {
+          "start": 20,
+          "end": 26,
+          "qid": "Q345",
+          "text": "Virgin"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The edifice, symbolizing the analogy between Mary and the Catholic church (a subject later abolished by the Protestant Reformation), is organized in a complicated and original fashion: the ambulatory and the  column galleries are Romanesque, the ogival windows are Gothic, the vaults and the shell-shaped niches are  in Renaissance style.",
+      "entities": [
+        {
+          "start": 45,
+          "end": 49,
+          "qid": "Q345",
+          "text": "Mary"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q2277635": [
+    {
+      "text": "As is usual with Caravaggio, light becomes an important element in the drama, picking out crucial details such as Lazarus's hands\u2014one lax and open to receive, the other reaching towards Christ\u2014and the wonder-struck faces of the onlookers.",
+      "entities": [
+        {
+          "start": 186,
+          "end": 192,
+          "qid": "Q302",
+          "text": "Christ"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The Gospel of John tells how he fell sick, died, was buried and then miraculously raised from the dead by Christ.",
+      "entities": [
+        {
+          "start": 106,
+          "end": 112,
+          "qid": "Q302",
+          "text": "Christ"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Some of the figures were said to be modelled on members of the community, but Caravaggio has also relied on his memory\u2014the whole design is based on an engraving after Giulio Romano and his Jesus is a reversed image of the Christ who called Matthew to join him in The Calling of Saint Matthew.",
+      "entities": [
+        {
+          "start": 189,
+          "end": 194,
+          "qid": "Q302",
+          "text": "Jesus"
+        },
+        {
+          "start": 222,
+          "end": 228,
+          "qid": "Q302",
+          "text": "Christ"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q2627034": [
+    {
+      "text": "Maximus executed her converts (including the empress) and ordered that Catherine herself be put to death on a spiked wheel.",
+      "entities": [
+        {
+          "start": 71,
+          "end": 80,
+          "qid": "Q179718",
+          "text": "Catherine"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Saint Catherine of Alexandria (c. 1598) is an oil painting by the Italian Baroque master Caravaggio.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 29,
+          "qid": "Q179718",
+          "text": "Saint Catherine of Alexandria"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Saint Catherine of Alexandria was a popular figure in Catholic iconography.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 29,
+          "qid": "Q179718",
+          "text": "Saint Catherine of Alexandria"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The wheel reportedly shattered the moment Catherine touched it.",
+      "entities": [
+        {
+          "start": 42,
+          "end": 51,
+          "qid": "Q179718",
+          "text": "Catherine"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "In 1969 the Church, persuaded by the overwhelming opinion of historians that Catherine had probably never existed, removed her from the calendar of saints; by 2002, while the majority of historians had not changed their minds, the Church had, and she was reinstated.",
+      "entities": [
+        {
+          "start": 77,
+          "end": 86,
+          "qid": "Q179718",
+          "text": "Catherine"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q278722": [
+    {
+      "text": "The subject is the Pont Boieldieu, an iron bridge completed a few years before in 1885.",
+      "entities": [
+        {
+          "start": 19,
+          "end": 33,
+          "qid": "Q3396471",
+          "text": "Pont Boieldieu"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Pont Boieldieu in Rouen,",
+      "entities": [
+        {
+          "start": 0,
+          "end": 14,
+          "qid": "Q3396471",
+          "text": "Pont Boieldieu"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It is one of a series of painting Pissarro did of Pont Bo\u00efeldieu and the industrial quays surrounding it.",
+      "entities": [
+        {
+          "start": 50,
+          "end": 64,
+          "qid": "Q3396471",
+          "text": "Pont Bo\u00efeldieu"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "His room overlooked the Seine, and it is from this vantage point that it is painted.",
+      "entities": [
+        {
+          "start": 24,
+          "end": 29,
+          "qid": "Q1471",
+          "text": "Seine"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Style-wise, Pont Boieldieu in Rouen,",
+      "entities": [
+        {
+          "start": 12,
+          "end": 26,
+          "qid": "Q3396471",
+          "text": "Pont Boieldieu"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "He did another picture of the Pont Boieldieu from the same angle, but in a foggy sunset that is today at the Mus\u00e9e des Beaux-Arts de Rouen.",
+      "entities": [
+        {
+          "start": 30,
+          "end": 44,
+          "qid": "Q3396471",
+          "text": "Pont Boieldieu"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q1212920": [
+    {
+      "text": "The theme of the picture is the Flagellation of Christ by the Romans during his Passion.",
+      "entities": [
+        {
+          "start": 32,
+          "end": 54,
+          "qid": "Q2033105",
+          "text": "Flagellation of Christ"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The Flagellation is particularly admired for the realistic rendering of the hall in which the flagellation scene is situated in relation to the size of the figures and for the geometrical order of the composition.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 16,
+          "qid": "Q2033105",
+          "text": "The Flagellation"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The Flagellation of Christ (probably 1455\u20131460) is a painting by Piero della Francesca in the Galleria Nazionale delle Marche in Urbino, Italy.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 26,
+          "qid": "Q2033105",
+          "text": "The Flagellation of Christ"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Kenneth Clark placed The Flagellation in his personal list of the best ten paintings, calling it \"the greatest small painting in the world\".",
+      "entities": [
+        {
+          "start": 21,
+          "end": 37,
+          "qid": "Q2033105",
+          "text": "The Flagellation"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q2390224": [
+    {
+      "text": "The central panel depicts the crucifixion of a saint usually identified with Saint Julia of Corsica (sometimes with Saint Wilgefortis).",
+      "entities": [
+        {
+          "start": 116,
+          "end": 133,
+          "qid": "Q1639610",
+          "text": "Saint Wilgefortis"
+        }
+      ],
+      "sentence_type": "visual"
+    }
+  ],
+  "Q1608116": [
+    {
+      "text": "It is also stylistically earlier to that work, being painted without pseudo-perspective, and having the angels around the Virgin simply placed one above the other, rather than being spatially arranged.",
+      "entities": [
+        {
+          "start": 122,
+          "end": 128,
+          "qid": "Q345",
+          "text": "Virgin"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "This work established a new canon for the Madonna with Child theme, which was subsequently used by other painters, such as Duccio di Buoninsegna in his Rucellai Maest\u00e0.",
+      "entities": [
+        {
+          "start": 42,
+          "end": 49,
+          "qid": "Q345",
+          "text": "Madonna"
+        },
+        {
+          "start": 55,
+          "end": 60,
+          "qid": "Q942467",
+          "text": "Child"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q1206860": [
+    {
+      "text": "Ariadne has been left on the island of Naxos, deserted by her lover Theseus, whose ship sails away to the far left.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 7,
+          "qid": "Q184874",
+          "text": "Ariadne"
+        },
+        {
+          "start": 39,
+          "end": 44,
+          "qid": "Q188527",
+          "text": "Naxos"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "She is discovered on the shore by the god Bacchus, leading a procession of revelers in a chariot drawn by two cheetahs (these were probably modelled on those in the Duke's menagerie and were tigers in Ovid's original text).",
+      "entities": [
+        {
+          "start": 42,
+          "end": 49,
+          "qid": "Q645312",
+          "text": "Bacchus"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Bacchus is depicted  in mid-air as he leaps out of the chariot to protect Ariadne from these beasts.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 7,
+          "qid": "Q645312",
+          "text": "Bacchus"
+        },
+        {
+          "start": 74,
+          "end": 81,
+          "qid": "Q184874",
+          "text": "Ariadne"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "In the sky above the figure of Ariadne is the star constellation Corona Borealis (Northern crown).",
+      "entities": [
+        {
+          "start": 31,
+          "end": 38,
+          "qid": "Q184874",
+          "text": "Ariadne"
+        },
+        {
+          "start": 65,
+          "end": 80,
+          "qid": "Q10406",
+          "text": "Corona Borealis"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Falling in love with Ariadne on first sight, he leaps from his chariot, drawn by two cheetahs, towards her.",
+      "entities": [
+        {
+          "start": 21,
+          "end": 28,
+          "qid": "Q184874",
+          "text": "Ariadne"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Ariadne had been abandoned on the Greek island of Naxos by Theseus, whose ship is shown in the distance.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 7,
+          "qid": "Q184874",
+          "text": "Ariadne"
+        },
+        {
+          "start": 50,
+          "end": 55,
+          "qid": "Q188527",
+          "text": "Naxos"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The picture shows her initial fear of Bacchus, but he raised her to heaven and turned her into a constellation, represented by the stars above her head.\"",
+      "entities": [
+        {
+          "start": 38,
+          "end": 45,
+          "qid": "Q645312",
+          "text": "Bacchus"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Bacchus and Ariadne (1522\u20131523) is an oil painting by Titian.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 7,
+          "qid": "Q645312",
+          "text": "Bacchus"
+        },
+        {
+          "start": 12,
+          "end": 19,
+          "qid": "Q184874",
+          "text": "Ariadne"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "An advance payment was given to Raphael, who originally held the commission for the subject of a Triumph of Bacchus.",
+      "entities": [
+        {
+          "start": 108,
+          "end": 115,
+          "qid": "Q645312",
+          "text": "Bacchus"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "In the case of Bacchus and Ariadne, the subject matter was derived from the Roman poets Catullus and Ovid.",
+      "entities": [
+        {
+          "start": 15,
+          "end": 22,
+          "qid": "Q645312",
+          "text": "Bacchus"
+        },
+        {
+          "start": 27,
+          "end": 34,
+          "qid": "Q184874",
+          "text": "Ariadne"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "In his Metamorphoses, Ovid has Bacchus throw the crown of Ariadne into the sky where it becomes the constellation Northern Crown.",
+      "entities": [
+        {
+          "start": 31,
+          "end": 38,
+          "qid": "Q645312",
+          "text": "Bacchus"
+        },
+        {
+          "start": 58,
+          "end": 65,
+          "qid": "Q184874",
+          "text": "Ariadne"
+        },
+        {
+          "start": 114,
+          "end": 128,
+          "qid": "Q10406",
+          "text": "Northern Crown"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "In Ars Amatoria, Bacchus promises the entire sky to Ariadne where she then would become the constellation Northern Crown.",
+      "entities": [
+        {
+          "start": 17,
+          "end": 24,
+          "qid": "Q645312",
+          "text": "Bacchus"
+        },
+        {
+          "start": 52,
+          "end": 59,
+          "qid": "Q184874",
+          "text": "Ariadne"
+        },
+        {
+          "start": 106,
+          "end": 120,
+          "qid": "Q10406",
+          "text": "Northern Crown"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The National Gallery's website states that in the painting, \"Bacchus, god of wine, emerges with his followers from the landscape to the right.",
+      "entities": [
+        {
+          "start": 61,
+          "end": 68,
+          "qid": "Q645312",
+          "text": "Bacchus"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The follower of Bacchus who struggles with a snake is sometimes falsely associated with the antique sculpture of Laoco\u00f6n and His Sons who had been killed by snakes.",
+      "entities": [
+        {
+          "start": 16,
+          "end": 23,
+          "qid": "Q645312",
+          "text": "Bacchus"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q323753": [
+    {
+      "text": "The disciples gather around Mary's lily-filled tomb with looks of amazement.",
+      "entities": [
+        {
+          "start": 28,
+          "end": 34,
+          "qid": "Q345",
+          "text": "Mary's"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Among the lesser angels around Jesus and Mary are saints.",
+      "entities": [
+        {
+          "start": 41,
+          "end": 45,
+          "qid": "Q345",
+          "text": "Mary"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The Assumption of the Virgin, 1475 - 1476, is a large (228.6 x 377.2 cm) painting in tempera on wood panel by Francesco Botticini.",
+      "entities": [
+        {
+          "start": 22,
+          "end": 28,
+          "qid": "Q345",
+          "text": "Virgin"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It portrays Mary's assumption and was commissioned as the altarpiece for a church in Florence and is now in the National Gallery, London.",
+      "entities": [
+        {
+          "start": 12,
+          "end": 18,
+          "qid": "Q345",
+          "text": "Mary's"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q3280557": [
+    {
+      "text": "The front depicts the Adoration of the Shepherds, a Christian Knight, and the Baptism of Jesus.",
+      "entities": [
+        {
+          "start": 78,
+          "end": 94,
+          "qid": "Q217048",
+          "text": "Baptism of Jesus"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The back panels show the Annunciation to Mary, Mount Sinai, and Adam and Eve.",
+      "entities": [
+        {
+          "start": 41,
+          "end": 45,
+          "qid": "Q345",
+          "text": "Mary"
+        }
+      ],
+      "sentence_type": "visual"
+    }
+  ],
+  "Q2066739": [
+    {
+      "text": "Eight saints are placed at the sides, according to the commissioner's preferences: on the left are Peter, Paul, John the Evangelist and Zeno; on the right, Benedict, Lawrence, Gregory and John the Baptist.",
+      "entities": [
+        {
+          "start": 99,
+          "end": 104,
+          "qid": "Q33923",
+          "text": "Peter"
+        },
+        {
+          "start": 106,
+          "end": 110,
+          "qid": "Q9200",
+          "text": "Paul"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "In the centre is the Madonna enthroned with the Child, portrayed according to the Byzantine iconography of the Victorious Madonna and surrounded by chanting angels.",
+      "entities": [
+        {
+          "start": 21,
+          "end": 28,
+          "qid": "Q345",
+          "text": "Madonna"
+        },
+        {
+          "start": 48,
+          "end": 53,
+          "qid": "Q942467",
+          "text": "Child"
+        },
+        {
+          "start": 122,
+          "end": 129,
+          "qid": "Q345",
+          "text": "Madonna"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q2855146": [
+    {
+      "text": "In the painting, Rand is reading a book while petting a cat.",
+      "entities": [
+        {
+          "start": 17,
+          "end": 21,
+          "qid": "Q4888742",
+          "text": "Rand"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Portrait of Professor Benjamin H. Rand is an 1874 painting by Thomas Eakins.",
+      "entities": [
+        {
+          "start": 22,
+          "end": 38,
+          "qid": "Q4888742",
+          "text": "Benjamin H. Rand"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It is oil on canvas and depicts Benjamin H. Rand, a doctor at Jefferson Medical College who taught Eakins anatomy.",
+      "entities": [
+        {
+          "start": 32,
+          "end": 48,
+          "qid": "Q4888742",
+          "text": "Benjamin H. Rand"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q2899286": [
+    {
+      "text": "It depicts fellow painter Berthe Morisot dressed in black mourning dress, with a barely visible bouquet of violets.",
+      "entities": [
+        {
+          "start": 26,
+          "end": 40,
+          "qid": "Q105320",
+          "text": "Berthe Morisot"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The painting, sometimes known as Portrait of Berthe Morisot, Berthe Morisot in a black hat or Young woman in a black hat, is in the collection of the Mus\u00e9e d'Orsay in Paris.",
+      "entities": [
+        {
+          "start": 45,
+          "end": 59,
+          "qid": "Q105320",
+          "text": "Berthe Morisot"
+        },
+        {
+          "start": 61,
+          "end": 75,
+          "qid": "Q105320",
+          "text": "Berthe Morisot"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The violet flowers are barely perceptible where the neckline of Morisot's dress dips towards her chest.",
+      "entities": [
+        {
+          "start": 64,
+          "end": 73,
+          "qid": "Q105320",
+          "text": "Morisot's"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Manet painted Morisot with black eyes, although her eyes were actually green.",
+      "entities": [
+        {
+          "start": 14,
+          "end": 21,
+          "qid": "Q105320",
+          "text": "Morisot"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Berthe Morisot with a Bouquet of Violets (French:",
+      "entities": [
+        {
+          "start": 0,
+          "end": 14,
+          "qid": "Q105320",
+          "text": "Berthe Morisot"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Berthe Morisot au bouquet de violettes) is an 1872 oil painting by \u00c9douard Manet.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 14,
+          "qid": "Q105320",
+          "text": "Berthe Morisot"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Unusually for Manet's portraits, which typically have an even light, Morisot is lit from one side, so that she is brightly illuminated on her right side and the left is in deep shadow.",
+      "entities": [
+        {
+          "start": 69,
+          "end": 76,
+          "qid": "Q105320",
+          "text": "Morisot"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Manet made a similar painting of Morisot in mourning dress in 1874, after the death of her father, Edm\u00e9 Tiburce Morisot.",
+      "entities": [
+        {
+          "start": 33,
+          "end": 40,
+          "qid": "Q105320",
+          "text": "Morisot"
+        },
+        {
+          "start": 112,
+          "end": 119,
+          "qid": "Q105320",
+          "text": "Morisot"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q2466780": [
+    {
+      "text": "Venus Anadyomene (Greek -Venus rising from the sea), is a c. 1520 oil painting by Titian, depicting Venus rising from the sea and wringing her hair, after her birth fully-grown.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 5,
+          "qid": "Q47652",
+          "text": "Venus"
+        },
+        {
+          "start": 100,
+          "end": 105,
+          "qid": "Q47652",
+          "text": "Venus"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Venus, said to have been born from a shell, is identified by the shell at bottom left.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 5,
+          "qid": "Q47652",
+          "text": "Venus"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "It is smaller than usual in the birth of Venus scenes, such as Botticelli's, and is just intended to identify the subject rather than be a boat-like vessel for Venus, as in Sandro Botticelli's The Birth of Venus and other depictions.",
+      "entities": [
+        {
+          "start": 41,
+          "end": 46,
+          "qid": "Q47652",
+          "text": "Venus"
+        },
+        {
+          "start": 160,
+          "end": 165,
+          "qid": "Q47652",
+          "text": "Venus"
+        },
+        {
+          "start": 206,
+          "end": 211,
+          "qid": "Q47652",
+          "text": "Venus"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The voluptuousness of the Venus presented, and her sideways glance, also owes much to the Crouching Venus and Cnidian Venus types of antique sculpture.",
+      "entities": [
+        {
+          "start": 26,
+          "end": 31,
+          "qid": "Q47652",
+          "text": "Venus"
+        },
+        {
+          "start": 100,
+          "end": 105,
+          "qid": "Q47652",
+          "text": "Venus"
+        },
+        {
+          "start": 118,
+          "end": 123,
+          "qid": "Q47652",
+          "text": "Venus"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q698015": [
+    {
+      "text": "The central and centered motif is the young Virgin Mary seated with Baby Jesus on her lap.",
+      "entities": [
+        {
+          "start": 44,
+          "end": 55,
+          "qid": "Q345",
+          "text": "Virgin Mary"
+        },
+        {
+          "start": 68,
+          "end": 78,
+          "qid": "Q942467",
+          "text": "Baby Jesus"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Depicted in precious clothes and jewellery, with her left hand Mary holds a carnation (interpreted as a healing symbol).",
+      "entities": [
+        {
+          "start": 63,
+          "end": 67,
+          "qid": "Q345",
+          "text": "Mary"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The Madonna of the Carnation, a.k.a. Madonna with Vase or Madonna with Child, is a Renaissance oil painting by Leonardo da Vinci created around 1478-1480.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 11,
+          "qid": "Q345",
+          "text": "The Madonna"
+        },
+        {
+          "start": 37,
+          "end": 44,
+          "qid": "Q345",
+          "text": "Madonna"
+        },
+        {
+          "start": 58,
+          "end": 65,
+          "qid": "Q345",
+          "text": "Madonna"
+        },
+        {
+          "start": 71,
+          "end": 76,
+          "qid": "Q942467",
+          "text": "Child"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The Madonna and Child was a common motif in Christian art during the Middle Ages.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 11,
+          "qid": "Q345",
+          "text": "The Madonna"
+        },
+        {
+          "start": 16,
+          "end": 21,
+          "qid": "Q942467",
+          "text": "Child"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q661803": [
+    {
+      "text": "Autoportrait \u00e0 la palette) is an 1878\u201379 oil-on-canvas painting by the French artist \u00c9douard Manet.",
+      "entities": [
+        {
+          "start": 85,
+          "end": 98,
+          "qid": "Q40599",
+          "text": "\u00c9douard Manet"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Velasquez's self-portrait in Las Meninas was a particular inspiration for Manet's painting which despite its allusion to the previous artist's work is very modern in its focus upon the personality of the artist and loose paint handling.",
+      "entities": [
+        {
+          "start": 74,
+          "end": 81,
+          "qid": "Q40599",
+          "text": "Manet's"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The 83 \u00d7 67 cm (33 \u00d7 26 in) painting shows a half-length portrait of the painter \u00c9douard Manet.",
+      "entities": [
+        {
+          "start": 81,
+          "end": 94,
+          "qid": "Q40599",
+          "text": "\u00c9douard Manet"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Because Manet was almost certainly not left-handed, the painting is a mirror image.",
+      "entities": [
+        {
+          "start": 8,
+          "end": 13,
+          "qid": "Q40599",
+          "text": "Manet"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q2479220": [
+    {
+      "text": "It portrays a young woman, formerly identified as Sophonisba or Artemisia, or a generic queen due to her jewels and rich garments, receiving a cup from a maiden.",
+      "entities": [
+        {
+          "start": 50,
+          "end": 60,
+          "qid": "Q241210",
+          "text": "Sophonisba"
+        },
+        {
+          "start": 64,
+          "end": 73,
+          "qid": "Q231851",
+          "text": "Artemisia"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Judith at the Banquet of Holofernes (also known as Artemisia Receiving Mausolus' Ashes and Sophonisba Receiving the Poisoned Cup) is a painting by the Dutch master Rembrandt.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 6,
+          "qid": "Q26454627",
+          "text": "Judith"
+        },
+        {
+          "start": 51,
+          "end": 60,
+          "qid": "Q231851",
+          "text": "Artemisia"
+        },
+        {
+          "start": 91,
+          "end": 101,
+          "qid": "Q241210",
+          "text": "Sophonisba"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Today it is considered to be Judith at the banquet of Holofernes.",
+      "entities": [
+        {
+          "start": 29,
+          "end": 35,
+          "qid": "Q26454627",
+          "text": "Judith"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "For the woman, Rembrandt probably used his wife Saskia as model.",
+      "entities": [
+        {
+          "start": 48,
+          "end": 54,
+          "qid": "Q109676",
+          "text": "Saskia"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q1752990": [
+    {
+      "text": "The Death of Socrates (French: La Mort de Socrate) is an oil on canvas painted by French painter Jacques-Louis David in 1787.",
+      "entities": [
+        {
+          "start": 13,
+          "end": 21,
+          "qid": "Q913",
+          "text": "Socrates"
+        },
+        {
+          "start": 42,
+          "end": 49,
+          "qid": "Q913",
+          "text": "Socrate"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The painting focuses on a classical subject like many of his works from that decade, in this case the story of the execution of Socrates as told by Plato in his Phaedo.",
+      "entities": [
+        {
+          "start": 128,
+          "end": 136,
+          "qid": "Q913",
+          "text": "Socrates"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "In this story, Socrates has been convicted of corrupting the youth of Athens and introducing strange gods, and has been sentenced to die by drinking poison hemlock.",
+      "entities": [
+        {
+          "start": 15,
+          "end": 23,
+          "qid": "Q913",
+          "text": "Socrates"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Socrates uses his death as a final lesson for his pupils rather than fleeing when the opportunity arises, and faces it calmly.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 8,
+          "qid": "Q913",
+          "text": "Socrates"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The Phaedo depicts the death of Socrates and is also Plato's fourth and last dialogue to detail the philosopher's final days, which is also detailed in Euthyphro, Apology, and Crito.",
+      "entities": [
+        {
+          "start": 32,
+          "end": 40,
+          "qid": "Q913",
+          "text": "Socrates"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q2894005": [
+    {
+      "text": "Beginning from left to right it shows Peter Paul, Philip Rubens (the painter's brother), Justus Lipsius, and Joannes Woverius.",
+      "entities": [
+        {
+          "start": 38,
+          "end": 48,
+          "qid": "Q5599",
+          "text": "Peter Paul"
+        },
+        {
+          "start": 50,
+          "end": 63,
+          "qid": "Q15880673",
+          "text": "Philip Rubens"
+        },
+        {
+          "start": 89,
+          "end": 103,
+          "qid": "Q315871",
+          "text": "Justus Lipsius"
+        },
+        {
+          "start": 109,
+          "end": 125,
+          "qid": "Q28816416",
+          "text": "Joannes Woverius"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "In the background is Peter Paul's bust of Seneca, now believed to be a copy of an imaginary Hellenistic portrait of the Greek poet Hesiod.",
+      "entities": [
+        {
+          "start": 21,
+          "end": 33,
+          "qid": "Q5599",
+          "text": "Peter Paul's"
+        },
+        {
+          "start": 42,
+          "end": 48,
+          "qid": "Q2054",
+          "text": "Seneca"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The Four Philosophers is a 1611-12 painting by Peter Paul Rubens.",
+      "entities": [
+        {
+          "start": 47,
+          "end": 64,
+          "qid": "Q5599",
+          "text": "Peter Paul Rubens"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q3139726": [
+    {
+      "text": "Homage to C\u00e9zanne (French: Hommage \u00e0 C\u00e9zanne) is a painting in oil on canvas by the French artist Maurice Denis dating from 1900.",
+      "entities": [
+        {
+          "start": 98,
+          "end": 111,
+          "qid": "Q440369",
+          "text": "Maurice Denis"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q3618194": [
+    {
+      "text": "It depicts the Virgin humbly accepting her role as mother of Jesus, with a hand on her breast, while the dove, symbol of the Holy Spirit, is given to her.",
+      "entities": [
+        {
+          "start": 15,
+          "end": 21,
+          "qid": "Q345",
+          "text": "Virgin"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The Annunciation, also known as Murate Annunciation, is a painting by the Italian Renaissance painter Filippo Lippi, finished around 1443\u20131450.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 16,
+          "qid": "Q154326",
+          "text": "The Annunciation"
+        },
+        {
+          "start": 39,
+          "end": 51,
+          "qid": "Q154326",
+          "text": "Annunciation"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q1720631": [
+    {
+      "text": "The Madonna and Child Between St. Francis and St. Nicasius, also known as Castelfranco Madonna, is a painting by the Italian Renaissance artist Giorgione executed around 1504.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 11,
+          "qid": "Q345",
+          "text": "The Madonna"
+        },
+        {
+          "start": 16,
+          "end": 21,
+          "qid": "Q942467",
+          "text": "Child"
+        },
+        {
+          "start": 30,
+          "end": 41,
+          "qid": "Q676555",
+          "text": "St. Francis"
+        },
+        {
+          "start": 46,
+          "end": 58,
+          "qid": "Q3819001",
+          "text": "St. Nicasius"
+        },
+        {
+          "start": 87,
+          "end": 94,
+          "qid": "Q345",
+          "text": "Madonna"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The picture has all the elements of a typical sacra conversazione, with the Madonna enthroned with the child, with St. Francis to the right and St. Nicasius to the left.",
+      "entities": [
+        {
+          "start": 76,
+          "end": 83,
+          "qid": "Q345",
+          "text": "Madonna"
+        },
+        {
+          "start": 115,
+          "end": 126,
+          "qid": "Q676555",
+          "text": "St. Francis"
+        },
+        {
+          "start": 144,
+          "end": 156,
+          "qid": "Q3819001",
+          "text": "St. Nicasius"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Matteo and his brother Bruto Muzio were members of the Knights of Rhodes, whose ensign is borne by St. Nicasius (a martyred saint who had also belonged to the Hospitallier order).",
+      "entities": [
+        {
+          "start": 99,
+          "end": 111,
+          "qid": "Q3819001",
+          "text": "St. Nicasius"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The figure of St. Francis is very similar to that in Giovanni Bellini's San Giobbe Altarpiece (c. 1487).",
+      "entities": [
+        {
+          "start": 14,
+          "end": 25,
+          "qid": "Q676555",
+          "text": "St. Francis"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q2480921": [
+    {
+      "text": "It shows the painting's donor, Joris van der Paele, within an apparition of saints.",
+      "entities": [
+        {
+          "start": 31,
+          "end": 50,
+          "qid": "Q23619030",
+          "text": "Joris van der Paele"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The Virgin Mary is enthroned at the centre of the semicircular space, which most likely represents a church interior, with the Christ Child on her lap.",
+      "entities": [
+        {
+          "start": 4,
+          "end": 15,
+          "qid": "Q345",
+          "text": "Virgin Mary"
+        },
+        {
+          "start": 127,
+          "end": 139,
+          "qid": "Q942467",
+          "text": "Christ Child"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "St. Donatian stands to her right, Saint George \u2014 the donor's name saint \u2014 to her left.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 12,
+          "qid": "Q1240660",
+          "text": "St. Donatian"
+        },
+        {
+          "start": 34,
+          "end": 46,
+          "qid": "Q48438",
+          "text": "Saint George"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "He is presented to Mary by Saint George, his name saint, who holds aloft his metal helmet in respect.",
+      "entities": [
+        {
+          "start": 19,
+          "end": 23,
+          "qid": "Q345",
+          "text": "Mary"
+        },
+        {
+          "start": 27,
+          "end": 39,
+          "qid": "Q48438",
+          "text": "Saint George"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Saint Donatian, dressed in brightly coloured vestments, stands to the left.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 14,
+          "qid": "Q1240660",
+          "text": "Saint Donatian"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The Virgin's throne is decorated with carved representations of Adam and Eve, prefigurations of the Crucifixion and Resurrection of Jesus, and scenes from the Old Testament.",
+      "entities": [
+        {
+          "start": 4,
+          "end": 12,
+          "qid": "Q345",
+          "text": "Virgin's"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The precision of the detail achieved is especially noticeable in the rendering of threads of St. Donatian's blue and golden embroidered cope and mitre, in the weave of the oriental carpet, and in the stubble and veins on van der Paele's aging face.",
+      "entities": [
+        {
+          "start": 93,
+          "end": 107,
+          "qid": "Q1240660",
+          "text": "St. Donatian's"
+        },
+        {
+          "start": 221,
+          "end": 236,
+          "qid": "Q23619030",
+          "text": "van der Paele's"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The Virgin and Child with Canon van der Paele is a large oil-on-oak panel painting completed around 1434\u201336 by the Early Netherlandish painter Jan van Eyck.",
+      "entities": [
+        {
+          "start": 4,
+          "end": 10,
+          "qid": "Q345",
+          "text": "Virgin"
+        },
+        {
+          "start": 15,
+          "end": 20,
+          "qid": "Q942467",
+          "text": "Child"
+        },
+        {
+          "start": 26,
+          "end": 45,
+          "qid": "Q23619030",
+          "text": "Canon van der Paele"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The panel was commissioned by van der Paele as an altarpiece.",
+      "entities": [
+        {
+          "start": 30,
+          "end": 43,
+          "qid": "Q23619030",
+          "text": "van der Paele"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Van der Paele is identifiable from historical records.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 13,
+          "qid": "Q23619030",
+          "text": "Van der Paele"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The van der Paele panel is widely considered one of van Eyck's most fully realised and ambitious works, and has been described as a \"masterpiece of masterpieces\".",
+      "entities": [
+        {
+          "start": 4,
+          "end": 17,
+          "qid": "Q23619030",
+          "text": "van der Paele"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The Virgin and Child is set in a rounded church with side ambulatories, with  Mary occupying the area where the altarpiece would usually be positioned.",
+      "entities": [
+        {
+          "start": 4,
+          "end": 10,
+          "qid": "Q345",
+          "text": "Virgin"
+        },
+        {
+          "start": 15,
+          "end": 20,
+          "qid": "Q942467",
+          "text": "Child"
+        },
+        {
+          "start": 78,
+          "end": 82,
+          "qid": "Q345",
+          "text": "Mary"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The Virgin and Child is characterised by its innovative use of illusionism and complex spatial composition.",
+      "entities": [
+        {
+          "start": 4,
+          "end": 10,
+          "qid": "Q345",
+          "text": "Virgin"
+        },
+        {
+          "start": 15,
+          "end": 20,
+          "qid": "Q942467",
+          "text": "Child"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It is in its original oak frame, which contains several Latin inscriptions, including van Eyck's signature, the date of completion, the donor's name, and texts related to St. George and St. Donatian.",
+      "entities": [
+        {
+          "start": 171,
+          "end": 181,
+          "qid": "Q48438",
+          "text": "St. George"
+        },
+        {
+          "start": 186,
+          "end": 198,
+          "qid": "Q1240660",
+          "text": "St. Donatian"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The upper border contains phrases from the Book of Wisdom, comparing Mary to an \"unspotted mirror\".The figures, the minutely detailed clothes, and the architecture of the room and windows are depicted with a high degree of realism.",
+      "entities": [
+        {
+          "start": 69,
+          "end": 73,
+          "qid": "Q345",
+          "text": "Mary"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q3138273": [
+    {
+      "text": "With a Dwarf is a 1631 portrait by Diego Vel\u00e1zquez of Balthasar Charles, Prince of Asturias and a court dwarf.",
+      "entities": [
+        {
+          "start": 54,
+          "end": 71,
+          "qid": "Q552232",
+          "text": "Balthasar Charles"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q924655": [
+    {
+      "text": "St Mark's Body Brought to Venice, The Abduction of the Body of Saint Mark  or Translation of the Body of Saint Mark is a painting by Tintoretto.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 9,
+          "qid": "Q31966",
+          "text": "St Mark's"
+        },
+        {
+          "start": 26,
+          "end": 32,
+          "qid": "Q641",
+          "text": "Venice"
+        },
+        {
+          "start": 63,
+          "end": 73,
+          "qid": "Q31966",
+          "text": "Saint Mark"
+        },
+        {
+          "start": 105,
+          "end": 115,
+          "qid": "Q31966",
+          "text": "Saint Mark"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It was produced between 1562 and 1566 as part of a series of works on Saint Mark for the Sala Capitolare of the Scuola Grande di San Marco - the others were Miracle of the Slave and Finding of the body of St Mark.",
+      "entities": [
+        {
+          "start": 70,
+          "end": 80,
+          "qid": "Q31966",
+          "text": "Saint Mark"
+        },
+        {
+          "start": 129,
+          "end": 138,
+          "qid": "Q31966",
+          "text": "San Marco"
+        },
+        {
+          "start": 208,
+          "end": 212,
+          "qid": "Q31966",
+          "text": "Mark"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It is now held in the Gallerie dell'Accademia in Venice.",
+      "entities": [
+        {
+          "start": 49,
+          "end": 55,
+          "qid": "Q641",
+          "text": "Venice"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q1170194": [
+    {
+      "text": "The painting shows the Virgin Enthroned holding the Child in the center, with two flying angels who are holding, above her, an elaborated royal crown made of gold, pearls and gems; this was a Flemish art scheme already widespread in the German area at the time.",
+      "entities": [
+        {
+          "start": 23,
+          "end": 29,
+          "qid": "Q345",
+          "text": "Virgin"
+        },
+        {
+          "start": 52,
+          "end": 57,
+          "qid": "Q942467",
+          "text": "Child"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Mary is depicted in the act of distributing rose garlands to two groups of kneeling worshippers, portrayed on two symmetrical rows at the sides.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 4,
+          "qid": "Q345",
+          "text": "Mary"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The two rows are headed, on the left, by Pope Julius II (who had been approved the German brotherhood with a bull in 1474), crowned by the Child and followed by a procession of religious figures; and, on the right, by the German emperor Frederick III (portrayed with the face of his son and patron of D\u00fcrer, Maximilian I), crowned by Mary and followed by a lay procession.",
+      "entities": [
+        {
+          "start": 139,
+          "end": 144,
+          "qid": "Q942467",
+          "text": "Child"
+        },
+        {
+          "start": 301,
+          "end": 306,
+          "qid": "Q5580",
+          "text": "D\u00fcrer"
+        },
+        {
+          "start": 308,
+          "end": 320,
+          "qid": "Q150726",
+          "text": "Maximilian I"
+        },
+        {
+          "start": 334,
+          "end": 338,
+          "qid": "Q345",
+          "text": "Mary"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The pope and the emperor, considered at the time the supreme authorities of the Catholic world, have previously deposed the papal tiara and the imperial crown, and are now kneeling to receive the Madonna's blessing.",
+      "entities": [
+        {
+          "start": 196,
+          "end": 205,
+          "qid": "Q345",
+          "text": "Madonna's"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Other angels are distributing crowns of flowers, as well as St. Dominic of Guzman (protector of the adoration of Mary and of the Rosary), who stands at the side of the Virgin.",
+      "entities": [
+        {
+          "start": 60,
+          "end": 81,
+          "qid": "Q44091",
+          "text": "St. Dominic of Guzman"
+        },
+        {
+          "start": 113,
+          "end": 117,
+          "qid": "Q345",
+          "text": "Mary"
+        },
+        {
+          "start": 168,
+          "end": 174,
+          "qid": "Q345",
+          "text": "Virgin"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Near the left border is the patriarch of Venice,  Antonio Soriano, with the hands joined, and, next to him, Burkard von Speyer, then chaplain of the church of San Bartolomeo, who was also portrayed by D\u00fcrer in another painting.",
+      "entities": [
+        {
+          "start": 108,
+          "end": 126,
+          "qid": "Q19816887",
+          "text": "Burkard von Speyer"
+        },
+        {
+          "start": 201,
+          "end": 206,
+          "qid": "Q5580",
+          "text": "D\u00fcrer"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The characters next to the painter are likely   Leonhard Vilt, founder of the Brotherhood of the Rosary in Venice, and (in black)  Hieronymus of Augsburg, the architect of the new  Fondaco dei Tedeschi.",
+      "entities": [
+        {
+          "start": 78,
+          "end": 103,
+          "qid": "Q2167194",
+          "text": "Brotherhood of the Rosary"
+        },
+        {
+          "start": 131,
+          "end": 153,
+          "qid": "Q120785168",
+          "text": "Hieronymus of Augsburg"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The Feast of the Rosary (German: Rosenkranzfest) is a 1506 oil painting by Albrecht D\u00fcrer, now in the National Gallery, Prague, Czech Republic.",
+      "entities": [
+        {
+          "start": 75,
+          "end": 89,
+          "qid": "Q5580",
+          "text": "Albrecht D\u00fcrer"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "D\u00fcrer likely based his portrait of the emperor on a drawing by  Ambrogio de Predis, who had worked for Maximilian at Innsbruck.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 5,
+          "qid": "Q5580",
+          "text": "D\u00fcrer"
+        },
+        {
+          "start": 103,
+          "end": 113,
+          "qid": "Q150726",
+          "text": "Maximilian"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q636537": [
+    {
+      "text": "The Death of Marat (French: La Mort de Marat or Marat Assassin\u00e9) is a 1793 painting by Jacques-Louis David of the murdered French revolutionary leader Jean-Paul Marat.",
+      "entities": [
+        {
+          "start": 151,
+          "end": 166,
+          "qid": "Q122290",
+          "text": "Jean-Paul Marat"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Painted in the months after Marat's murder, it has been described by T. J. Clark as the first modernist painting, for \"the way it took the stuff of politics as its material, and did not transmute it\".",
+      "entities": [
+        {
+          "start": 28,
+          "end": 35,
+          "qid": "Q122290",
+          "text": "Marat's"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q1516449": [
+    {
+      "text": "The scene depicts the Virgin Mary crowned by a hovering Angel while she presents the Infant Jesus to Rolin.",
+      "entities": [
+        {
+          "start": 18,
+          "end": 33,
+          "qid": "Q345",
+          "text": "the Virgin Mary"
+        },
+        {
+          "start": 85,
+          "end": 97,
+          "qid": "Q942467",
+          "text": "Infant Jesus"
+        },
+        {
+          "start": 101,
+          "end": 106,
+          "qid": "Q338480",
+          "text": "Rolin"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "In the background is a landscape with a city on a river, probably intended to be Autun in Burgundy, Rolin's hometown.",
+      "entities": [
+        {
+          "start": 100,
+          "end": 107,
+          "qid": "Q338480",
+          "text": "Rolin's"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Perhaps some of the Chancellor's many landholdings around Autun are included in the vista.",
+      "entities": [
+        {
+          "start": 20,
+          "end": 32,
+          "qid": "Q338480",
+          "text": "Chancellor's"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The small garden with many flowers identifiable (including lilies, irises, paeonies and roses), visible just outside the columns, symbolizes Mary's virtues.",
+      "entities": [
+        {
+          "start": 141,
+          "end": 147,
+          "qid": "Q345",
+          "text": "Mary's"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Near to them are two peacocks, symbols both of immortality and of pride, to which even a powerful man as Rolin might succumb.",
+      "entities": [
+        {
+          "start": 105,
+          "end": 110,
+          "qid": "Q338480",
+          "text": "Rolin"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The chancellor, whose strong character is well rendered by the artist, is wearing a fur-lined, elegant garment; the Virgin, the same size as Rolin (rather a novelty in comparison to the Gothic painting tradition), is instead covered by a red mantle.",
+      "entities": [
+        {
+          "start": 116,
+          "end": 122,
+          "qid": "Q345",
+          "text": "Virgin"
+        },
+        {
+          "start": 141,
+          "end": 146,
+          "qid": "Q338480",
+          "text": "Rolin"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The Infant Jesus holds a cross in his left hand.",
+      "entities": [
+        {
+          "start": 4,
+          "end": 16,
+          "qid": "Q942467",
+          "text": "Infant Jesus"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Comparison of the floor-tiles with other elements shows that the figures are only about six feet from the columned loggia screen, and that Rolin might have to squeeze himself through the opening to get out that way.",
+      "entities": [
+        {
+          "start": 139,
+          "end": 144,
+          "qid": "Q338480",
+          "text": "Rolin"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The Madonna of Chancellor Rolin is an oil painting by the Early Netherlandish master Jan van Eyck, dating from around 1435.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 11,
+          "qid": "Q345",
+          "text": "The Madonna"
+        },
+        {
+          "start": 15,
+          "end": 31,
+          "qid": "Q338480",
+          "text": "Chancellor Rolin"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It is kept in the Mus\u00e9e du Louvre, Paris, and was commissioned by Nicolas Rolin, aged 60, chancellor of the Duchy of Burgundy, whose votive portrait takes up the left side of the picture, for his parish church, Notre-Dame-du-Chastel in Autun, where it remained until the church burnt down in 1793.",
+      "entities": [
+        {
+          "start": 66,
+          "end": 79,
+          "qid": "Q338480",
+          "text": "Nicolas Rolin"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q2609235": [
+    {
+      "text": "It shows Saint Francis of Assisi (the Cardinal's name-saint) at the moment of receiving the signs of the Stigmata, the wounds left in Christ's body by the Crucifixion.",
+      "entities": [
+        {
+          "start": 9,
+          "end": 32,
+          "qid": "Q676555",
+          "text": "Saint Francis of Assisi"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Just the gentle-seeming angel, bulking far larger than the unconscious saint, and Francis' companions in the middle distance, almost invisible in the darkness.",
+      "entities": [
+        {
+          "start": 82,
+          "end": 89,
+          "qid": "Q676555",
+          "text": "Francis"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Saint Francis of Assisi in Ecstasy (or The Ecstasy of Saint Francis) is a painting by the Italian Baroque master Michelangelo Merisi da Caravaggio.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 23,
+          "qid": "Q676555",
+          "text": "Saint Francis of Assisi"
+        },
+        {
+          "start": 54,
+          "end": 67,
+          "qid": "Q676555",
+          "text": "Saint Francis"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The story is told by one of Francis' companions, Brother Leo.",
+      "entities": [
+        {
+          "start": 28,
+          "end": 35,
+          "qid": "Q676555",
+          "text": "Francis"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "In 1224 Francis retired to the wilderness with a small number of his followers  to contemplate God.",
+      "entities": [
+        {
+          "start": 8,
+          "end": 15,
+          "qid": "Q676555",
+          "text": "Francis"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Brother Leo saw a six-winged seraph (one of the higher Orders of angels) come down to Francis in answer to the saint's prayer that he might know both Christ's suffering and His love:\n\nAll of a sudden there was a dazzling light.",
+      "entities": [
+        {
+          "start": 86,
+          "end": 93,
+          "qid": "Q676555",
+          "text": "Francis"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "And in the centre of that bright whirlpool was a core of blinding light that flashed down from the depths of the sky with terrifying speed until suddenly it stopped, motionless and sacred, above a pointed rock in front of Francis.",
+      "entities": [
+        {
+          "start": 222,
+          "end": 229,
+          "qid": "Q676555",
+          "text": "Francis"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Then suddenly streams of fire and blood shot from His wounds and pierced the hands and feet of Francis with nails and his heart with the stab of a lance.",
+      "entities": [
+        {
+          "start": 95,
+          "end": 102,
+          "qid": "Q676555",
+          "text": "Francis"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "As Francis uttered a mighty shout of joy and pain, the fiery image impressed itself into his body, as into a mirrored reflection of itself, with all its love, its beauty, and its grief.",
+      "entities": [
+        {
+          "start": 3,
+          "end": 10,
+          "qid": "Q676555",
+          "text": "Francis"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Then, with nails and wounds through his body, and with his soul and spirit aflame, Francis sank down, unconscious, in his blood.",
+      "entities": [
+        {
+          "start": 83,
+          "end": 90,
+          "qid": "Q676555",
+          "text": "Francis"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q351300": [
+    {
+      "text": "Here, he depicts Adam and Eve at human scale\u2014the first full-scale nude subjects in German painting.",
+      "entities": [
+        {
+          "start": 17,
+          "end": 21,
+          "qid": "Q70899",
+          "text": "Adam"
+        },
+        {
+          "start": 26,
+          "end": 29,
+          "qid": "Q830183",
+          "text": "Eve"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Adam and Eve is a pair of oil-on-panel paintings by German Renaissance artist Albrecht D\u00fcrer.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 4,
+          "qid": "Q70899",
+          "text": "Adam"
+        },
+        {
+          "start": 9,
+          "end": 12,
+          "qid": "Q830183",
+          "text": "Eve"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Adam and Eve's first home was the Prague Castle, the property of collector Rudolf II.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 4,
+          "qid": "Q70899",
+          "text": "Adam"
+        },
+        {
+          "start": 9,
+          "end": 14,
+          "qid": "Q830183",
+          "text": "Eve's"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q2627056": [
+    {
+      "text": "David with the Head of Goliath  is a painting by the Italian Baroque artist Caravaggio.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 5,
+          "qid": "Q41370",
+          "text": "David"
+        },
+        {
+          "start": 76,
+          "end": 86,
+          "qid": "Q42207",
+          "text": "Caravaggio"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The immediate inspiration for Caravaggio was a work by a follower of Giorgione, c.1510, but Caravaggio captures the drama more effectively by having the head dangling from David's hand and dripping blood, rather than resting on a ledge.",
+      "entities": [
+        {
+          "start": 30,
+          "end": 40,
+          "qid": "Q42207",
+          "text": "Caravaggio"
+        },
+        {
+          "start": 92,
+          "end": 102,
+          "qid": "Q42207",
+          "text": "Caravaggio"
+        },
+        {
+          "start": 172,
+          "end": 179,
+          "qid": "Q41370",
+          "text": "David's"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The sword in David's hand carries an abbreviated inscription H-AS OS; this has been interpreted as an abbreviation of the Latin phrase humilitas occidit superbiam (\"humility kills pride\").David is perturbed, \"his expression mingling sadness and compassion.\"",
+      "entities": [
+        {
+          "start": 13,
+          "end": 20,
+          "qid": "Q41370",
+          "text": "David's"
+        },
+        {
+          "start": 188,
+          "end": 193,
+          "qid": "Q41370",
+          "text": "David"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "No independent portraits of Cecco are known, making the identification impossible to verify, but \"[a] sexual intimacy between David/model and Goliath/painter seems an inescapable conclusion, however, given that Caravaggio made David's sword appear to project upward, suggestively, between his legs and at an angle that echoes the diagonal linking of the protagonist's gaze to his victim.\"",
+      "entities": [
+        {
+          "start": 126,
+          "end": 131,
+          "qid": "Q41370",
+          "text": "David"
+        },
+        {
+          "start": 211,
+          "end": 221,
+          "qid": "Q42207",
+          "text": "Caravaggio"
+        },
+        {
+          "start": 227,
+          "end": 234,
+          "qid": "Q41370",
+          "text": "David's"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The young Caravaggio (his own little Caravaggio) wistfully holds the head of the adult Caravaggio.",
+      "entities": [
+        {
+          "start": 10,
+          "end": 20,
+          "qid": "Q42207",
+          "text": "Caravaggio"
+        },
+        {
+          "start": 37,
+          "end": 47,
+          "qid": "Q42207",
+          "text": "Caravaggio"
+        },
+        {
+          "start": 87,
+          "end": 97,
+          "qid": "Q42207",
+          "text": "Caravaggio"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Caravaggio also treated this subject in a work dated c. 1607, currently in the Kunsthistorisches Museum in Vienna, and in an early work dated c. 1600 in the Prado in Madrid.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 10,
+          "qid": "Q42207",
+          "text": "Caravaggio"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "This bond is further complicated by the fact that Caravaggio has depicted himself as Goliath, while the model for David is il suo Caravaggino (\"his own little Caravaggio\").",
+      "entities": [
+        {
+          "start": 50,
+          "end": 60,
+          "qid": "Q42207",
+          "text": "Caravaggio"
+        },
+        {
+          "start": 114,
+          "end": 119,
+          "qid": "Q41370",
+          "text": "David"
+        },
+        {
+          "start": 159,
+          "end": 169,
+          "qid": "Q42207",
+          "text": "Caravaggio"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "This most plausibly refers to Cecco del Caravaggio, the artist's studio assistant in Rome some years previously, recorded as the boy \"who lay with him.\"",
+      "entities": [
+        {
+          "start": 40,
+          "end": 50,
+          "qid": "Q42207",
+          "text": "Caravaggio"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Alternatively, based on the portrait of Caravaggio done by Ottavio Leoni, this may be a double self-portrait.",
+      "entities": [
+        {
+          "start": 40,
+          "end": 50,
+          "qid": "Q42207",
+          "text": "Caravaggio"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The wild and riotous behavior of the young Caravaggio essentially had destroyed his life as a mature adult, and he reflects with a familiar hermeticism on his own condition in a painting of a related religious subject.",
+      "entities": [
+        {
+          "start": 43,
+          "end": 53,
+          "qid": "Q42207",
+          "text": "Caravaggio"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The masterpiece in Rome is a \"twin\" of a second artwork on the same subject, David and Goliath, as reported in the inventory of the Galleria Borghese dated 1693, where is found that one was located in the first room, and the other in the fourth room.",
+      "entities": [
+        {
+          "start": 77,
+          "end": 82,
+          "qid": "Q41370",
+          "text": "David"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The biographical interest of the painting adds another layer of meaning to an already complex work, David and Goliath standing for Christ and Satan and the triumph of good over evil in orthodox Christian iconography of the period, and also as the cold-hearted beloved who \"kills\" and his lover according to contemporary literary conceit.",
+      "entities": [
+        {
+          "start": 100,
+          "end": 105,
+          "qid": "Q41370",
+          "text": "David"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "An example of the genre can be seen in the contemporary Judith and Holofernes of Cristofano Allori in the Pitti Palace, where Allori depicts himself as Holofernes, although Caravaggio has depicted David not as cruel and indifferent but as deeply moved by Goliath's death.",
+      "entities": [
+        {
+          "start": 173,
+          "end": 183,
+          "qid": "Q42207",
+          "text": "Caravaggio"
+        },
+        {
+          "start": 197,
+          "end": 202,
+          "qid": "Q41370",
+          "text": "David"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "If the painting was a gift to Cardinal Borghese, the papal official with the power to grant Caravaggio a pardon for murder, it can also be interpreted as a personal plea for mercy. \"",
+      "entities": [
+        {
+          "start": 92,
+          "end": 102,
+          "qid": "Q42207",
+          "text": "Caravaggio"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "David with the Head of Goliath [thus] demonstrates Caravaggio's gift for distilling his own experiences into an original sacred imagery that transcends the personal to become a searing statement of the human condition.\"",
+      "entities": [
+        {
+          "start": 0,
+          "end": 5,
+          "qid": "Q41370",
+          "text": "David"
+        },
+        {
+          "start": 51,
+          "end": 63,
+          "qid": "Q42207",
+          "text": "Caravaggio's"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q318947": [
+    {
+      "text": "The painting depicts the moment when the resurrected but incognito Jesus, reveals himself to two of his disciples (presumed to be Luke and Cleopas) in the town of Emmaus, only to soon vanish from their sight (Gospel of Luke 24: 30\u201331).",
+      "entities": [
+        {
+          "start": 67,
+          "end": 72,
+          "qid": "Q302",
+          "text": "Jesus"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "In the Gospel of Mark (16:12) Female Jesus is said to have appeared to them \"in another form\", which may be why he is depicted beardless here, as opposed to the bearded Christ in Calling of St Matthew, where a group of seated money counters is interrupted by the recruiting Christ.",
+      "entities": [
+        {
+          "start": 37,
+          "end": 42,
+          "qid": "Q302",
+          "text": "Jesus"
+        },
+        {
+          "start": 169,
+          "end": 175,
+          "qid": "Q302",
+          "text": "Christ"
+        },
+        {
+          "start": 274,
+          "end": 280,
+          "qid": "Q302",
+          "text": "Christ"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The unexalted humanity is apt for this scene, since the human Female Jesus has made himself unrecognizable to his disciples, and at once confirms and surmounts his humanity.",
+      "entities": [
+        {
+          "start": 69,
+          "end": 74,
+          "qid": "Q302",
+          "text": "Jesus"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Caravaggio seems to suggest that perhaps a female Jesus could enter our daily encounters.",
+      "entities": [
+        {
+          "start": 50,
+          "end": 55,
+          "qid": "Q302",
+          "text": "Jesus"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q3842487": [
+    {
+      "text": "Madonna and Child is a magra-tempera on flax canvas painting by Andrea Mantegna, dating to 1490-1500 or (according to Mauro Lucco) 1463-1465\n.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 7,
+          "qid": "Q345",
+          "text": "Madonna"
+        },
+        {
+          "start": 12,
+          "end": 17,
+          "qid": "Q942467",
+          "text": "Child"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The Christ Child wears a coral bracelet, formerly an apotropaic symbol and also a foreshadowing of his Passion.",
+      "entities": [
+        {
+          "start": 4,
+          "end": 16,
+          "qid": "Q942467",
+          "text": "Christ Child"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "It dates to after the painter's trip to Rome and belongs to a group of small-format Madonnas for private devotion - others include Madonna with Sleeping Child (Berlin), the Poldi Pezzoli Madonna and the Butler Madonna (New York).",
+      "entities": [
+        {
+          "start": 131,
+          "end": 138,
+          "qid": "Q345",
+          "text": "Madonna"
+        },
+        {
+          "start": 144,
+          "end": 158,
+          "qid": "Q942467",
+          "text": "Sleeping Child"
+        },
+        {
+          "start": 187,
+          "end": 194,
+          "qid": "Q345",
+          "text": "Madonna"
+        },
+        {
+          "start": 210,
+          "end": 217,
+          "qid": "Q345",
+          "text": "Madonna"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q780466": [
+    {
+      "text": "It shows a scene from the famous story of Saint George and the dragon.",
+      "entities": [
+        {
+          "start": 42,
+          "end": 54,
+          "qid": "Q48438",
+          "text": "Saint George"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "On the right George is spearing the beast, and on the left the princess is using her belt as a leash to take the dragon up to the town.",
+      "entities": [
+        {
+          "start": 13,
+          "end": 19,
+          "qid": "Q48438",
+          "text": "George"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The eye in the storm gathering on the right of Saint George is lined up with his spear showing there has been divine intervention.",
+      "entities": [
+        {
+          "start": 47,
+          "end": 59,
+          "qid": "Q48438",
+          "text": "Saint George"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Saint George and the Dragon is a painting by Paolo Uccello dating from around 1470.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 12,
+          "qid": "Q48438",
+          "text": "Saint George"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q3226022": [
+    {
+      "text": "Isaiah, a powerful figure, gives the illusion of a three-dimensional character, flanked by putti figures.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 6,
+          "qid": "Q188794",
+          "text": "Isaiah"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The Prophet Isaiah is a fresco located in Basilica di Sant'Agostino, an early Renaissance church in Rome.",
+      "entities": [
+        {
+          "start": 12,
+          "end": 18,
+          "qid": "Q188794",
+          "text": "Isaiah"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "He carries a scroll inscribed with a supplication in Hebrew for entry into Heaven (Isaiah XXVI:2\u20133).",
+      "entities": [
+        {
+          "start": 83,
+          "end": 89,
+          "qid": "Q188794",
+          "text": "Isaiah"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q1213936": [
+    {
+      "text": "Dr. Samuel D. Gross, a seventy-year-old professor dressed in a black frock coat, lectures a group of Jefferson Medical College students.",
+      "entities": [
+        {
+          "start": 4,
+          "end": 19,
+          "qid": "Q1512038",
+          "text": "Samuel D. Gross"
+        },
+        {
+          "start": 101,
+          "end": 126,
+          "qid": "Q2471216",
+          "text": "Jefferson Medical College"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Seen over Dr. Gross's right shoulder is the clinic clerk, Dr. Franklin West, taking notes on the operation.",
+      "entities": [
+        {
+          "start": 10,
+          "end": 21,
+          "qid": "Q1512038",
+          "text": "Dr. Gross's"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The painting is based on a surgery witnessed by Eakins, in which Gross treated a young man for osteomyelitis of the femur.",
+      "entities": [
+        {
+          "start": 65,
+          "end": 70,
+          "qid": "Q1512038",
+          "text": "Gross"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Gross is pictured here performing a conservative operation as opposed to an amputation (which is how the patient would normally have been treated in previous decades).",
+      "entities": [
+        {
+          "start": 0,
+          "end": 5,
+          "qid": "Q1512038",
+          "text": "Gross"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The Gross Clinic, or, The Clinic of Dr. Gross, is an 1875 painting by American artist Thomas Eakins.",
+      "entities": [
+        {
+          "start": 36,
+          "end": 45,
+          "qid": "Q1512038",
+          "text": "Dr. Gross"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q680128": [
+    {
+      "text": "The work depicts Jesus carrying the cross above a dark background, surrounded by numerous heads, most of which are characterized with grotesque faces.",
+      "entities": [
+        {
+          "start": 17,
+          "end": 41,
+          "qid": "Q3399226",
+          "text": "Jesus carrying the cross"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "There are a total of eighteen portraits, plus one on Veronica's veil.",
+      "entities": [
+        {
+          "start": 53,
+          "end": 63,
+          "qid": "Q196653",
+          "text": "Veronica's"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Jesus has a woeful expression, his closed eyes and the head reclinate.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 5,
+          "qid": "Q302",
+          "text": "Jesus"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The bottom left corner houses Veronica with the holy shroud, her eyes half-open and the face looking back.",
+      "entities": [
+        {
+          "start": 30,
+          "end": 38,
+          "qid": "Q196653",
+          "text": "Veronica"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Finally, at the top left is Simon of Cyrene, his face upside upturned.",
+      "entities": [
+        {
+          "start": 28,
+          "end": 43,
+          "qid": "Q328739",
+          "text": "Simon of Cyrene"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Christ Carrying the Cross is a painting attributed to a follower of Hieronymus Bosch.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 25,
+          "qid": "Q3399226",
+          "text": "Christ Carrying the Cross"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q241455": [
+    {
+      "text": "The Battle of Alexander at Issus (German: Alexanderschlacht) is a 1529 oil painting by the German artist Albrecht Altdorfer (c. 1480\u20131538), a pioneer of landscape art and a founding member of the Danube school.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 32,
+          "qid": "Q201526",
+          "text": "The Battle of Alexander at Issus"
+        },
+        {
+          "start": 42,
+          "end": 59,
+          "qid": "Q201526",
+          "text": "Alexanderschlacht"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It portrays the 333 BC Battle of Issus, in which Alexander the Great secured a decisive victory over Darius III of Persia and gained crucial leverage in his campaign against the Persian Empire.",
+      "entities": [
+        {
+          "start": 23,
+          "end": 38,
+          "qid": "Q201526",
+          "text": "Battle of Issus"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Duke William IV of Bavaria commissioned The Battle of Alexander at Issus in 1528 as part of a set of historical pieces that was to hang in his Munich residence.",
+      "entities": [
+        {
+          "start": 40,
+          "end": 72,
+          "qid": "Q201526",
+          "text": "The Battle of Alexander at Issus"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The Battle of Alexander at Issus  and four others that were part of William's initial set are in the Alte Pinakothek art museum in Munich.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 32,
+          "qid": "Q201526",
+          "text": "The Battle of Alexander at Issus"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The Battle of Alexander at Issus is painted on a limewood panel measuring 158.4 cm \u00d7 120.3 cm (62.4 in \u00d7 47.4 in), and portrays the moment of Alexander the Great's victory.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 32,
+          "qid": "Q201526",
+          "text": "The Battle of Alexander at Issus"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q533619": [
+    {
+      "text": "Netherlandish Proverbs (Dutch: Nederlandse Spreekwoorden; also called Flemish Proverbs, The Blue Cloak or The Topsy Turvy World) is a 1559 oil-on-oak-panel painting by Pieter Bruegel the Elder that depicts a scene in which humans and, to a lesser extent, animals and objects, offer literal illustrations of Dutch language proverbs and idioms.",
+      "entities": [
+        {
+          "start": 88,
+          "end": 102,
+          "qid": "Q23015681",
+          "text": "The Blue Cloak"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The painting's original title, The Blue Cloak or The Folly of the World, indicates that Bruegel's intent was not just to illustrate proverbs, but rather to catalog human folly.",
+      "entities": [
+        {
+          "start": 31,
+          "end": 45,
+          "qid": "Q23015681",
+          "text": "The Blue Cloak"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q3788158": [
+    {
+      "text": "Het Pelsken (literally The Fur or The Pelt) is a 1638 portrait by Peter Paul Rubens of his second wife Helena Fourment getting out of the bath.",
+      "entities": [
+        {
+          "start": 103,
+          "end": 118,
+          "qid": "Q1965732",
+          "text": "Helena Fourment"
+        }
+      ],
+      "sentence_type": "visual"
+    }
+  ],
+  "Q3630748": [
+    {
+      "text": "Self-Portrait as a Female Martyr is a painting by the Italian artist Artemisia Gentileschi.",
+      "entities": [
+        {
+          "start": 69,
+          "end": 90,
+          "qid": "Q212657",
+          "text": "Artemisia Gentileschi"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "An inscription on the reverse confirms that it is painted by Gentileschi.",
+      "entities": [
+        {
+          "start": 61,
+          "end": 72,
+          "qid": "Q212657",
+          "text": "Gentileschi"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It is one of two paintings by Gentileschi painted with oil on wood \n\n\n== References ==",
+      "entities": [
+        {
+          "start": 30,
+          "end": 41,
+          "qid": "Q212657",
+          "text": "Gentileschi"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q2713620": [
+    {
+      "text": "It shows the Blessed Virgin Mary sitting on a wooden throne, with the child Christ on her lap.",
+      "entities": [
+        {
+          "start": 13,
+          "end": 32,
+          "qid": "Q345",
+          "text": "Blessed Virgin Mary"
+        },
+        {
+          "start": 76,
+          "end": 82,
+          "qid": "Q942467",
+          "text": "Christ"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The Ansidei Madonna (Italian: Pala Ansidei) is a 1505\u20131507 painting by the Italian High Renaissance artist Raphael, painted during his Florentine period.",
+      "entities": [
+        {
+          "start": 12,
+          "end": 19,
+          "qid": "Q345",
+          "text": "Madonna"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Both the main painting, \"Ansidei Madonna\", and the predella \"Saint John the Baptist Preaching\", are located at the  National Gallery in London.",
+      "entities": [
+        {
+          "start": 33,
+          "end": 40,
+          "qid": "Q345",
+          "text": "Madonna"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q723479": [
+    {
+      "text": "A Madonna del Parto (\"Madonna of Parturition\") is an iconic depiction of the Virgin Mary shown as pregnant, which was developed in Italy, mainly in Tuscany in the 14th century.",
+      "entities": [
+        {
+          "start": 2,
+          "end": 9,
+          "qid": "Q345",
+          "text": "Madonna"
+        },
+        {
+          "start": 22,
+          "end": 29,
+          "qid": "Q345",
+          "text": "Madonna"
+        },
+        {
+          "start": 73,
+          "end": 88,
+          "qid": "Q345",
+          "text": "the Virgin Mary"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The Madonna was portrayed standing, alone, often with a closed book on her belly, an allusion to the Incarnate Word.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 11,
+          "qid": "Q345",
+          "text": "The Madonna"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Here the Virgin wears the Girdle of Thomas, a belt of knotted cloth cord that was a relic held in Prato Cathedral, which many depictions wear.",
+      "entities": [
+        {
+          "start": 9,
+          "end": 15,
+          "qid": "Q345",
+          "text": "Virgin"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Sometimes, as with a statue by Sansovino in the Basilica of Sant'Agostino in Rome, the depiction is of a Virgin and Child, but known as a Madonna del Parto because it was especially associated with devotions over pregnancy.",
+      "entities": [
+        {
+          "start": 105,
+          "end": 111,
+          "qid": "Q345",
+          "text": "Virgin"
+        },
+        {
+          "start": 138,
+          "end": 145,
+          "qid": "Q345",
+          "text": "Madonna"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q2610936": [
+    {
+      "text": "The model was his friend and companion, the Sicilian painter Mario Minniti, at about 16 years old.",
+      "entities": [
+        {
+          "start": 61,
+          "end": 74,
+          "qid": "Q153619",
+          "text": "Mario Minniti"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The work was in the collection of Giuseppe Cesari, the Cavaliere d'Arpino, seized by Cardinal Scipione Borghese in 1607, and may therefore date to the period when Caravaggio worked for d'Arpino \"painting flowers and fruits\" in his workshop; but it may date from a slightly later period when Caravaggio and Minniti had left Cavalier d'Arpino's workshop (January 1594) to make their own way selling paintings through the dealer Costantino.",
+      "entities": [
+        {
+          "start": 306,
+          "end": 313,
+          "qid": "Q153619",
+          "text": "Minniti"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Certainly it cannot predate 1593, the year Minniti arrived in Rome.",
+      "entities": [
+        {
+          "start": 43,
+          "end": 50,
+          "qid": "Q153619",
+          "text": "Minniti"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It is believed to predate more complex works from the same period (also featuring Minniti as a model) such as The Fortune Teller and the Cardsharps (both 1594), the latter of which brought Caravaggio to the attention of his first important patron, Cardinal Francesco Maria Del Monte.",
+      "entities": [
+        {
+          "start": 82,
+          "end": 89,
+          "qid": "Q153619",
+          "text": "Minniti"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q2528741": [
+    {
+      "text": "Christ Crucified is a 1632 painting by Diego Vel\u00e1zquez depicting the Crucifixion of Jesus.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 6,
+          "qid": "Q302",
+          "text": "Christ"
+        },
+        {
+          "start": 84,
+          "end": 89,
+          "qid": "Q302",
+          "text": "Jesus"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "His master, Francisco Pacheco, a big supporter of classicist painting, painted the crucified Christ using the same iconography later adopted by Vel\u00e1zquez: four nails, feet together and supported against a little wooden brace, in a classic contrapposto posture.",
+      "entities": [
+        {
+          "start": 93,
+          "end": 99,
+          "qid": "Q302",
+          "text": "Christ"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q1899740": [
+    {
+      "text": "On the ground are the Apostles, tightly packed in a group and in a variety of dramatic poses, most looking up at the unprecedented sight of the Virgin Mary rising to heaven.",
+      "entities": [
+        {
+          "start": 140,
+          "end": 155,
+          "qid": "Q345",
+          "text": "the Virgin Mary"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Above is God the Father, who is about to be handed a crown for Mary by the angel to the right (see above).",
+      "entities": [
+        {
+          "start": 63,
+          "end": 67,
+          "qid": "Q345",
+          "text": "Mary"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The Assumption of the Virgin or Frari Assumption is a large altarpiece panel painting in oils by the Italian Renaissance artist Titian, painted in 1515\u201318.",
+      "entities": [
+        {
+          "start": 4,
+          "end": 28,
+          "qid": "Q162691",
+          "text": "Assumption of the Virgin"
+        },
+        {
+          "start": 38,
+          "end": 48,
+          "qid": "Q162691",
+          "text": "Assumption"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It remains in the position it was designed for, on the high altar of the Basilica di Santa Maria Gloriosa dei Frari or Frari church in Venice.",
+      "entities": [
+        {
+          "start": 91,
+          "end": 96,
+          "qid": "Q345",
+          "text": "Maria"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "They are shown in a variety of poses, ranging from gazing in awe, to kneeling and reaching for the skies, \"monumental figures ... massed in collective movement, united with shadow, heroic gestures are given a silhouette of unprecedented boldness\".In the centre zone, the Virgin Mary stands on clouds, wrapped in a red robe and blue mantle, and also makes a gesture of astonishment.",
+      "entities": [
+        {
+          "start": 267,
+          "end": 282,
+          "qid": "Q345",
+          "text": "the Virgin Mary"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q3697673": [
+    {
+      "text": "It depicts Christ standing on a double basement, keeping the Cross.",
+      "entities": [
+        {
+          "start": 11,
+          "end": 17,
+          "qid": "Q302",
+          "text": "Christ"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Blood rays spring up from Christ's wounds, ending in the Holy Chalice and turning themselves into  the sacramental bread.",
+      "entities": [
+        {
+          "start": 26,
+          "end": 34,
+          "qid": "Q302",
+          "text": "Christ's"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The sacrifice of Christ is also alluded to by the deer which is being slaughtered by a leopard on the lawn on the right.",
+      "entities": [
+        {
+          "start": 17,
+          "end": 23,
+          "qid": "Q302",
+          "text": "Christ"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The Christ between Four Angels and the Instruments of the Passion is a painting by the Italian Renaissance master Vittore Carpaccio, executed in 1496 and now housed in the Civici musei e gallerie di storia e arte of Udine, northern Italy.",
+      "entities": [
+        {
+          "start": 4,
+          "end": 10,
+          "qid": "Q302",
+          "text": "Christ"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q3207987": [
+    {
+      "text": "The central panel shows Mary Magdalene (to whom the monastery church was dedicated in 1257) in prayer at the foot of the cross.",
+      "entities": [
+        {
+          "start": 24,
+          "end": 38,
+          "qid": "Q63070",
+          "text": "Mary Magdalene"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The left panel shows the Virgin Mary with saint Bernard (the founder of the Cistercian order) and the right one shows John the Apostle with Saint Benedict.",
+      "entities": [
+        {
+          "start": 21,
+          "end": 36,
+          "qid": "Q345",
+          "text": "the Virgin Mary"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "A fourth panel on the north wall (the others are on the east wall) shows Christ lowering himself from the cross to hold the hands of St Bernard.",
+      "entities": [
+        {
+          "start": 73,
+          "end": 79,
+          "qid": "Q302",
+          "text": "Christ"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Not to be confused with Crucifixion (Perugino and Signorelli).The Pazzi Crucifixion is a circa 1495 fresco of the Crucifixion of Christ by Perugino in the chapter house of the Cistercian monastery of Santa Maria Maddalena dei Pazzi in Florence.",
+      "entities": [
+        {
+          "start": 129,
+          "end": 135,
+          "qid": "Q302",
+          "text": "Christ"
+        },
+        {
+          "start": 206,
+          "end": 211,
+          "qid": "Q345",
+          "text": "Maria"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q2388965": [
+    {
+      "text": "D\u00fcrer shows himself before an open window with a flat plane with a lake before distant snow-capped mountains, the landscape perhaps representing either the memory of his recent travels abroad or his inner mental state.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 5,
+          "qid": "Q5580",
+          "text": "D\u00fcrer"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "D\u00fcrer is dressed with effeminate grace in flamboyant, extravagant clothes showing the influence of Italian fashion.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 5,
+          "qid": "Q5580",
+          "text": "D\u00fcrer"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "His fingers are crossed, hidden inside silk gloves, an unusual pose for D\u00fcrer's early career; he always paid close attention in detailing the hands of his sitters who are usually showing holding an object; examples include a pillow, rosary, sheet of paper and flower.",
+      "entities": [
+        {
+          "start": 72,
+          "end": 79,
+          "qid": "Q5580",
+          "text": "D\u00fcrer's"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "D\u00fcrer presents himself as almost seductive, with a rakish patterned hat placed over long, almost girlishly curled blond locks of hair under a draped pointed hat with a tassel.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 5,
+          "qid": "Q5580",
+          "text": "D\u00fcrer"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Self-portrait (or Self-portrait at 26) is the second of Albrecht D\u00fcrer's three painted self-portraits.",
+      "entities": [
+        {
+          "start": 56,
+          "end": 64,
+          "qid": "Q5580",
+          "text": "Albrecht"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "In this work, executed in oil on wood panel in 1498, D\u00fcrer haughtily elevates himself to the social position he believed suited to an artist of his ability.",
+      "entities": [
+        {
+          "start": 53,
+          "end": 58,
+          "qid": "Q5580",
+          "text": "D\u00fcrer"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "D\u00fcrer depicts himself indoors under an arch, in half length, turning towards the viewer.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 5,
+          "qid": "Q5580",
+          "text": "D\u00fcrer"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "D\u00fcrer's presence dominates the pictorial space, from his hat which almost reaches the top of the canvas to his arm positioned on the lower ledge, where he rests his fingers enclosed in fine rich gloves.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 7,
+          "qid": "Q5580",
+          "text": "D\u00fcrer's"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Until some time in the 19th century the painting was hung with and kept as a companion piece with Portrait of D\u00fcrer's Father at 70; in 1636 the two paintings were gifted as a pair to Charles I of England by the city of Nuremberg, and this work was at some point acquired by Philip IV of Spain.",
+      "entities": [
+        {
+          "start": 110,
+          "end": 117,
+          "qid": "Q5580",
+          "text": "D\u00fcrer's"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q3837491": [
+    {
+      "text": "[ The mystery in Full Daylight] -- 'certainly questionable on the significance of the scene painted by Delacroix'.In Delacroix's composition, a caravan procession--a convoy of servants, flocks, Jacob's sons and wives--appears then fades, only to reappear briefly at the bend of a ravine.",
+      "entities": [
+        {
+          "start": 194,
+          "end": 201,
+          "qid": "Q289957",
+          "text": "Jacob's"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Thereby, Jacob's life is represented in two parts, as he is not to be the same after the depicted fight.",
+      "entities": [
+        {
+          "start": 9,
+          "end": 16,
+          "qid": "Q289957",
+          "text": "Jacob's"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Thus Delacroix depicted a pile of clothes left in the foreground by Jacob, as he has still his bulky animal skin, symbol of animal human nature and the lower instincts, and wears a lion skin across his shoulder: one of whose paws can be seen flying in the air near his right calf.",
+      "entities": [
+        {
+          "start": 68,
+          "end": 73,
+          "qid": "Q289957",
+          "text": "Jacob"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Jacob wrestling with the Angel is a mural painted by Eug\u00e8ne Delacroix.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 5,
+          "qid": "Q289957",
+          "text": "Jacob"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Painted toward the end of his life, from 1854\u20131861, it depicts a puzzling episode from The Bible's Book of Genesis,  XXXII, 22-32 - Jacob wrestling with the angel.",
+      "entities": [
+        {
+          "start": 132,
+          "end": 137,
+          "qid": "Q289957",
+          "text": "Jacob"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "In an invitation sent out by Delacroix in July 1861 to inspect the Chapel of the Holy Angels in the church of Saint-Sulpice he wrote : \"Jacob is travelling with the flocks and other gifts he is taking to his brother Esau in the hope of appeasing his anger.",
+      "entities": [
+        {
+          "start": 136,
+          "end": 141,
+          "qid": "Q289957",
+          "text": "Jacob"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Paul Claudel wrote of the femininity of the angel attacked by a vigorous young man: 'these two bodies becoming aware of each other'\nDelacroix's house close to Paris  on the edge of the S\u00e9nart forest was his retreat during the work and conception of Jacob.",
+      "entities": [
+        {
+          "start": 249,
+          "end": 254,
+          "qid": "Q289957",
+          "text": "Jacob"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "'Jacob' is set in an uneven hilly surface.",
+      "entities": [
+        {
+          "start": 1,
+          "end": 6,
+          "qid": "Q289957",
+          "text": "Jacob"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Jacob asks at the end of the fight.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 5,
+          "qid": "Q289957",
+          "text": "Jacob"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "On 5 October 1850 he  reveals in a letter to  a friend, the painter Constant Dutilleux his subjects, and mentions Jacob wrestling with the angel, Heliodorus, and  the ceiling,  which will have as its subject  the Archangel Michael  slaying the Demon.",
+      "entities": [
+        {
+          "start": 114,
+          "end": 119,
+          "qid": "Q289957",
+          "text": "Jacob"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q2533791": [
+    {
+      "text": "The subject is the Roman leader Lucius Junius Brutus, founder of the Roman Republic, contemplating the fate of his sons.",
+      "entities": [
+        {
+          "start": 32,
+          "end": 52,
+          "qid": "Q223440",
+          "text": "Lucius Junius Brutus"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The Lictors Bring to Brutus the Bodies of His Sons (French: Les licteurs rapportent \u00e0 Brutus les corps de ses fils) is a work in oils by the French artist Jacques-Louis David.",
+      "entities": [
+        {
+          "start": 21,
+          "end": 27,
+          "qid": "Q223440",
+          "text": "Brutus"
+        },
+        {
+          "start": 86,
+          "end": 92,
+          "qid": "Q223440",
+          "text": "Brutus"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "They had conspired to overthrow the republic and restore the monarchy, and Brutus himself was compelled to order their deaths.",
+      "entities": [
+        {
+          "start": 75,
+          "end": 81,
+          "qid": "Q223440",
+          "text": "Brutus"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "In doing so, Brutus became the heroic defender of the republic, at the cost of his own family.",
+      "entities": [
+        {
+          "start": 13,
+          "end": 19,
+          "qid": "Q223440",
+          "text": "Brutus"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q3212193": [
+    {
+      "text": "The painting shows Mariana full-length in a black and silver dress with silver braid and red bows.",
+      "entities": [
+        {
+          "start": 19,
+          "end": 26,
+          "qid": "Q311469",
+          "text": "Mariana"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Mariana is elegant but holds a pouty expression.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 7,
+          "qid": "Q311469",
+          "text": "Mariana"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Portrait of Mariana of Austria is bathed in harmonious shades of white, black and red, although the dramatically drawn curtain has been painted over by another hand.",
+      "entities": [
+        {
+          "start": 12,
+          "end": 30,
+          "qid": "Q311469",
+          "text": "Mariana of Austria"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Portrait of Mariana of Austria is an oil-on-canvas painting by Diego Vel\u00e1zquez completed c. 1652\u201353.",
+      "entities": [
+        {
+          "start": 12,
+          "end": 30,
+          "qid": "Q311469",
+          "text": "Mariana of Austria"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Dona Mariana (known as Maria Anna) (b. 1634) was the daughter of Emperor Ferdinand III and the Infanta Maria Anna of Spain, and then nineteen years old.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 12,
+          "qid": "Q311469",
+          "text": "Dona Mariana"
+        },
+        {
+          "start": 23,
+          "end": 33,
+          "qid": "Q311469",
+          "text": "Maria Anna"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "When he died, his father, and her uncle, Philip IV (b. 1605) sought to marry Mariana so as to preserve the hegemony of the Habsburg in Europe.",
+      "entities": [
+        {
+          "start": 77,
+          "end": 84,
+          "qid": "Q311469",
+          "text": "Mariana"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Portrait of Mariana of Austria is one of a series of Vel\u00e1zquez's portraits of the Spanish royal family completed in the 1650s.",
+      "entities": [
+        {
+          "start": 12,
+          "end": 30,
+          "qid": "Q311469",
+          "text": "Mariana of Austria"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "These court portraits culminates in his 1656 Las Meninas, which includes an older maternal Mariana, and center-stage her daughter, the Infanta Margarita Teresa.",
+      "entities": [
+        {
+          "start": 91,
+          "end": 98,
+          "qid": "Q311469",
+          "text": "Mariana"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q1091213": [
+    {
+      "text": "Christ is portrayed lying in a contorted position, seen from his feet.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 6,
+          "qid": "Q302",
+          "text": "Christ"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The Corpse of Christ is a painting by the Italian Baroque master Annibale Carracci, dating to c. 1583-1585  and housed in the Staatsgalerie of Stuttgart, Germany.",
+      "entities": [
+        {
+          "start": 14,
+          "end": 20,
+          "qid": "Q302",
+          "text": "Christ"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The work, dating to Carracci's early career, is a manifest homage to Andrea Mantegna's Dead Christ, which he had perhaps seen in the Aldobrandini collection.",
+      "entities": [
+        {
+          "start": 92,
+          "end": 98,
+          "qid": "Q302",
+          "text": "Christ"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q655093": [
+    {
+      "text": "Three Archangels with Young Tobias is a painting by the Italian Renaissance painter Filippino Lippi, dated 1485.",
+      "entities": [
+        {
+          "start": 28,
+          "end": 34,
+          "qid": "Q1412773",
+          "text": "Tobias"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "On the background of a rocky landscape, resembling that of the London Adoration of the Magi, the picture represents the three archangels: Michael on the left, Raphael in the centre, and Gabriel holding a lily, together with a young Tobias, son of Tobit.",
+      "entities": [
+        {
+          "start": 138,
+          "end": 145,
+          "qid": "Q45581",
+          "text": "Michael"
+        },
+        {
+          "start": 159,
+          "end": 166,
+          "qid": "Q56951",
+          "text": "Raphael"
+        },
+        {
+          "start": 186,
+          "end": 193,
+          "qid": "Q81989",
+          "text": "Gabriel"
+        },
+        {
+          "start": 232,
+          "end": 238,
+          "qid": "Q1412773",
+          "text": "Tobias"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The scene is clearly inspired by a Voyage of Tobias by Botticini, once in the Florentine church of Florence and now in the Uffizi, while the angels resemble those painted by Filippino himself in the Liberation of St. Peter in the Brancacci Chapel.",
+      "entities": [
+        {
+          "start": 45,
+          "end": 51,
+          "qid": "Q1412773",
+          "text": "Tobias"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q2408910": [
+    {
+      "text": "A Goldsmith in His Shop, Possibly Saint Eligius is a 1449 painting by Petrus Christus, now in the Metropolitan Museum of Art.",
+      "entities": [
+        {
+          "start": 34,
+          "end": 47,
+          "qid": "Q360798",
+          "text": "Saint Eligius"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The main figure in the painting was long thought to be Saint Eligius, the patron saint of goldsmiths, due to the presence of a halo.",
+      "entities": [
+        {
+          "start": 55,
+          "end": 68,
+          "qid": "Q360798",
+          "text": "Saint Eligius"
+        }
+      ],
+      "sentence_type": "visual"
+    }
+  ],
+  "Q2622172": [
+    {
+      "text": "Laura, his father's sister, is depicted in a dress which symbolizes mourning for her father, who had recently died and appears in the framed portrait behind her.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 5,
+          "qid": "Q17453726",
+          "text": "Laura"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Giulia holds a livelier pose than that of her sister Giovanna, whose restraint appears to underscore the familial tensions.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 6,
+          "qid": "Q17453787",
+          "text": "Giulia"
+        },
+        {
+          "start": 53,
+          "end": 61,
+          "qid": "Q17453788",
+          "text": "Giovanna"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "While finishing his artistic training in Italy, Degas drew and painted his aunt Laura, her husband the baron Gennaro Bellelli (1812\u20131864), and their daughters Giulia and Giovanna.",
+      "entities": [
+        {
+          "start": 80,
+          "end": 85,
+          "qid": "Q17453726",
+          "text": "Laura"
+        },
+        {
+          "start": 109,
+          "end": 125,
+          "qid": "Q3759783",
+          "text": "Gennaro Bellelli"
+        },
+        {
+          "start": 159,
+          "end": 165,
+          "qid": "Q17453787",
+          "text": "Giulia"
+        },
+        {
+          "start": 170,
+          "end": 178,
+          "qid": "Q17453788",
+          "text": "Giovanna"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Laura Bellelli's countenance is dignified and austere, her gesture connected with those of her daughters.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 16,
+          "qid": "Q17453726",
+          "text": "Laura Bellelli's"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q835699": [
+    {
+      "text": "The painting shows the Last Judgement, with Jesus at the top centre.",
+      "entities": [
+        {
+          "start": 23,
+          "end": 37,
+          "qid": "Q1821239",
+          "text": "Last Judgement"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The Great Last Judgement is an oil on canvas altarpiece, painted by the Flemish artist Peter Paul Rubens between 1614 and 1617.",
+      "entities": [
+        {
+          "start": 10,
+          "end": 24,
+          "qid": "Q1821239",
+          "text": "Last Judgement"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Its name distinguishes it from the same artist's The Small Last Judgement of 1619 and his The Fall of the Damned of 1620.",
+      "entities": [
+        {
+          "start": 59,
+          "end": 73,
+          "qid": "Q1821239",
+          "text": "Last Judgement"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q2165279": [
+    {
+      "text": "In the painting, Catherine of Alexandria is looking upward in ecstasy and leaning on a wheel - an allusion to the breaking wheel (or Catherine wheel) of her martyrdom.",
+      "entities": [
+        {
+          "start": 17,
+          "end": 40,
+          "qid": "Q179718",
+          "text": "Catherine of Alexandria"
+        },
+        {
+          "start": 133,
+          "end": 142,
+          "qid": "Q179718",
+          "text": "Catherine"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Saint Catherine of Alexandria is a painting by the Italian Renaissance artist Raphael.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 29,
+          "qid": "Q179718",
+          "text": "Saint Catherine of Alexandria"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "But the graceful contrapposto of Catherine's pose is typical of the influence of Leonardo da Vinci on Raphael, and is believed to be an echo of Leonardo's lost painting Leda and the Swan.",
+      "entities": [
+        {
+          "start": 33,
+          "end": 44,
+          "qid": "Q179718",
+          "text": "Catherine's"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q1989202": [
+    {
+      "text": "St. Jerome in His Study is an oil on panel  painting by German Renaissance artist Albrecht D\u00fcrer, completed March 1521.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 10,
+          "qid": "Q44248",
+          "text": "St. Jerome"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Among D\u00fcrer's depiction of St. Jerome,  this is the one more resembling a portrait, with little space left for the study and its details (such as in his 1514 etching, where the saint is a small figure in the background).",
+      "entities": [
+        {
+          "start": 27,
+          "end": 37,
+          "qid": "Q44248",
+          "text": "St. Jerome"
+        }
+      ],
+      "sentence_type": "visual"
+    }
+  ],
+  "Q151047": [
+    {
+      "text": "It depicts the goddess Venus arriving at the shore after her birth, when she had emerged from the sea fully-grown (called Venus Anadyomene and often depicted in art).",
+      "entities": [
+        {
+          "start": 23,
+          "end": 28,
+          "qid": "Q47652",
+          "text": "Venus"
+        },
+        {
+          "start": 122,
+          "end": 127,
+          "qid": "Q47652",
+          "text": "Venus"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The Birth of Venus  (Italian: Nascita di Venere [\u02c8na\u0283\u0283ita di \u02c8v\u025b\u02d0nere]) is a painting by the Italian artist Sandro Botticelli probably made in the mid 1480s.",
+      "entities": [
+        {
+          "start": 13,
+          "end": 18,
+          "qid": "Q47652",
+          "text": "Venus"
+        },
+        {
+          "start": 41,
+          "end": 47,
+          "qid": "Q47652",
+          "text": "Venere"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q2290433": [
+    {
+      "text": "The work is more than four meters tall, and shows some of the horror of the wartime destruction visited on the Island of Chios in the Chios massacre.",
+      "entities": [
+        {
+          "start": 121,
+          "end": 126,
+          "qid": "Q160483",
+          "text": "Chios"
+        },
+        {
+          "start": 134,
+          "end": 139,
+          "qid": "Q160483",
+          "text": "Chios"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The Massacre at Chios (French:",
+      "entities": [
+        {
+          "start": 16,
+          "end": 21,
+          "qid": "Q160483",
+          "text": "Chios"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Sc\u00e8ne des massacres de Scio) is the second major oil painting by the French artist Eug\u00e8ne Delacroix.",
+      "entities": [
+        {
+          "start": 23,
+          "end": 27,
+          "qid": "Q160483",
+          "text": "Scio"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Unusually for a painting of civil ruin during this period, The Massacre at Chios has no heroic figure to counterbalance the crushed victims, and there is little to suggest hope among the ruin and despair.",
+      "entities": [
+        {
+          "start": 75,
+          "end": 80,
+          "qid": "Q160483",
+          "text": "Chios"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q2713671": [
+    {
+      "text": "It shows mainly Elisabeth with baby John the Baptist, Joseph and Mary with infant baby Jesus (l.t.r.).",
+      "entities": [
+        {
+          "start": 65,
+          "end": 69,
+          "qid": "Q345",
+          "text": "Mary"
+        },
+        {
+          "start": 87,
+          "end": 92,
+          "qid": "Q942467",
+          "text": "Jesus"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The Canigiani Holy Family or Canigiani Madonna is a painting by the Italian High Renaissance artist Raphael from 1508.",
+      "entities": [
+        {
+          "start": 39,
+          "end": 46,
+          "qid": "Q345",
+          "text": "Madonna"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q1477693": [
+    {
+      "text": "The composition shows the Virgin Mary seated in a landscape with the Christ child, who gazes at a  yarnwinder used to collect spun yarn.",
+      "entities": [
+        {
+          "start": 22,
+          "end": 37,
+          "qid": "Q345",
+          "text": "the Virgin Mary"
+        },
+        {
+          "start": 69,
+          "end": 81,
+          "qid": "Q942467",
+          "text": "Christ child"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The Virgin's reaction is ambiguous, a mixture of alarm at the harm her son will come to and resigned acceptance of it.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 12,
+          "qid": "Q345",
+          "text": "The Virgin's"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The Madonna of the Yarnwinder (Italian: Madonna dei Fusi, \u201cMadonna of the Spindles\u201d) is a subject depicted by Leonardo da Vinci in at least one, and perhaps two paintings begun in 1499 or later.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 11,
+          "qid": "Q345",
+          "text": "The Madonna"
+        },
+        {
+          "start": 40,
+          "end": 47,
+          "qid": "Q345",
+          "text": "Madonna"
+        },
+        {
+          "start": 59,
+          "end": 66,
+          "qid": "Q345",
+          "text": "Madonna"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The subject is known today from several versions of which two, called the Buccleuch Madonna and the Lansdowne Madonna, are thought to be partly by Leonardo's hand.",
+      "entities": [
+        {
+          "start": 84,
+          "end": 91,
+          "qid": "Q345",
+          "text": "Madonna"
+        },
+        {
+          "start": 110,
+          "end": 117,
+          "qid": "Q345",
+          "text": "Madonna"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The yarnwinder serves both as a symbol of Mary's domesticity and as a foreshadowing of the Cross on which Christ was crucified.",
+      "entities": [
+        {
+          "start": 42,
+          "end": 48,
+          "qid": "Q345",
+          "text": "Mary's"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The painting's dynamic composition and implied narrative was highly influential on later High Renaissance depictions of the Madonna and Child by artists such as Raphael and Andrea del Sarto.",
+      "entities": [
+        {
+          "start": 124,
+          "end": 131,
+          "qid": "Q345",
+          "text": "Madonna"
+        },
+        {
+          "start": 136,
+          "end": 141,
+          "qid": "Q942467",
+          "text": "Child"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The composition of the Madonna of the Yarnwinder shows the Christ child twisting his body away from his mother's embrace, his eye caught by her yarnwinder whose spokes give it the shape of a cross; he precociously recognises it as a symbol of his destiny.",
+      "entities": [
+        {
+          "start": 23,
+          "end": 30,
+          "qid": "Q345",
+          "text": "Madonna"
+        },
+        {
+          "start": 59,
+          "end": 71,
+          "qid": "Q942467",
+          "text": "Christ child"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The use of a symbol of the Passion as an object of childish play recurs throughout Leonardo's painted oeuvre, appearing for instance in the Benois Madonna and the Virgin and Child with St Anne.",
+      "entities": [
+        {
+          "start": 147,
+          "end": 154,
+          "qid": "Q345",
+          "text": "Madonna"
+        },
+        {
+          "start": 163,
+          "end": 169,
+          "qid": "Q345",
+          "text": "Virgin"
+        },
+        {
+          "start": 174,
+          "end": 179,
+          "qid": "Q942467",
+          "text": "Child"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The rocky outcrop in the foreground of the Buccleuch Madonna is painted with a minute attention to geological detail.",
+      "entities": [
+        {
+          "start": 53,
+          "end": 60,
+          "qid": "Q345",
+          "text": "Madonna"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "A major difference between the Buccleuch and Lansdowne Madonnas is in their background landscapes.",
+      "entities": [
+        {
+          "start": 55,
+          "end": 63,
+          "qid": "Q345",
+          "text": "Madonnas"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Whereas the background of the Buccleuch version is a watery landscape indifferently painted, that of the Lansdowne Madonna has a dramatic mountain range far more typical of Leonardo.",
+      "entities": [
+        {
+          "start": 115,
+          "end": 122,
+          "qid": "Q345",
+          "text": "Madonna"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "the \u201clate\u201d character of the landscape in the Lansdowne Madonna suggests that it was the later painting to be completed and that the Buccleuch Madonna was the one sent to Robertet in 1507.The underdrawings of both the Buccleuch and Lansdowne Madonnas show several features not in the finished works, but present in some copies; it is likely that these were originally copied from the prime versions during an early stage of the composition's development.",
+      "entities": [
+        {
+          "start": 55,
+          "end": 62,
+          "qid": "Q345",
+          "text": "Madonna"
+        },
+        {
+          "start": 142,
+          "end": 149,
+          "qid": "Q345",
+          "text": "Madonna"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "One such feature, which appears in both underdrawings, is a group of figures identified as St Joseph making a baby walker for the Christ child, who appears with his mother and another female figure, probably a midwife.",
+      "entities": [
+        {
+          "start": 130,
+          "end": 142,
+          "qid": "Q942467",
+          "text": "Christ child"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It has also been suggested that the child learning to walk is the infant John the Baptist, appearing with his mother St Elizabeth, as Leonardo would have been unlikely to depict the figures of Mary and Christ twice in the same painting.",
+      "entities": [
+        {
+          "start": 193,
+          "end": 197,
+          "qid": "Q345",
+          "text": "Mary"
+        },
+        {
+          "start": 202,
+          "end": 208,
+          "qid": "Q942467",
+          "text": "Christ"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "At a later stage the landscape of the Buccleuch picture seems to have had a bridge like that of the Lansdowne Madonna, which was then painted over.",
+      "entities": [
+        {
+          "start": 110,
+          "end": 117,
+          "qid": "Q345",
+          "text": "Madonna"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q3221342": [
+    {
+      "text": "Christ on the Cross is a 1627 painting by Francisco de Zurbar\u00e1n, now in the Art Institute of Chicago.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 6,
+          "qid": "Q302",
+          "text": "Christ"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "As in Diego Velasquez's 1632 Christ Crucified, the artist shows Christ's two feet nailed separately - the number of nails used to crucify Christ was then a matter of controversy, with Bridget of Sweden writing of four nails.",
+      "entities": [
+        {
+          "start": 29,
+          "end": 35,
+          "qid": "Q302",
+          "text": "Christ"
+        },
+        {
+          "start": 64,
+          "end": 72,
+          "qid": "Q302",
+          "text": "Christ's"
+        },
+        {
+          "start": 138,
+          "end": 144,
+          "qid": "Q302",
+          "text": "Christ"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "One of these was Christ on the Cross, which was so admired by the artist's contemporaries that Seville's city council suggested he moved there permanently in 1629.",
+      "entities": [
+        {
+          "start": 17,
+          "end": 23,
+          "qid": "Q302",
+          "text": "Christ"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Both works also draw on a Counter Reformation trend after the Council of Trent to depictions focusing solely on Christ rather than those gathered around the cross.",
+      "entities": [
+        {
+          "start": 112,
+          "end": 118,
+          "qid": "Q302",
+          "text": "Christ"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q919294": [
+    {
+      "text": "The painting portrays the Madonna holding the Child while reading a book.",
+      "entities": [
+        {
+          "start": 26,
+          "end": 33,
+          "qid": "Q345",
+          "text": "Madonna"
+        },
+        {
+          "start": 46,
+          "end": 51,
+          "qid": "Q942467",
+          "text": "Child"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The Conestabile Madonna is a small (and probably unfinished) painting by the Italian Renaissance artist Raphael.",
+      "entities": [
+        {
+          "start": 16,
+          "end": 23,
+          "qid": "Q345",
+          "text": "Madonna"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "In 1881, when the picture was moved to canvas, it was discovered that in the original version the Madonna contemplated a pomegranate (symbol of the Passion) instead of the book.",
+      "entities": [
+        {
+          "start": 98,
+          "end": 105,
+          "qid": "Q345",
+          "text": "Madonna"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q3819218": [
+    {
+      "text": "Theodosius and Ambrose is a 1615/16 painting by Peter Paul Rubens, with assistance from his main pupil Anthony van Dyck.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 10,
+          "qid": "Q46696",
+          "text": "Theodosius"
+        },
+        {
+          "start": 15,
+          "end": 22,
+          "qid": "Q43689",
+          "text": "Ambrose"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "In the Rubens version, the architectural background is less defined, Theodosius is bearded and the spear and halberd in van Dyck's own version are omitted.",
+      "entities": [
+        {
+          "start": 69,
+          "end": 79,
+          "qid": "Q46696",
+          "text": "Theodosius"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Theodosius I and his entourage being barred from Milan Cathedral by its archbishop saint Ambrose, as punishment for the Massacre of Thessalonica.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 12,
+          "qid": "Q46696",
+          "text": "Theodosius I"
+        },
+        {
+          "start": 89,
+          "end": 96,
+          "qid": "Q43689",
+          "text": "Ambrose"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q3842529": [
+    {
+      "text": "At the Virgin's knee is the infant John the Baptist, with his cross, camel skin and a scroll reading Ecce Agnus Dei.",
+      "entities": [
+        {
+          "start": 7,
+          "end": 15,
+          "qid": "Q345",
+          "text": "Virgin's"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "On the left are a female saint (possibly Mary Magdalene) and a male saint with a book (possibly John the Evangelist).",
+      "entities": [
+        {
+          "start": 41,
+          "end": 45,
+          "qid": "Q345",
+          "text": "Mary"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The 'Madonna and Child with Saints is a tempera on panel painting, attributed to Andrea Mantegna, dated to around 1500 and now in the Galleria Sabauda in Turin.",
+      "entities": [
+        {
+          "start": 5,
+          "end": 12,
+          "qid": "Q345",
+          "text": "Madonna"
+        },
+        {
+          "start": 17,
+          "end": 22,
+          "qid": "Q942467",
+          "text": "Child"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q3464081": [
+    {
+      "text": "Saint Sebastian is a c.1495 painting of Saint Sebastian by Perugino, now in the Louvre collection.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 15,
+          "qid": "Q183332",
+          "text": "Saint Sebastian"
+        },
+        {
+          "start": 40,
+          "end": 55,
+          "qid": "Q183332",
+          "text": "Saint Sebastian"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Several pieces from it were taken abroad during the 19th century, with St Sebastian being bought by the Louvre in 1896.",
+      "entities": [
+        {
+          "start": 71,
+          "end": 83,
+          "qid": "Q183332",
+          "text": "St Sebastian"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "- he first used the motif in St Sebastian between St Roch and St Peter, a fresco painted in Cerqueto near Perugia.",
+      "entities": [
+        {
+          "start": 29,
+          "end": 41,
+          "qid": "Q183332",
+          "text": "St Sebastian"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q3797775": [
+    {
+      "text": "The three arches are decorated with vegetable motifs; over them are three panels (whose upper frame is lost), containing the paintings, from the left, of the Angel of the Annunciation, the Blessing Christ between Cherubims and the Annunciation.",
+      "entities": [
+        {
+          "start": 198,
+          "end": 204,
+          "qid": "Q302",
+          "text": "Christ"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The central painting within the three arcades shows the Coronation of the Virgin set in Paradise (alluded by the blue starred belts), with two rows of saints at the sides and a large number of angels behind the throne of Jesus and the Madonna.",
+      "entities": [
+        {
+          "start": 56,
+          "end": 80,
+          "qid": "Q1093370",
+          "text": "Coronation of the Virgin"
+        },
+        {
+          "start": 221,
+          "end": 226,
+          "qid": "Q302",
+          "text": "Jesus"
+        },
+        {
+          "start": 235,
+          "end": 242,
+          "qid": "Q345",
+          "text": "Madonna"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The Coronation of the Virgin is a tempera on panel polyptych by the Italian late Gothic artist Lorenzo Monaco, centred on the subject of the Coronation of the Virgin.",
+      "entities": [
+        {
+          "start": 4,
+          "end": 28,
+          "qid": "Q1093370",
+          "text": "Coronation of the Virgin"
+        },
+        {
+          "start": 141,
+          "end": 165,
+          "qid": "Q1093370",
+          "text": "Coronation of the Virgin"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Once in the Camaldolese monastery of Santa Maria degli Angeli, it is now housed in the Uffizi Gallery in Florence.",
+      "entities": [
+        {
+          "start": 43,
+          "end": 48,
+          "qid": "Q345",
+          "text": "Maria"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q1986597": [
+    {
+      "text": "The Orl\u00e9ans Madonna is a c.1506-1507 painting of the Madonna and Child by Raphael.",
+      "entities": [
+        {
+          "start": 12,
+          "end": 19,
+          "qid": "Q345",
+          "text": "Madonna"
+        },
+        {
+          "start": 53,
+          "end": 60,
+          "qid": "Q345",
+          "text": "Madonna"
+        },
+        {
+          "start": 65,
+          "end": 70,
+          "qid": "Q942467",
+          "text": "Child"
+        }
+      ],
+      "sentence_type": "visual"
+    }
+  ],
+  "Q2619037": [
+    {
+      "text": "Portrait of Madame R\u00e9camier is an 1800 portrait of the Parisian socialite Juliette R\u00e9camier by Jacques-Louis David showing her in the height of Neoclassical fashion,  reclining on an Directoire style sofa in a simple Empire line dress with almost bare arms, and short hair \"\u00e0 la Titus\".",
+      "entities": [
+        {
+          "start": 12,
+          "end": 27,
+          "qid": "Q236442",
+          "text": "Madame R\u00e9camier"
+        },
+        {
+          "start": 74,
+          "end": 91,
+          "qid": "Q236442",
+          "text": "Juliette R\u00e9camier"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "In Creatures in an Alphabet, Djuna Barnes wrote of the subject as\n\nThe Seal, she lounges like a bride,Much too docile, there's no doubt;\nMadame R\u00e9camier, on side,\n(if such she has), and bottom out.",
+      "entities": [
+        {
+          "start": 137,
+          "end": 152,
+          "qid": "Q236442",
+          "text": "Madame R\u00e9camier"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Ren\u00e9 Magritte also parodied David's painting in his own Perspective: Madame R\u00e9camier by David, showing a coffin reclining, now in the National Gallery of Canada.",
+      "entities": [
+        {
+          "start": 69,
+          "end": 84,
+          "qid": "Q236442",
+          "text": "Madame R\u00e9camier"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q2264914": [
+    {
+      "text": "Infanta Margarita Teresa in a Blue Dress is one of the best known portraits by Spanish painter Diego Vel\u00e1zquez.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 24,
+          "qid": "Q158659",
+          "text": "Infanta Margarita Teresa"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "It shows Margaret Theresa of Spain who also appears in the artist's Las Meninas.",
+      "entities": [
+        {
+          "start": 9,
+          "end": 34,
+          "qid": "Q158659",
+          "text": "Margaret Theresa of Spain"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "This is one of the several court portraits made by Vel\u00e1zquez on different occasions of Infanta Margaret Theresa who, at fifteen, married her uncle, Leopold I, Holy Roman Emperor.",
+      "entities": [
+        {
+          "start": 87,
+          "end": 111,
+          "qid": "Q158659",
+          "text": "Infanta Margaret Theresa"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The Kunsthistorisches Museum in Vienna has two other paintings by Vel\u00e1zquez: Infanta Maria Teresa and Portrait of Prince Philip Prospero.",
+      "entities": [
+        {
+          "start": 77,
+          "end": 97,
+          "qid": "Q158659",
+          "text": "Infanta Maria Teresa"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "However, this portrait of Infanta Margarita is possibly the best of the three.",
+      "entities": [
+        {
+          "start": 26,
+          "end": 43,
+          "qid": "Q158659",
+          "text": "Infanta Margarita"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q500242": [
+    {
+      "text": "It illustrates the Biblical creation narrative from the Book of Genesis in which God gives life to Adam, the first man.",
+      "entities": [
+        {
+          "start": 64,
+          "end": 71,
+          "qid": "Q137651",
+          "text": "Genesis"
+        },
+        {
+          "start": 81,
+          "end": 84,
+          "qid": "Q190",
+          "text": "God"
+        },
+        {
+          "start": 99,
+          "end": 103,
+          "qid": "Q70899",
+          "text": "Adam"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The Creation of Adam (Italian: Creazione di Adamo) is a fresco painting by Italian artist Michelangelo, which forms part of the Sistine Chapel's ceiling, painted c. 1508\u20131512.",
+      "entities": [
+        {
+          "start": 16,
+          "end": 20,
+          "qid": "Q70899",
+          "text": "Adam"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The fresco is part of a complex iconographic scheme and is chronologically the fourth in the series of panels depicting episodes from Genesis.",
+      "entities": [
+        {
+          "start": 134,
+          "end": 141,
+          "qid": "Q137651",
+          "text": "Genesis"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The image of the near-touching hands of God and Adam has become iconic of humanity.",
+      "entities": [
+        {
+          "start": 40,
+          "end": 43,
+          "qid": "Q190",
+          "text": "God"
+        },
+        {
+          "start": 48,
+          "end": 52,
+          "qid": "Q70899",
+          "text": "Adam"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Michelangelo's Creation of Adam is one of the most replicated religious paintings of all time.",
+      "entities": [
+        {
+          "start": 27,
+          "end": 31,
+          "qid": "Q70899",
+          "text": "Adam"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q1464531": [
+    {
+      "text": "Starry Night Over the Rh\u00f4ne (September 1888, French: Nuit \u00e9toil\u00e9e sur le Rh\u00f4ne) is one of Vincent van Gogh's paintings of Arles at nighttime.",
+      "entities": [
+        {
+          "start": 22,
+          "end": 27,
+          "qid": "Q602",
+          "text": "Rh\u00f4ne"
+        },
+        {
+          "start": 73,
+          "end": 78,
+          "qid": "Q602",
+          "text": "Rh\u00f4ne"
+        },
+        {
+          "start": 122,
+          "end": 127,
+          "qid": "Q48292",
+          "text": "Arles"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It was painted at a spot on the bank of the Rh\u00f4ne that was only a one or two-minute walk from the Yellow House on the Place Lamartine which Van Gogh was renting at the time.",
+      "entities": [
+        {
+          "start": 44,
+          "end": 49,
+          "qid": "Q602",
+          "text": "Rh\u00f4ne"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "A sketch of the painting is included in a letter van Gogh sent to his friend Eug\u00e8ne Boch on October 2, 1888.Starry Night Over the Rh\u00f4ne, which is now in the Mus\u00e9e d'Orsay in Paris, was first exhibited in 1889 at Paris' annual exhibition of the Soci\u00e9t\u00e9 des Artistes Ind\u00e9pendants.",
+      "entities": [
+        {
+          "start": 130,
+          "end": 135,
+          "qid": "Q602",
+          "text": "Rh\u00f4ne"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It was shown together with van Gogh's Irises, which was added by Vincent's brother, Theo, although Vincent had proposed including one of his paintings from the public gardens in Arles.",
+      "entities": [
+        {
+          "start": 178,
+          "end": 183,
+          "qid": "Q48292",
+          "text": "Arles"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q3564176": [
+    {
+      "text": "Venus and Adonis or View of Grottaferrata with Venus, Adonis and a River Divinity is a c.1626 painting by Nicolas Poussin, now in the Mus\u00e9e Fabre in Montpellier.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 5,
+          "qid": "Q47652",
+          "text": "Venus"
+        },
+        {
+          "start": 10,
+          "end": 16,
+          "qid": "Q163920",
+          "text": "Adonis"
+        },
+        {
+          "start": 47,
+          "end": 52,
+          "qid": "Q47652",
+          "text": "Venus"
+        },
+        {
+          "start": 54,
+          "end": 60,
+          "qid": "Q163920",
+          "text": "Adonis"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q3232010": [
+    {
+      "text": "It is a double self-portrait, depicting two versions of Kahlo seated together.",
+      "entities": [
+        {
+          "start": 56,
+          "end": 61,
+          "qid": "Q5588",
+          "text": "Kahlo"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "In Frida's own recollection, the image is of a memory of a childhood imaginary friend.",
+      "entities": [
+        {
+          "start": 3,
+          "end": 10,
+          "qid": "Q5588",
+          "text": "Frida's"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Both Fridas hold items in their lap; the Mexican Frida holds a small portrait of Diego Rivera, and the European Frida holds forceps.",
+      "entities": [
+        {
+          "start": 5,
+          "end": 11,
+          "qid": "Q5588",
+          "text": "Fridas"
+        },
+        {
+          "start": 49,
+          "end": 54,
+          "qid": "Q5588",
+          "text": "Frida"
+        },
+        {
+          "start": 112,
+          "end": 117,
+          "qid": "Q5588",
+          "text": "Frida"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Blood spills onto the European Frida's white dress from a broken blood vessel that has been cut by the forceps.",
+      "entities": [
+        {
+          "start": 31,
+          "end": 38,
+          "qid": "Q5588",
+          "text": "Frida's"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The blood vessel connects the two Fridas, winding its way from their hands through their hearts.",
+      "entities": [
+        {
+          "start": 34,
+          "end": 40,
+          "qid": "Q5588",
+          "text": "Fridas"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The Two Fridas (Las dos Fridas in Spanish) is an oil painting by Mexican artist Frida Kahlo.",
+      "entities": [
+        {
+          "start": 80,
+          "end": 91,
+          "qid": "Q5588",
+          "text": "Frida Kahlo"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The painting was the first large-scale work done by Kahlo and is considered one of her most notable paintings.",
+      "entities": [
+        {
+          "start": 52,
+          "end": 57,
+          "qid": "Q5588",
+          "text": "Kahlo"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The painting was created in 1939, the same year that Kahlo divorced Diego Rivera, although they remarried a year later.",
+      "entities": [
+        {
+          "start": 53,
+          "end": 58,
+          "qid": "Q5588",
+          "text": "Kahlo"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Some art historians have suggested that the two figures in the painting are a representation of Frida's dual heritage.",
+      "entities": [
+        {
+          "start": 96,
+          "end": 103,
+          "qid": "Q5588",
+          "text": "Frida's"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Another interpretation is that the Tehuana Frida is the one who was adored by her husband Diego Rivera, while the European Frida is the one that was rejected by him.",
+      "entities": [
+        {
+          "start": 43,
+          "end": 48,
+          "qid": "Q5588",
+          "text": "Frida"
+        },
+        {
+          "start": 123,
+          "end": 128,
+          "qid": "Q5588",
+          "text": "Frida"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The work alludes to Kahlo's life of constant pain and surgical procedures and the Aztec tradition of human sacrifice.",
+      "entities": [
+        {
+          "start": 20,
+          "end": 27,
+          "qid": "Q5588",
+          "text": "Kahlo's"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Because this piece was completed by Kahlo shortly after her divorce, the European Frida is missing a piece of herself, her Diego.",
+      "entities": [
+        {
+          "start": 36,
+          "end": 41,
+          "qid": "Q5588",
+          "text": "Kahlo"
+        },
+        {
+          "start": 82,
+          "end": 87,
+          "qid": "Q5588",
+          "text": "Frida"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "According to Kahlo's friend, Fernando Gamboa, the painting was inspired by two paintings that Kahlo saw earlier that year at the Louvre, Th\u00e9odore Chass\u00e9riau's The Two Sisters and the anonymous Gabrielle d'Estr\u00e9es and One of Her Sisters.",
+      "entities": [
+        {
+          "start": 13,
+          "end": 20,
+          "qid": "Q5588",
+          "text": "Kahlo's"
+        },
+        {
+          "start": 94,
+          "end": 99,
+          "qid": "Q5588",
+          "text": "Kahlo"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q3428049": [
+    {
+      "text": "Christ is portrayed within an almond hovering at the top center of the panel, surrounded by flying or playing angels, while the frame has heads of cherubims  and seraphims.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 6,
+          "qid": "Q302",
+          "text": "Christ"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The Ascension of Christ (also known as Sansepolcro Altarpiece; Italian: Pala di Sansepolcro) is a painting by Italian Renaissance master Perugino, dating from around 1510.",
+      "entities": [
+        {
+          "start": 17,
+          "end": 23,
+          "qid": "Q302",
+          "text": "Christ"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q568847": [
+    {
+      "text": "The crucified Christ is lowered from the cross, his lifeless body held by Joseph of Arimathea and Nicodemus.",
+      "entities": [
+        {
+          "start": 14,
+          "end": 20,
+          "qid": "Q302",
+          "text": "Christ"
+        },
+        {
+          "start": 74,
+          "end": 93,
+          "qid": "Q271474",
+          "text": "Joseph of Arimathea"
+        },
+        {
+          "start": 98,
+          "end": 107,
+          "qid": "Q295084",
+          "text": "Nicodemus"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The Descent from the Cross (or Deposition of Christ, or Descent of Christ from the Cross) is a panel painting by the Flemish artist Rogier van der Weyden created c. 1435, now in the Museo del Prado, Madrid.",
+      "entities": [
+        {
+          "start": 45,
+          "end": 51,
+          "qid": "Q302",
+          "text": "Christ"
+        },
+        {
+          "start": 67,
+          "end": 73,
+          "qid": "Q302",
+          "text": "Christ"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Van der Weyden positioned Christ's body in the T-shape of a crossbow to reflect the commission from the Leuven guild of archers (Schutterij) for their chapel",
+      "entities": [
+        {
+          "start": 26,
+          "end": 34,
+          "qid": "Q302",
+          "text": "Christ's"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Art historians have commented that this work was arguably the most influential Netherlandish painting of Christ's crucifixion, and that it was copied and adapted on a large scale in the two centuries after its completion.",
+      "entities": [
+        {
+          "start": 105,
+          "end": 125,
+          "qid": "Q51636",
+          "text": "Christ's crucifixion"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The emotional impact of the weeping mourners grieving over Christ's body, and the subtle depiction of space in van der Weyden's work have generated extensive critical comments, one of the most famous being, that of Erwin Panofsky: \"It may be said that the painted tear, a shining pearl born of the strongest emotion, epitomizes that which Italian most admired in Early Flemish painting: pictorial brilliance and sentiment\".",
+      "entities": [
+        {
+          "start": 59,
+          "end": 67,
+          "qid": "Q302",
+          "text": "Christ's"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "In their accounts of the descent of Christ's body from the Cross, the evangelists relate the story only in connection with the Entombment of Christ.",
+      "entities": [
+        {
+          "start": 36,
+          "end": 44,
+          "qid": "Q302",
+          "text": "Christ's"
+        },
+        {
+          "start": 141,
+          "end": 147,
+          "qid": "Q302",
+          "text": "Christ"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "According to the canonical gospels, Joseph of Arimathea took Christ's body and prepared it for burial.",
+      "entities": [
+        {
+          "start": 36,
+          "end": 55,
+          "qid": "Q271474",
+          "text": "Joseph of Arimathea"
+        },
+        {
+          "start": 61,
+          "end": 69,
+          "qid": "Q302",
+          "text": "Christ's"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "John (19:38\u201342) adds one assistant, Nicodemus.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 4,
+          "qid": "Q328804",
+          "text": "John"
+        },
+        {
+          "start": 36,
+          "end": 45,
+          "qid": "Q295084",
+          "text": "Nicodemus"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "None of these accounts mention Mary.",
+      "entities": [
+        {
+          "start": 31,
+          "end": 35,
+          "qid": "Q345",
+          "text": "Mary"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "During the Middle Ages, the narrative of the Passion became more elaborate, and more attention was paid to the role of Christ's mother.",
+      "entities": [
+        {
+          "start": 119,
+          "end": 134,
+          "qid": "Q345",
+          "text": "Christ's mother"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "One example is the anonymous 14th-century text, Meditationes de Vita Christi, perhaps by Ludolph of Saxony.",
+      "entities": [
+        {
+          "start": 69,
+          "end": 76,
+          "qid": "Q302",
+          "text": "Christi"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Barbara Lane suggests this passage from the Vita Christi might lie behind many paintings of the Deposition, including Rogier's: \"Then the lady reverently receives the hanging right hand and places it against her cheek gazes upon it, and kisses it with heavy tears and sorrowful sighs.",
+      "entities": [
+        {
+          "start": 49,
+          "end": 56,
+          "qid": "Q302",
+          "text": "Christi"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "In her history of the veneration of the Virgin Mary, Miri Rubin writes that in the early 15th-century artists began to depict the \"Swoon of the Virgin\" or Mary swooning at the foot of the cross or at other moments, and that van der Weyden's Descent was the most influential painting to show this moment.",
+      "entities": [
+        {
+          "start": 36,
+          "end": 51,
+          "qid": "Q345",
+          "text": "the Virgin Mary"
+        },
+        {
+          "start": 144,
+          "end": 150,
+          "qid": "Q345",
+          "text": "Virgin"
+        },
+        {
+          "start": 155,
+          "end": 159,
+          "qid": "Q345",
+          "text": "Mary"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "In the early 16th century, such was the popularity of depictions of the swooning Virgin, Pope Julius II was lobbied with a request to designate a holy day as a feast of the spasimo.",
+      "entities": [
+        {
+          "start": 81,
+          "end": 87,
+          "qid": "Q345",
+          "text": "Virgin"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Art historian Lorne Campbell has identified the figures in the painting as (from left to right): Mary Cleophas (half-sister to the Virgin Mary); John the Evangelist, Mary Salome (in green, another half-sister of the Virgin Mary), The Virgin Mary (swooning), the corpse of Jesus Christ, Nicodemus (in red), a young man on the ladder \u2013 either a servant of Nicodemus or of Joseph of Arimathea, Joseph of Arimathea (in field-of-cloth-of-gold robes, the most sumptuous costume in the painting), the bearded man behind Joseph holding a jar and probably another servant and Mary Magdalene who adopts a dramatic pose on the right of the painting.",
+      "entities": [
+        {
+          "start": 97,
+          "end": 110,
+          "qid": "Q235377",
+          "text": "Mary Cleophas"
+        },
+        {
+          "start": 127,
+          "end": 142,
+          "qid": "Q345",
+          "text": "the Virgin Mary"
+        },
+        {
+          "start": 145,
+          "end": 164,
+          "qid": "Q328804",
+          "text": "John the Evangelist"
+        },
+        {
+          "start": 166,
+          "end": 177,
+          "qid": "Q233067",
+          "text": "Mary Salome"
+        },
+        {
+          "start": 212,
+          "end": 227,
+          "qid": "Q345",
+          "text": "the Virgin Mary"
+        },
+        {
+          "start": 234,
+          "end": 245,
+          "qid": "Q345",
+          "text": "Virgin Mary"
+        },
+        {
+          "start": 272,
+          "end": 284,
+          "qid": "Q302",
+          "text": "Jesus Christ"
+        },
+        {
+          "start": 286,
+          "end": 295,
+          "qid": "Q295084",
+          "text": "Nicodemus"
+        },
+        {
+          "start": 354,
+          "end": 363,
+          "qid": "Q295084",
+          "text": "Nicodemus"
+        },
+        {
+          "start": 370,
+          "end": 389,
+          "qid": "Q271474",
+          "text": "Joseph of Arimathea"
+        },
+        {
+          "start": 391,
+          "end": 410,
+          "qid": "Q271474",
+          "text": "Joseph of Arimathea"
+        },
+        {
+          "start": 567,
+          "end": 581,
+          "qid": "Q63070",
+          "text": "Mary Magdalene"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "There is disagreement between art historians as to the representation of Joseph of Arimathea and Nicodemus.",
+      "entities": [
+        {
+          "start": 73,
+          "end": 92,
+          "qid": "Q271474",
+          "text": "Joseph of Arimathea"
+        },
+        {
+          "start": 97,
+          "end": 106,
+          "qid": "Q295084",
+          "text": "Nicodemus"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Dirk de Vos identifies Joseph of Arimathea as the man in red supporting Christ's body, and Nicodemus as the man supporting Christ's legs, the opposite of Campbell's identification.",
+      "entities": [
+        {
+          "start": 23,
+          "end": 42,
+          "qid": "Q271474",
+          "text": "Joseph of Arimathea"
+        },
+        {
+          "start": 72,
+          "end": 80,
+          "qid": "Q302",
+          "text": "Christ's"
+        },
+        {
+          "start": 91,
+          "end": 100,
+          "qid": "Q295084",
+          "text": "Nicodemus"
+        },
+        {
+          "start": 123,
+          "end": 131,
+          "qid": "Q302",
+          "text": "Christ's"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q3829339": [
+    {
+      "text": "It shows three scenes of Leda's seduction by Jupiter who has taken the form of a swan.",
+      "entities": [
+        {
+          "start": 25,
+          "end": 31,
+          "qid": "Q182019",
+          "text": "Leda's"
+        },
+        {
+          "start": 45,
+          "end": 52,
+          "qid": "Q4649",
+          "text": "Jupiter"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Their first meeting is shown on the right hand side and their lovemaking in the centre, where Leda sits with the swan between her thighs, guiding him with her left hand.",
+      "entities": [
+        {
+          "start": 94,
+          "end": 98,
+          "qid": "Q182019",
+          "text": "Leda"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The third scene (again on the right hand side) is the swan flying away whilst Leda gets dressed.",
+      "entities": [
+        {
+          "start": 78,
+          "end": 82,
+          "qid": "Q182019",
+          "text": "Leda"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Leda and the Swan is an oil on canvas painting from 1530-1531 by the Italian painter Correggio, now in the Gem\u00e4ldegalerie in Berlin.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 4,
+          "qid": "Q182019",
+          "text": "Leda"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Leda and the Swan was a common subject in 16th-century art.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 4,
+          "qid": "Q182019",
+          "text": "Leda"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q1523473": [
+    {
+      "text": "April Love is a painting by the Pre-Raphaelite painter Arthur Hughes which was created between 1855 and 1856.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 5,
+          "qid": "Q118",
+          "text": "April"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The model for the principal figure was Tryphena Ford, whom Hughes married in 1855.",
+      "entities": [
+        {
+          "start": 39,
+          "end": 52,
+          "qid": "Q21970886",
+          "text": "Tryphena Ford"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q75564": [
+    {
+      "text": "It depicts Dora Maar, the painter's lover, seated on a chair with a small cat perched on her shoulders.",
+      "entities": [
+        {
+          "start": 11,
+          "end": 20,
+          "qid": "Q236161",
+          "text": "Dora Maar"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Dora Maar au Chat (Dora Maar with Cat) is a 1941 painting by Pablo Picasso.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 9,
+          "qid": "Q236161",
+          "text": "Dora Maar"
+        },
+        {
+          "start": 19,
+          "end": 28,
+          "qid": "Q236161",
+          "text": "Dora Maar"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q3207251": [
+    {
+      "text": "The painting has an asymmetric vertical composition with a detailed depiction of the jungle on the right and a woman playing the flute on the left, back-lit by the Moon.",
+      "entities": [
+        {
+          "start": 164,
+          "end": 168,
+          "qid": "Q405",
+          "text": "Moon"
+        }
+      ],
+      "sentence_type": "visual"
+    }
+  ],
+  "Q3605055": [
+    {
+      "text": "Eve holds the traditional apple, with the snake coming to her from above from the tree of life.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 3,
+          "qid": "Q830183",
+          "text": "Eve"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Adam is shown scratching the right crown part of his scalp.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 4,
+          "qid": "Q70899",
+          "text": "Adam"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Adam and Eve is a  double painting by German Renaissance master Lucas Cranach the Elder, dating from 1528, housed in the Uffizi, Florence, Italy.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 4,
+          "qid": "Q70899",
+          "text": "Adam"
+        },
+        {
+          "start": 9,
+          "end": 12,
+          "qid": "Q830183",
+          "text": "Eve"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q128910": [
+    {
+      "text": "The painting represents the scene of the Last Supper of Jesus with his apostles, as it is told in the Gospel of John, 13:21.",
+      "entities": [
+        {
+          "start": 41,
+          "end": 52,
+          "qid": "Q51633",
+          "text": "Last Supper"
+        },
+        {
+          "start": 56,
+          "end": 61,
+          "qid": "Q302",
+          "text": "Jesus"
+        },
+        {
+          "start": 112,
+          "end": 116,
+          "qid": "Q44015",
+          "text": "John"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The Last Supper (Italian: Il Cenacolo [il t\u0283e\u02c8na\u02d0kolo] or L'Ultima Cena [\u02c8lultima \u02c8t\u0283e\u02d0na]) is a late 15th-century mural painting by Italian artist Leonardo da Vinci housed by the refectory of the Convent of Santa Maria delle Grazie in Milan, Italy.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 15,
+          "qid": "Q51633",
+          "text": "The Last Supper"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Leonardo has depicted the consternation that occurred among the Twelve Apostles when Jesus announced that one of them would betray him.",
+      "entities": [
+        {
+          "start": 85,
+          "end": 90,
+          "qid": "Q302",
+          "text": "Jesus"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q570163": [
+    {
+      "text": "Rembrandt shows the episode of Jesus and the woman taken in adultery from the Gospel of Saint John.",
+      "entities": [
+        {
+          "start": 31,
+          "end": 68,
+          "qid": "Q492663",
+          "text": "Jesus and the woman taken in adultery"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "In this scene, a few Jews, mainly Scribes and Pharisees, tried to catch Jesus condoning disobedience to the Jewish Law, knowing that Jesus pitied wrong-doers.",
+      "entities": [
+        {
+          "start": 72,
+          "end": 77,
+          "qid": "Q302",
+          "text": "Jesus"
+        },
+        {
+          "start": 133,
+          "end": 138,
+          "qid": "Q302",
+          "text": "Jesus"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Jesus replied, \"He that is without sin among you, let him first cast a stone at her\" (John 8: 3-7).",
+      "entities": [
+        {
+          "start": 0,
+          "end": 5,
+          "qid": "Q302",
+          "text": "Jesus"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Rembrandt made Jesus appear taller than the other figures and more brightly lit.",
+      "entities": [
+        {
+          "start": 15,
+          "end": 20,
+          "qid": "Q302",
+          "text": "Jesus"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Symbolically, Jesus's height represents his moral superiority over those who attempted to trick him.",
+      "entities": [
+        {
+          "start": 14,
+          "end": 21,
+          "qid": "Q302",
+          "text": "Jesus's"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q1219263": [
+    {
+      "text": "The Sleeping Gypsy  (French: La Boh\u00e9mienne endormie) is an 1897 oil painting by French Na\u00efve artist Henri Rousseau (1844\u20131910).",
+      "entities": [
+        {
+          "start": 13,
+          "end": 18,
+          "qid": "Q8060",
+          "text": "Gypsy"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q507120": [
+    {
+      "text": "Mountain Landscape with Rainbow (1809-10) (German: Gebirgslandschaft mit Regenbogen), is an oil painting by the German Romantic artist Caspar David Friedrich.",
+      "entities": [
+        {
+          "start": 135,
+          "end": 157,
+          "qid": "Q104884",
+          "text": "Caspar David Friedrich"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Like the Riesengebirge Landscape (1810) this painting was inspired by Friedrich's 1809 travels through Germany and along the shores of the Baltic Sea.",
+      "entities": [
+        {
+          "start": 70,
+          "end": 81,
+          "qid": "Q104884",
+          "text": "Friedrich's"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The observation of nature in his travels allowed Friedrich to compose a landscape that is visionary rather than literal.",
+      "entities": [
+        {
+          "start": 49,
+          "end": 58,
+          "qid": "Q104884",
+          "text": "Friedrich"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "In Friedrich's oeuvre, paintings with a sharp contrast between the foreground and background are common, a separation symbolizing the spiritual and physical planes of existence.",
+      "entities": [
+        {
+          "start": 3,
+          "end": 14,
+          "qid": "Q104884",
+          "text": "Friedrich's"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ],
+  "Q650086": [
+    {
+      "text": "It portrays the biblical account of the talking ass debating with diviner Balaam.",
+      "entities": [
+        {
+          "start": 74,
+          "end": 80,
+          "qid": "Q574641",
+          "text": "Balaam"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Balaam and the Ass is a 1626 painting by the Dutch artist Rembrandt, dating from his time in Leiden and now in the Mus\u00e9e Cognacq-Jay in Paris.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 6,
+          "qid": "Q574641",
+          "text": "Balaam"
+        },
+        {
+          "start": 15,
+          "end": 18,
+          "qid": "Q12404326",
+          "text": "Ass"
+        }
+      ],
+      "sentence_type": "contextual"
+    }
+  ]
+}
