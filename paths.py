@@ -11,6 +11,7 @@ os.makedirs(AUX_OUTPUT_PATH, exist_ok=True)
 ARTPEDIA2WIKI_PATH=AUX_OUTPUT_PATH / "artpedia2wiki.json"
 ARTPEDIA_DEPICTED_IDS_FILTER_PATH=AUX_OUTPUT_PATH / 'artpedia_depicted_ids_filter.txt'
 ARTPEDIA_DEPICTED_ENTITIES_PATH=AUX_OUTPUT_PATH / 'artpedia_depicted_entities.ndjson'
+ARTPEDIA2WIKI_MATCHED_PATH=AUX_OUTPUT_PATH / "artpedia2wiki_matched.json"
 
 OUTPUT_FILES_PATH=Path("./output_files/")
 #mkdir output_files

@@ -21,6 +21,7 @@ You can also avoid having the `input_files/` folder, by adjusting the paths in t
 
 2. `get_artpedia_depicted.sh`: This script first creates a text file to filter the Wikidata dump by qid, and then creates a ndjson file with the information from the depicted entities from the Wikidata dump.
 
+3. `text_matcher.py`: matches the labels of the depcited entities in the visual and contextual sentences.
 
 
 - text_matcher.py: matches the labels of the depcited entities in the visual and contextual sentences.

@@ -2,6 +2,7 @@ import spacy
 from spacy.matcher import PhraseMatcher
 import json
 import argparse
+import paths
 
 from tqdm import tqdm
 
@@ -108,10 +109,10 @@ def main(args):
     print("Paintings with matches: ", paintings_with_matches)
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Process sentences and label dictionary to output annotations in JSON format')
-    parser.add_argument('file_path', type=str, help='artpedia2wiki.json file path')
-    parser.add_argument('entities_path', type=str, help='ndjson file with all the information about the entities')
-    parser.add_argument('output_file', type=str, help='path to output JSON file')
+    parser = argparse.ArgumentParser(description='Process sentences and label dictionary to output annotations in JSON format', formatter_class=argparse.ArgumentDefaultsHelpFormatter)
+    parser.add_argument('--file_path', type=str, help='artpedia2wiki.json file path', default=paths.ARTPEDIA2WIKI_PATH)
+    parser.add_argument('--entities_path', type=str, help='ndjson file with all the information about the entities', default=paths.ARTPEDIA_DEPICTED_ENTITIES_PATH)
+    parser.add_argument('--output_file', type=str, help='path to output JSON file', default=paths.ARTPEDIA2WIKI_MATCHED_PATH)
     args = parser.parse_args()
     main(args)
 
