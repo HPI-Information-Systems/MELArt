@@ -5,6 +5,7 @@ import os
 from pathlib import Path
 import urllib
 import shutil
+import paths
 
 def main(args):
     #Read the list of image files from the folder el_candidates/images/combined
@@ -35,8 +36,8 @@ def main(args):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Checks candidate images and moves the ones that are paintings to a discarded folder')
-    parser.add_argument('file_path', type=str, help='artpedia2wiki_el.json file path')
-    parser.add_argument('images_folder', type=str, help='folder containing all candidate images')
+    parser.add_argument('file_path', type=str, help='artpedia2wiki_matched.json file path', default=paths.ARTPEDIA2WIKI_MATCHED_PATH)
+    parser.add_argument('images_folder', type=str, help='folder containing all candidate images', default=paths.CANDIDATES_IMAGES_PATH)
     args = parser.parse_args()
     main(args)
 
