@@ -1,4 +1,8 @@
-# MELArt Dataset Generation
+# MELArt. A Multimodal Entity Linking  Dataset for Art.
+
+Code for the generation of MELArt. A Multimodal Entity Linking  Dataset for Art.
+
+The code for the experiments with the baselines and for generating model-specific versions od the dataset can be found [here](https://github.com/HPI-Information-Systems/MELArt_experiments/)
 
 ## Pre-requisites
 
