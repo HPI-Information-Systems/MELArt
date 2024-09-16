@@ -20,6 +20,7 @@ dependencies:
   - libuuid=1.41.5
   - ncurses=6.4
   - openssl=3.0.14
+  - pip
   - pysocks=1.7.1
   - python=3.12.4
   - python-dotenv=0.21.0
@@ -39,7 +40,7 @@ dependencies:
       - cloudpathlib==0.18.1
       - confection==0.1.5
       - cymem==2.0.8
-      - en-core-web-sm==3.7.1
+      #- en-core-web-sm==3.7.1
       - jinja2==3.1.4
       - langcodes==3.4.0
       - language-data==1.2.0
