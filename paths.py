@@ -4,6 +4,9 @@ import os
 INPUT_FILES_PATH=Path("./input_files/")
 ARTPEDIA_PATH=INPUT_FILES_PATH / "artpedia.json"
 CURATED_ANNOTATIONS_PATH=INPUT_FILES_PATH / "curated_annotations.json"
+WIKIPEDIA_DUMPS_PATH=INPUT_FILES_PATH / "enwiki"
+WIKIPEDIA_PAGES_SQL_PATH=WIKIPEDIA_DUMPS_PATH / "enwiki-20240901-page.sql.gz"
+WIKIPEDIA_REDIRECTS_SQL_PATH=WIKIPEDIA_DUMPS_PATH / "enwiki-20240901-redirect.sql.gz"
 
 AUX_OUTPUT_PATH=Path("./aux_files/")
 #mkdir aux_files
@@ -14,6 +17,8 @@ ARTPEDIA_DEPICTED_IDS_FILTER_PATH=AUX_OUTPUT_PATH / 'artpedia_depicted_ids_filte
 ARTPEDIA_DEPICTED_ENTITIES_PATH=AUX_OUTPUT_PATH / 'artpedia_depicted_entities.ndjson'
 ARTPEDIA2WIKI_MATCHED_PATH=AUX_OUTPUT_PATH / "artpedia2wiki_matched.json"
 DICT_CANDIDATES_PATH=AUX_OUTPUT_PATH / "dict_candidates.json"
+WIKIPEDIA_PAGES_CSV_PATH=AUX_OUTPUT_PATH / "enwiki-20240901-page.csv"
+WIKIPEDIA_REDIRECTS_CSV_PATH=AUX_OUTPUT_PATH / "enwiki-20240901-redirect.csv"
 
 CANDIDATE_TYPES_DICT_PATH=AUX_OUTPUT_PATH / "candidate_types_dict.json"
 
