@@ -114,84 +114,81 @@ def query_wikidata(query):
     return response.json()
 
 def query_painting_by_id(entity_id):
-    query_string = generate_query(entity_id)
-    results = query_wikidata(query_string)
-    record={"P135":"","P136":"","P180":{},"P170":{},"image_url":[]}
-    for result in results["results"]["bindings"]:
-        # print(result)
-        if "movementLabel" in result:
-            record["P135"] = result["movementLabel"]["value"]
-        if "genreLabel" in result:
-            record["P136"]=result["genreLabel"]["value"]
-        if "depicts" in result and result["depicts"]["value"] not in record["P180"]:
-            record["P180"][result["depicts"]["value"]]=result["depictsLabel"]["value"]
-        if "creatorOfWork" in result and result["creatorOfWork"]["value"] not in record["P170"]:
-            record["P170"][result["creatorOfWork"]["value"]]=result["creatorOfWorkLabel"]["value"]
-        if 'image' in result:
-            if result['image']['value'] not in record["image_url"]:
-             record["image_url"].append(result['image']['value'])
-
+    record={"P180":sq.sparql_depicted_entities(entity_id)}
+    # for result in results["results"]["bindings"]:
+    #     # print(result)
+    #     if "movementLabel" in result:
+    #         record["P135"] = result["movementLabel"]["value"]
+    #     if "genreLabel" in result:
+    #         record["P136"]=result["genreLabel"]["value"]
+    #     if "depicts" in result and result["depicts"]["value"] not in record["P180"]:
+    #         record["P180"][result["depicts"]["value"]]=result["depictsLabel"]["value"]
+    #     if "creatorOfWork" in result and result["creatorOfWork"]["value"] not in record["P170"]:
+    #         record["P170"][result["creatorOfWork"]["value"]]=result["creatorOfWorkLabel"]["value"]
+    #     if 'image' in result:
+    #         if result['image']['value'] not in record["image_url"]:
+    #          record["image_url"].append(result['image']['value'])
     return record
+
 def artpedia2wiki(artpedia_file):
-    # from rapidfuzz import fuzz
-    #from wikimapper import WikiMapper
-    # mapper=WikiMapper("index_enwiki-latest.db")
-    # filename = '/home/linh/DATA/SIGIR2024/artpedia/artpedia.json'
 
     annotation = json.load(open(artpedia_file, 'r'))
 
     #clean_data=load_json(output_dir+"clean_wiki.json")
     art2wiki=load_json(paths.ARTPEDIA2WIKI_PATH)
-    counter=0
-    notfound=0
-    notfound_list = {}
-    # {"The Finding of Erichthonius": "Q19892755",
-    #                  "Recovery of San Juan de Puerto Rico by Governor Juan de Haro": "Q27700873",
-    #                  "The Hunt in Aranjuez": "Q5965931",
-    #                  "Charles II in armor": "Q24951450", "The Peace of Amiens (Ziegler)": "Q28004368",
-    #                  "The Congress of Paris (Dubufe)": "Q17492872",
-    #                  "Jacob wrestling with the Angel (Delacroix)": "Q3837491"}
+    found=0
+    notfound=[]
+    manual_mapping = {
+        "Recovery of San Juan de Puerto Rico by Governor Juan de Haro": "Q27700873",#deleted wikipedia page
+        "The Hunt in Aranjuez": "Q5965931",#deleted wikipedia page
+        "Charles II in armor": "Q24951450",#deleted wikipedia page
+        "The Peace of Amiens (Ziegler)": "Q28004368",#deleted wikipedia page
+        "The Congress of Paris (Dubufe)": "Q17492872",#deleted wikipedia page
+        "Jacob wrestling with the Angel (Delacroix)": "Q3837491",#deleted wikipedia page
+        "La Grenouillère (Renoir)": "Q10908882"#page changed title and this title corresponds to the disambiguation page
+    }
 
     get_wikipedia_redirects(annotation)
 
     for ann in tqdm(annotation):
         record = annotation[ann]
-        #img_url = record['img_url']
-        #img_name = img_url.split('/')[-1]
         title=record["title"]
 
-        #url_id="https://en.wikipedia.org/w/api.php?action=query&prop=pageprops&titles="+title+"&format=json&redirects=1"
-
-        entity_id=get_wiki_entityid(title)
-        if title in notfound_list:
-            entity_id=notfound_list[title]
+        entity_id=None
+        if title in manual_mapping:
+            entity_id=manual_mapping[title]
+        else:
+            entity_id=get_wiki_entityid(title)
 
         if entity_id:
-
-                id=entity_id
-                art2wiki[id]=query_painting_by_id(entity_id)
-                art2wiki[id]["visual_sentences"]=record["visual_sentences"]
-                art2wiki[id]["contextual_sentences"] = record["contextual_sentences"]
-                art2wiki[id]["title"] = record["title"]
-                art2wiki[id]["img_url"] = record["img_url"]
-                art2wiki[id]["split"] = record["split"]
-                art2wiki[id]["year"] = record["year"]
-                if "P31" in art2wiki[id]:
-                    if type(art2wiki[id]["P31"])==dict:
-                        art2wiki[id]["P31"] = art2wiki[id]["P31"]["id"]
-                if "P136" in art2wiki[id]:
-                    if type(art2wiki[id]["P136"])==dict:
-                        art2wiki[id]["P136"]=art2wiki[id]["P136"]["id"]
-                if "P170" in art2wiki[id]:
-                    P170_list=art2wiki[id]["P170"]
-                    for j,item in enumerate(P170_list):
-                        if type(item)==dict:
-                            P170_list[j]=item['id']
-                    art2wiki[id]["P170"]=P170_list
+            id=entity_id
+            art2wiki[id]=query_painting_by_id(entity_id)
+            art2wiki[id]["visual_sentences"]=record["visual_sentences"]
+            art2wiki[id]["contextual_sentences"] = record["contextual_sentences"]
+            art2wiki[id]["title"] = record["title"]
+            art2wiki[id]["img_url"] = record["img_url"]
+            art2wiki[id]["split"] = record["split"]
+            art2wiki[id]["year"] = record["year"]
+            if "P31" in art2wiki[id]:
+                if type(art2wiki[id]["P31"])==dict:
+                    art2wiki[id]["P31"] = art2wiki[id]["P31"]["id"]
+            if "P136" in art2wiki[id]:
+                if type(art2wiki[id]["P136"])==dict:
+                    art2wiki[id]["P136"]=art2wiki[id]["P136"]["id"]
+            if "P170" in art2wiki[id]:
+                P170_list=art2wiki[id]["P170"]
+                for j,item in enumerate(P170_list):
+                    if type(item)==dict:
+                        P170_list[j]=item['id']
+                art2wiki[id]["P170"]=P170_list
+            found+=1
         else:
-            notfound+=1
-        counter+=1
+            notfound.append(title)
+            get_wiki_entityid(title)
+            print(f"not found: {title}")
         dump_json(art2wiki,paths.ARTPEDIA2WIKI_PATH)
+    print(f"Total: {found} not found: {len(notfound)}")
+    print(notfound)
     
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Process an artpedia file and output results to a directory.", formatter_class=argparse.ArgumentDefaultsHelpFormatter)
