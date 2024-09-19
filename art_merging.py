@@ -1,9 +1,13 @@
 import os
 import json
+import sys
 import requests
 import argparse
 import paths
 from dotenv import dotenv_values
+from tqdm import tqdm
+import pandas as pd
+import sparqlqueries as sq
 
 config = dotenv_values(".env")
 HTTP_AGENT=config["USER_AGENT"]
@@ -18,25 +22,58 @@ def load_json(file_path):
         return json.load(file)
     return {}
 
-def get_wiki_entityid(url):
-        try:
+dict_redirects = None
 
-            # pass the url into
-            # request.hear
-            response = requests.head(url)
+def get_wikipedia_redirects(annotations:dict) -> dict:
+    """
+    Get the redirects for the Wikipedia pages in the Artpedia annotations.
+    :param annotations: The Artpedia annotations.
+    :return: A dictionary mapping the Wikipedia page titles to their redirects.
+    Not all the redirects should be used (e.g Stitching the Standard redirects to Edmund Leighton) but the former should be used.
+    The function outputs what is defined in the wikipedia page and redirect tables. Further usage must be defined by the user.
+    """
+    global dict_redirects
+    df=None
+    if not os.path.exists(paths.ARTPEDIA_REDIRECTS_CSV_PATH):
+        all_titles = []
+        for ann in annotations:
+            record = annotations[ann]
+            title = record['title']
+            title = title.replace(" ", "_")
+            all_titles.append(title)
+        enwiki_page_df = pd.read_csv(paths.WIKIPEDIA_PAGES_CSV_PATH, keep_default_na=False, na_values=[""])
+        enwiki_page_df = enwiki_page_df[enwiki_page_df['page_title'].isin(all_titles)]
+        enwiki_redirect_df = pd.read_csv(paths.WIKIPEDIA_REDIRECTS_CSV_PATH, keep_default_na=False, na_values=[""])
+        # inner join the two dataframes based on the page_id column and the rd_from column
+        enwiki_redirect_df = enwiki_page_df.merge(enwiki_redirect_df, left_on='page_id', right_on='rd_from', how='inner')
+        # drop the page_id and rd_from columns
+        enwiki_redirect_df.drop(columns=['page_id', 'rd_from'], inplace=True)
+        # export the dataframe to a csv file
+        enwiki_redirect_df.to_csv(paths.ARTPEDIA_REDIRECTS_CSV_PATH, index=False)
+        df=enwiki_redirect_df
+        del enwiki_page_df
+        del enwiki_redirect_df
+    else:
+        df=pd.read_csv(paths.ARTPEDIA_REDIRECTS_CSV_PATH, keep_default_na=False, na_values=[""])
+    dict_redirects = {}
+    for index, row in df.iterrows():
+        dict_redirects[row['page_title']] = row['rd_title']
+    return dict_redirects
 
-            # check the status code
-            if response.status_code == 200:
-                response = requests.get(url)
-                content = response.json()
-                page_id = list(content["query"]["pages"])[0]
-                wiki_entity_id = content["query"]["pages"][page_id]['pageprops']['wikibase_item']
-                return wiki_entity_id
 
-            else:
-                return None
-        except :
-            return None
+def get_wiki_entityid(wikipedia_title):
+    full_qid_url=sq.sparql_entity_qid(wikipedia_title)
+    if full_qid_url:
+        qid=full_qid_url.split("/")[-1]
+        return qid
+    else:
+        #try to get the redirect
+        title_under=wikipedia_title.replace(" ","_")
+        if title_under in dict_redirects:
+            redirect=dict_redirects[title_under]
+            if redirect != title_under:
+                return get_wiki_entityid(redirect)
+    return None
 
 def generate_query(entityid):
     return f"""
@@ -107,22 +144,25 @@ def artpedia2wiki(artpedia_file):
     art2wiki=load_json(paths.ARTPEDIA2WIKI_PATH)
     counter=0
     notfound=0
-    notfound_list = {"The Finding of Erichthonius": "Q19892755",
-                     "Recovery of San Juan de Puerto Rico by Governor Juan de Haro": "Q27700873",
-                     "The Hunt in Aranjuez": "Q5965931",
-                     "Charles II in armor": "Q24951450", "The Peace of Amiens (Ziegler)": "Q28004368",
-                     "The Congress of Paris (Dubufe)": "Q17492872",
-                     "Jacob wrestling with the Angel (Delacroix)": "Q3837491"}
+    notfound_list = {}
+    # {"The Finding of Erichthonius": "Q19892755",
+    #                  "Recovery of San Juan de Puerto Rico by Governor Juan de Haro": "Q27700873",
+    #                  "The Hunt in Aranjuez": "Q5965931",
+    #                  "Charles II in armor": "Q24951450", "The Peace of Amiens (Ziegler)": "Q28004368",
+    #                  "The Congress of Paris (Dubufe)": "Q17492872",
+    #                  "Jacob wrestling with the Angel (Delacroix)": "Q3837491"}
 
-    for ann in annotation:
+    get_wikipedia_redirects(annotation)
+
+    for ann in tqdm(annotation):
         record = annotation[ann]
         #img_url = record['img_url']
         #img_name = img_url.split('/')[-1]
         title=record["title"]
 
-        url_id="https://en.wikipedia.org/w/api.php?action=query&prop=pageprops&titles="+title+"&format=json&redirects=1"
+        #url_id="https://en.wikipedia.org/w/api.php?action=query&prop=pageprops&titles="+title+"&format=json&redirects=1"
 
-        entity_id=get_wiki_entityid(url_id)
+        entity_id=get_wiki_entityid(title)
         if title in notfound_list:
             entity_id=notfound_list[title]
 
@@ -151,7 +191,7 @@ def artpedia2wiki(artpedia_file):
         else:
             notfound+=1
         counter+=1
-    dump_json(art2wiki,paths.ARTPEDIA2WIKI_PATH)
+        dump_json(art2wiki,paths.ARTPEDIA2WIKI_PATH)
     
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Process an artpedia file and output results to a directory.", formatter_class=argparse.ArgumentDefaultsHelpFormatter)
