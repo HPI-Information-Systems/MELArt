@@ -1,3 +1,4 @@
+from typing import Tuple
 import requests
 import json
 from dotenv import dotenv_values
@@ -59,6 +60,50 @@ def sparql_depicted_entities(qid):
     for result in data["results"]["bindings"]:
         res.append(result["depicted"]["value"])
     return res
+
+def sparql_all_lables(qid) -> Tuple[str,set]:
+    """
+    Returns the main label and all alternative labels for a given QID
+    """
+    query = (
+        f"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n"
+        f"PREFIX wd: <http://www.wikidata.org/entity/>\n"
+        f"SELECT ?label WHERE {{\n"
+        f"    VALUES ?qid {{wd:{qid}}}\n"
+        f"    ?qid rdfs:label ?label.\n"
+        f"    FILTER (lang(?label) = 'en')\n"
+        f"}}"
+    )
+    data = sparql_query(query)
+    res=set()
+    main=None
+    if "results" not in data or "bindings" not in data["results"]:
+        raise ValueError(f"No results found for {qid}")
+    for result in data["results"]["bindings"]:
+        res.add(result["label"]["value"])
+        main=result["label"]["value"]
+    #alternative labels
+    query = (
+        f"PREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n"
+        f"PREFIX wd: <http://www.wikidata.org/entity/>\n"
+        f"SELECT ?altLabel WHERE {{\n"
+        f"    VALUES ?qid {{wd:{qid}}}\n"
+        f"    ?qid skos:altLabel ?altLabel.\n"
+        f"    FILTER (lang(?altLabel) = 'en')\n"
+        f"}}"
+    )
+    data = sparql_query(query)
+    if "results" not in data or "bindings" not in data["results"]:
+        raise ValueError(f"No results found for {qid}")
+    for result in data["results"]["bindings"]:
+        res.add(result["altLabel"]["value"])
+    return main,res
+
+if __name__ == "__main__":
+    #print(sparql_entity_qid("The Starry Night"))
+    print(sparql_all_lables("Q25931702"))
+    #print(sparql_all_lables("Q5582"))
+    #print(sparql_all_lables("Q180
 
 
     

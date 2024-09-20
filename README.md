@@ -27,16 +27,14 @@ Execute the following scripts to generate the dataset.
 
 2. `art_merging.py`: It matches Artpedia paintings to Wikidata entities using the Wikipedia title, and extracts painting information from Wikidata.
 
-3. `get_artpedia_depicted.sh`: This script first creates a text file to filter the Wikidata dump by qid, and then creates a ndjson file with the information from the depicted entities from the Wikidata dump.
+3. `text_matcher.py`: Matches the labels of the depicted entities in the visual and contextual sentences.
 
-4. `text_matcher.py`: Matches the labels of the depicted entities in the visual and contextual sentences.
+4. `get_candidates.py`: Get the candidates for the depicted entities in the visual and contextual sentences, using Wikidata search API. For each candidate, it creates a json file with its information in the `aux_files/el_candidates` folder. Also creates a file with the list of entity image paths.
 
-5. `get_candidates.py`: Get the candidates for the depicted entities in the visual and contextual sentences, using Wikidata search API. For each candidate, it creates a json file with its information in the `aux_files/el_candidates` folder. Also creates a file with the list of entity image paths.
+5. `get_candidate_types.py`: Reads each candidate information, builds a set of all the types, and uses Wikidata's API to get the type labels. The types information is stored in the `aux_files/candidate_types_dict.json` file.
 
-6. `get_candidate_types.py`: Reads each candidate information, builds a set of all the types, and uses Wikidata's API to get the type labels. The types information is stored in the `aux_files/candidate_types_dict.json` file.
+6. `crawl_images.py`: crawl the images from Wikimedia Commons based on the `imgs_url.txt` file (from get_candidates.py)
 
-7. `crawl_images.py`: crawl the images from Wikimedia Commons based on the `imgs_url.txt` file (from get_candidates.py)
+7. `filter_candidate_images`: Removes the candidate images that correspond to the paintings in MELArt.
 
-8. `filter_candidate_images`: Removes the candidate images that correspond to the paintings in MELArt.
-
-9. `combine_curated_annotations`: This script combines the automatically generated annotations, with the manually curated annotations to produce the final dataset in the `output_files/melart_annotations.json` file.
+8. `combine_curated_annotations`: This script combines the automatically generated annotations, with the manually curated annotations to produce the final dataset in the `output_files/melart_annotations.json` file.
