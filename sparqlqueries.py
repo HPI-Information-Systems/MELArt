@@ -1,4 +1,4 @@
-from typing import Dict, List, Tuple, Union
+from typing import Dict, Generator, List, Tuple, Union
 import requests
 import json
 from dotenv import dotenv_values
@@ -7,14 +7,16 @@ from dotenv import dotenv_values
 config = dotenv_values(".env")
 url = config["QLEVER_API"]
 
-def sparql_query(query):
+def sparql_request(query, accept="application/sparql-results+json"):
     headers = {
-        #"Accept": "application/qlever-results+json",
-        "Accept": "application/sparql-results+json",
+        "Accept": accept,
         "Content-type": "application/sparql-query"
     }
-
     response = requests.post(url, headers=headers, data=query)
+    return response
+
+def sparql_query(query):
+    response = sparql_request(query, accept="application/sparql-results+json")
     data = response.json()
     return data
 
@@ -61,7 +63,7 @@ def sparql_depicted_entities(qid):
         res.append(result["depicted"]["value"])
     return res
 
-def sparql_all_lables(qids:Union[str,List[str]]) -> Tuple[str,set]:
+def sparql_all_lables(qids:Union[str,List[str]]) -> Union[Tuple[str,set],Dict[str,Tuple[str,set]]]:
     """
     Returns the main label and all alternative labels for a given QID
     """
@@ -112,12 +114,43 @@ def sparql_all_lables(qids:Union[str,List[str]]) -> Tuple[str,set]:
     res=labels_dict if len(qids)>1 else labels_dict[qids[0]]
     return res
 
+def get_all_qids(batch_size=1000,offset=0)->List[str]:
+    sparql_qids="""PREFIX wikibase: <http://wikiba.se/ontology#>
+    SELECT ?qid WHERE {
+        ?qid a wikibase:Item.
+    }
+    """
+    query=f"{sparql_qids} LIMIT {batch_size} OFFSET {offset}"
+    RESPONSE=sparql_request(query, accept="text/csv")
+    data=RESPONSE.text.split("\n")[1:]
+    res=[]
+    for line in data: # <http://www.wikidata.org/entity/Q100140262>
+        #trim and remove the < > characters
+        url_qid=line.strip()
+        if url_qid:
+            res.append(url_qid.split("/")[-1])
+    return res
+
+def count_qids():
+    sparql_qids="""PREFIX wikibase: <http://wikiba.se/ontology#>
+    SELECT (COUNT(?qid) AS ?count) WHERE {
+        ?qid a wikibase:Item.
+    }
+    """
+    data=sparql_query(sparql_qids)
+    if "results" not in data or "bindings" not in data["results"]:
+        raise ValueError(f"No results found for {sparql_qids}")
+    return int(data["results"]["bindings"][0]["count"]["value"])
+
 if __name__ == "__main__":
     #print(sparql_entity_qid("The Starry Night"))
     print(sparql_all_lables("Q25931702"))
     print(sparql_all_lables("Q5582"))
     print(sparql_all_lables(["Q25931702","Q5582"]))
-    #print(sparql_all_lables("Q180
+
+    print(get_all_qids(10,0))
+    print(get_all_qids(10,10))
+    print(get_all_qids(10,1000000000000))
 
 
     
