@@ -15,3 +15,27 @@ def solr_index_documents(docs):
 def solr_commit():
     commit_url = f"{solr_url}/update?commit=true"
     requests.get(commit_url)
+
+def solr_search(query, rows=100):
+    search_url = f"{solr_url}/select"
+    params = {
+        "q": query,
+        "df": "label_txt_en",
+        "fl": "qid",
+        "rows": rows*50
+    }
+    response = requests.get(search_url, params=params)
+    data = response.json()
+    qid_list = []
+    for doc in data["response"]["docs"]:
+        qid=doc["qid"][0]
+        if qid not in qid_list:
+            qid_list.append(qid)
+        if len(qid_list) >= rows:
+            break
+    return qid_list
+
+if __name__ == "__main__":
+    query = "apple"
+    data = solr_search(query)
+    print(data)
