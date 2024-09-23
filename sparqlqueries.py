@@ -65,7 +65,7 @@ def sparql_depicted_entities(qid):
 
 def sparql_all_lables(qids:Union[str,List[str]]) -> Union[Tuple[str,set],Dict[str,Tuple[str,set]]]:
     """
-    Returns the main label and all alternative labels for a given QID
+    Returns the main label and all alternative labels for a given QID or a list of QIDs
     """
     #if its a single qid, convert to list
     if not isinstance(qids, list):
@@ -114,6 +114,44 @@ def sparql_all_lables(qids:Union[str,List[str]]) -> Union[Tuple[str,set],Dict[st
     res=labels_dict if len(qids)>1 else labels_dict[qids[0]]
     return res
 
+def sparql_descriptions(qids:Union[str,List[str]]) -> Union[Tuple[str,set],Dict[str,Tuple[str,set]]]:
+    """
+    Returns the english description for a given QID or a list of QIDs
+    """
+    #if its a single qid, convert to list
+    if not isinstance(qids, list):
+        assert isinstance(qids, str)
+        qids = [qids]
+    wd_qids = [f"wd:{qid}" for qid in qids]
+    wd_qids_values = " ".join([f"<http://www.wikidata.org/entity/{qid}>" for qid in qids])
+
+    query = "PREFIX schema: <http://schema.org/>\n" \
+        "PREFIX wd: <http://www.wikidata.org/entity/>\n" \
+        "SELECT ?qid ?desc WHERE { \n" \
+        f"    VALUES ?qid {{{wd_qids_values}}} \n" \
+        "    ?qid schema:description ?desc .\n" \
+        "    FILTER (lang(?desc) = 'en')\n" \
+        "}\n" \
+        "LIMIT 1000"
+    
+    # query = f"PREFIX wd: <http://www.wikidata.org/entity/>\n" \
+    #     f"SELECT ?qid WHERE {{\n" \
+    #     f"    VALUES ?qid {{{" ".join(wd_qids)}}}\n" \
+    #     f"}}\n"
+    descs_dict=dict()
+    for qid in qids:
+        descs_dict[qid]=""
+    data = sparql_query(query)
+    if "results" not in data or "bindings" not in data["results"]:
+        print(query)
+        raise ValueError(f"No results found for {qids}")
+    for result in data["results"]["bindings"]:
+        qid=result["qid"]["value"].split("/")[-1]
+        desc=result["desc"]["value"]
+        descs_dict[qid]=desc
+    res=descs_dict if len(qids)>1 else descs_dict[qids[0]]
+    return res
+
 def get_all_qids(batch_size=1000,offset=0)->List[str]:
     sparql_qids="""PREFIX wikibase: <http://wikiba.se/ontology#>
     SELECT ?qid WHERE {
@@ -152,5 +190,9 @@ if __name__ == "__main__":
     print(get_all_qids(10,10))
     print(get_all_qids(10,1000000000000))
 
+    print(sparql_descriptions("Q25931702"))
+    print(sparql_descriptions("Q5582"))
+    print(sparql_descriptions(["Q1","Q25931702","Q5582"]))
+    print(sparql_descriptions("Q1"))
 
     
