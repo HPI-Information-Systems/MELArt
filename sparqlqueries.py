@@ -1,4 +1,4 @@
-from typing import Tuple
+from typing import Dict, List, Tuple, Union
 import requests
 import json
 from dotenv import dotenv_values
@@ -61,48 +61,62 @@ def sparql_depicted_entities(qid):
         res.append(result["depicted"]["value"])
     return res
 
-def sparql_all_lables(qid) -> Tuple[str,set]:
+def sparql_all_lables(qids:Union[str,List[str]]) -> Tuple[str,set]:
     """
     Returns the main label and all alternative labels for a given QID
     """
+    #if its a single qid, convert to list
+    if not isinstance(qids, list):
+        assert isinstance(qids, str)
+        qids = [qids]
+
+    wd_qids = [f"wd:{qid}" for qid in qids]
+
     query = (
         f"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n"
         f"PREFIX wd: <http://www.wikidata.org/entity/>\n"
-        f"SELECT ?label WHERE {{\n"
-        f"    VALUES ?qid {{wd:{qid}}}\n"
+        f"SELECT ?qid ?label WHERE {{\n"
+        f"    VALUES ?qid {{{" ".join(wd_qids)}}}\n"
         f"    ?qid rdfs:label ?label.\n"
         f"    FILTER (lang(?label) = 'en')\n"
         f"}}"
+        f"LIMIT 1000"
     )
+    labels_dict=dict()
+    for qid in qids:
+        labels_dict[qid]=("",set())
     data = sparql_query(query)
-    res=set()
-    main=None
     if "results" not in data or "bindings" not in data["results"]:
-        raise ValueError(f"No results found for {qid}")
+        raise ValueError(f"No results found for {qids}")
     for result in data["results"]["bindings"]:
-        res.add(result["label"]["value"])
-        main=result["label"]["value"]
+        qid=result["qid"]["value"].split("/")[-1]
+        label=result["label"]["value"]
+        labels_dict[qid]=(label,set())
     #alternative labels
     query = (
         f"PREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n"
         f"PREFIX wd: <http://www.wikidata.org/entity/>\n"
-        f"SELECT ?altLabel WHERE {{\n"
-        f"    VALUES ?qid {{wd:{qid}}}\n"
+        f"SELECT ?qid ?altLabel WHERE {{\n"
+        f"    VALUES ?qid {{{" ".join(wd_qids)}}}\n"
         f"    ?qid skos:altLabel ?altLabel.\n"
         f"    FILTER (lang(?altLabel) = 'en')\n"
         f"}}"
+        f"LIMIT 1000"
     )
     data = sparql_query(query)
     if "results" not in data or "bindings" not in data["results"]:
-        raise ValueError(f"No results found for {qid}")
+        raise ValueError(f"No results found for {qids}")
     for result in data["results"]["bindings"]:
-        res.add(result["altLabel"]["value"])
-    return main,res
+        qid=result["qid"]["value"].split("/")[-1]
+        labels_dict[qid][1].add(result["altLabel"]["value"])
+    res=labels_dict if len(qids)>1 else labels_dict[qids[0]]
+    return res
 
 if __name__ == "__main__":
     #print(sparql_entity_qid("The Starry Night"))
     print(sparql_all_lables("Q25931702"))
-    #print(sparql_all_lables("Q5582"))
+    print(sparql_all_lables("Q5582"))
+    print(sparql_all_lables(["Q25931702","Q5582"]))
     #print(sparql_all_lables("Q180
 
 
