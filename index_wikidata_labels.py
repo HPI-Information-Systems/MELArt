@@ -44,7 +44,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Index the labels of all qids from wikidata into Solr')
     parser.add_argument('--batch_size', type=int, default=batch_size, help='Size of the batch to process')
     #parser.add_argument('--max', type=int, help='Max number of qids to process, if not set, all qids will be processed')
-    parser.add_argument('--workers', type=int, default=os.cpu_count(), help='Number of workers to use')
+    parser.add_argument('--workers', type=int, default=1, help='Number of workers to use')
     args = parser.parse_args()
     total_qids=sq.count_qids()
     print(f"Total qids in Wikidata: {total_qids}")
