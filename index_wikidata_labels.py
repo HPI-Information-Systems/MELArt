@@ -55,5 +55,7 @@ if __name__ == "__main__":
     workers=args.workers
     #workers=4 # TODO: remove this line
     with Pool(workers) as p:
-        p.map(process_batch, arguments)
+        #p.map(process_batch, arguments)
+        for _ in tqdm(p.imap_unordered(process_batch, arguments), total=len(arguments)):
+            pass
     solrq.solr_commit()
