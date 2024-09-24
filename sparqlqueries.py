@@ -123,7 +123,7 @@ def sparql_descriptions(qids:Union[str,List[str]]) -> Union[Tuple[str,set],Dict[
         assert isinstance(qids, str)
         qids = [qids]
     wd_qids = [f"wd:{qid}" for qid in qids]
-    wd_qids_values = " ".join([f"<http://www.wikidata.org/entity/{qid}>" for qid in qids])
+    wd_qids_values = " ".join(wd_qids)
 
     query = "PREFIX schema: <http://schema.org/>\n" \
         "PREFIX wd: <http://www.wikidata.org/entity/>\n" \
@@ -150,6 +150,38 @@ def sparql_descriptions(qids:Union[str,List[str]]) -> Union[Tuple[str,set],Dict[
         desc=result["desc"]["value"]
         descs_dict[qid]=desc
     res=descs_dict if len(qids)>1 else descs_dict[qids[0]]
+    return res
+
+#get number of sitelinks for a given QID
+def sparql_sitelinks(qids:Union[str,List[str]]) -> Union[int,Dict[str,int]]:
+    #if its a single qid, convert to list
+    if not isinstance(qids, list):
+        assert isinstance(qids, str)
+        qids = [qids]
+    wd_qids = [f"wd:{qid}" for qid in qids]
+    wd_qids_values = " ".join(wd_qids)
+
+    query = "PREFIX schema: <http://schema.org/>\n" \
+        "PREFIX wd: <http://www.wikidata.org/entity/>\n" \
+        "PREFIX wikibase: <http://wikiba.se/ontology#>\n" \
+        "SELECT ?qid ?sitelinks WHERE { \n" \
+        f"    VALUES ?qid {{{wd_qids_values}}} \n" \
+        "    ?node schema:about ?qid .\n" \
+        "    ?node wikibase:sitelinks ?sitelinks .\n" \
+        "}"
+    
+    sitelinks_dict=dict()
+    for qid in qids:
+        sitelinks_dict[qid]=0
+    data = sparql_query(query)
+    if "results" not in data or "bindings" not in data["results"]:
+        print(query)
+        raise ValueError(f"No results found for {qids}")
+    for result in data["results"]["bindings"]:
+        qid=result["qid"]["value"].split("/")[-1]
+        count=int(result["sitelinks"]["value"])
+        sitelinks_dict[qid]=count
+    res=sitelinks_dict if len(qids)>1 else sitelinks_dict[qids[0]]
     return res
 
 def get_all_qids(batch_size=1000,offset=0)->List[str]:
@@ -194,5 +226,7 @@ if __name__ == "__main__":
     print(sparql_descriptions("Q5582"))
     print(sparql_descriptions(["Q1","Q25931702","Q5582"]))
     print(sparql_descriptions("Q1"))
+
+    print(sparql_sitelinks(["Q1","Q25931702","Q5582"]))
 
     
