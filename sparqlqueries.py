@@ -121,7 +121,7 @@ def sparql_all_lables(qids:Union[str,List[str]]) -> Union[Tuple[str,set],Dict[st
     res=labels_dict if len(qids)>1 else labels_dict[qids[0]]
     return res
 
-def sparql_descriptions(qids:Union[str,List[str]]) -> Union[Tuple[str,set],Dict[str,Tuple[str,set]]]:
+def sparql_descriptions(qids:Union[str,List[str]]) -> Union[str,Dict[str,str]]:
     """
     Returns the english description for a given QID or a list of QIDs
     """
@@ -203,6 +203,68 @@ def get_all_qids(batch_size=1000,offset=0)->List[str]:
             res.append(url_qid.split("/")[-1])
     return res
 
+def sparql_entity_types(qid:str)->Dict[str,str]:
+    query = (
+        f"PREFIX wd: <http://www.wikidata.org/entity/>\n"
+        f"PREFIX wdt: <http://www.wikidata.org/prop/direct/>\n"
+        f"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n"
+        f"SELECT ?type ?label WHERE {{\n"
+        f"    VALUES ?entity {{wd:{qid}}}\n"
+        f"    ?entity wdt:P31 ?type.\n"
+        f"    OPTIONAL {{\n"
+        f"        ?type rdfs:label ?label.\n"
+        f"        FILTER (lang(?label) = 'en')\n"
+        f"    }}\n"
+        f"}}"
+    )
+    data = sparql_query(query)
+    res=dict()
+    if "results" not in data or "bindings" not in data["results"]:
+        raise ValueError(f"No results found for {qid}")
+    for result in data["results"]["bindings"]:
+        qid_type=result["type"]["value"].split("/")[-1]
+        label_type=result["label"]["value"] if "label" in result else ""
+        res[qid_type]=label_type
+    return res
+
+def sparql_entity_images(qid:str)->List[str]:
+    query = (
+        f"PREFIX wd: <http://www.wikidata.org/entity/>\n"
+        f"PREFIX wdt: <http://www.wikidata.org/prop/direct/>\n"
+        f"SELECT ?image WHERE {{\n"
+        f"    VALUES ?entity {{wd:{qid}}}\n"
+        f"    ?entity wdt:P18 ?image.\n"
+        f"}}"
+    )
+    data = sparql_query(query)
+    res=[]
+    if "results" not in data or "bindings" not in data["results"]:
+        raise ValueError(f"No results found for {qid}")
+    for result in data["results"]["bindings"]:
+        res.append(result["image"]["value"])
+    return res
+
+
+def summarize_qid(qid:str)->Dict:
+    label,altLabels=sparql_all_lables(qid)
+    description=sparql_descriptions(qid)
+    sitelinks=sparql_sitelinks(qid)
+    types_dict=sparql_entity_types(qid)
+    images=sparql_entity_images(qid)
+    entity_summary={
+        "qid":qid,
+        "labels":{
+            "main":label,
+            "alt":list(altLabels)
+        },
+        "description":description,
+        "sitelinks":sitelinks,
+        "types":types_dict,
+        "images":images
+    }
+    return entity_summary
+
+
 def count_qids():
     sparql_qids="""PREFIX wikibase: <http://wikiba.se/ontology#>
     SELECT (COUNT(?qid) AS ?count) WHERE {
@@ -232,7 +294,9 @@ if __name__ == "__main__":
     # print(sparql_sitelinks(["Q1","Q25931702","Q5582"]))
 
     #generate a list of strings with Q1, Q2, ..., Q1000
-    qids=[f"Q{i}" for i in range(1,501)]
-    print(sparql_all_lables(qids))
+    # qids=[f"Q{i}" for i in range(1,501)]
+    # print(sparql_all_lables(qids))
+
+    print(summarize_qid("Q968028"))
 
     

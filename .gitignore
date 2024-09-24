@@ -3,3 +3,4 @@ input_files/artpedia.json
 .env
 input_files/enwiki*
 aux_files/*
+output_files/*
