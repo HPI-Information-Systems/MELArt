@@ -16,26 +16,41 @@ def solr_commit():
     commit_url = f"{solr_url}/update?commit=true"
     requests.get(commit_url)
 
-def solr_search(query, rows=100):
+def solr_search(query, rows=100, by_popularity=False):
     search_url = f"{solr_url}/select"
+    sort_field="sitelinks_i desc" if by_popularity else "score desc, sitelinks_i desc"
     params = {
         "q": query,
         "df": "label_txt_en",
-        "fl": "qid",
-        "rows": rows*50
+        "fl": "qid_s",
+        "fq": "{!collapse field=qid_s}",
+        "sort": sort_field,
+        "rows": rows
     }
     response = requests.get(search_url, params=params)
     data = response.json()
     qid_list = []
     for doc in data["response"]["docs"]:
-        qid=doc["qid"][0]
-        if qid not in qid_list:
-            qid_list.append(qid)
-        if len(qid_list) >= rows:
-            break
+        qid=doc["qid_s"]
+        qid_list.append(qid)
     return qid_list
 
+def solr_is_present(qid):
+    search_url = f"{solr_url}/select"
+    params = {
+        "q": "*:*",
+        "fq": f"qid_s:{qid}",
+        "fl": "qid_s",
+        "rows": 1
+    }
+    response = requests.get(search_url, params=params)
+    data = response.json()
+    return len(data["response"]["docs"]) > 0
+
 if __name__ == "__main__":
-    query = "apple"
+    query = "Mary"
     data = solr_search(query)
     print(data)
+    data = solr_search(query, by_popularity=True)
+    print(data)
+    print(solr_is_present("Q345"))
