@@ -6,6 +6,19 @@ import paths
 import solrqueries as solrq
 from tqdm import tqdm
 import sparqlqueries as sq
+from multiprocessing import Pool
+import requests
+
+def process_candidate_batch(batch):
+    folder = paths.CANDIDATES_FOLDER_PATH
+    with requests.Session() as session:
+        for candidate_ids in batch:
+            candidate_path=folder / f"{candidate_ids}.json"
+            if not candidate_path.exists():
+                candidate_summary = sq.summarize_qid(candidate_ids, session=session)
+                res_obj = candidate_summary
+                with open(candidate_path, 'w') as fp:
+                    json.dump(res_obj, fp)
 
 def main(args):
 
@@ -73,14 +86,22 @@ def main(args):
 
     folder = paths.CANDIDATES_FOLDER_PATH
 
-    for candidate_ids in tqdm(candidates_set):
-        #request to wikidata to get the information about the candidate https://www.wikidata.org/w/rest.php/wikibase/v0/entities/items/Q7617093
-        candidate_path=folder / f"{candidate_ids}.json"
-        if not candidate_path.exists():
-            candidate_summary = sq.summarize_qid(candidate_ids)
-            res_obj = candidate_summary
-            with open(candidate_path, 'w') as fp:
-                json.dump(res_obj, fp)
+    # for candidate_ids in tqdm(candidates_set):
+    #     #request to wikidata to get the information about the candidate https://www.wikidata.org/w/rest.php/wikibase/v0/entities/items/Q7617093
+    #     candidate_path=folder / f"{candidate_ids}.json"
+    #     if not candidate_path.exists():
+    #         candidate_summary = sq.summarize_qid(candidate_ids)
+    #         res_obj = candidate_summary
+    #         with open(candidate_path, 'w') as fp:
+    #             json.dump(res_obj, fp)
+
+    #process the candidates in batches
+    batch_size=100
+    candidates_list=list(candidates_set)
+    batches=[candidates_list[i:i + batch_size] for i in range(0, len(candidates_list), batch_size)]
+    with Pool(8) as p:
+        for _ in tqdm(p.imap_unordered(process_candidate_batch, batches), total=len(batches), desc="Processing candidates in batches"):
+            pass
 
     # iterate trough the json files in /el_candidates/ and extract the image urls into a set, then save the set in a text file line by line
 

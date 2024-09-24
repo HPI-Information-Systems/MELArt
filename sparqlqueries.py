@@ -8,7 +8,7 @@ config = dotenv_values(".env")
 url = config["QLEVER_API"]
 agent = config["USER_AGENT"]
 
-def sparql_request(query, accept="application/sparql-results+json"):
+def sparql_request(query, accept="application/sparql-results+json", session=None):
     global s
     headers = {
         "Accept": accept,
@@ -16,7 +16,10 @@ def sparql_request(query, accept="application/sparql-results+json"):
         "User-Agent": agent
     }
     try:
-        with requests.post(url, headers=headers, data=query) as response:
+        obj=requests
+        if session:
+            obj=session
+        with obj.post(url, headers=headers, data=query) as response:
             return response
     except Exception as e:
         print("Connection error retrying in 30 seconds")
@@ -24,12 +27,12 @@ def sparql_request(query, accept="application/sparql-results+json"):
         response = requests.post(url, headers=headers, data=query)
         return response
 
-def sparql_query(query):
-    response = sparql_request(query, accept="application/sparql-results+json")
+def sparql_query(query, session=None):
+    response = sparql_request(query, accept="application/sparql-results+json", session=session)
     data = response.json()
     return data
 
-def sparql_entity_qid(wikipedia_title):
+def sparql_entity_qid(wikipedia_title, session=None):
     #title_under = wikipedia_title.replace(" ", "_")
     title_spaces = wikipedia_title.replace("_", " ")
     #escape double quotes in the title
@@ -43,7 +46,7 @@ def sparql_entity_qid(wikipedia_title):
         f"    ?wikipedia_id schema:isPartOf <https://en.wikipedia.org/> .\n"
         f"}}"
     )
-    data = sparql_query(query)
+    data = sparql_query(query, session=session)
     if "results" not in data or "bindings" not in data["results"]:
         print(query)
         raise ValueError(f"Error querying {wikipedia_title}")
@@ -55,7 +58,7 @@ def sparql_entity_qid(wikipedia_title):
         else:
             return data["results"]["bindings"][0]["wikidata_id"]["value"]
         
-def sparql_depicted_entities(qid):
+def sparql_depicted_entities(qid, session=None):
     query = (
         f"PREFIX wd: <http://www.wikidata.org/entity/>\n"
         f"PREFIX wdt: <http://www.wikidata.org/prop/direct/>\n"
@@ -64,7 +67,7 @@ def sparql_depicted_entities(qid):
         f"    wd:{qid} ?p ?depicted.\n"
         f"}}"
     )
-    data = sparql_query(query)
+    data = sparql_query(query, session=session)
     res=[]
     if "results" not in data or "bindings" not in data["results"]:
         raise ValueError(f"No results found for {qid}")
@@ -72,7 +75,7 @@ def sparql_depicted_entities(qid):
         res.append(result["depicted"]["value"])
     return res
 
-def sparql_all_lables(qids:Union[str,List[str]]) -> Union[Tuple[str,set],Dict[str,Tuple[str,set]]]:
+def sparql_all_lables(qids:Union[str,List[str]], session=None) -> Union[Tuple[str,set],Dict[str,Tuple[str,set]]]:
     """
     Returns the main label and all alternative labels for a given QID or a list of QIDs
     """
@@ -95,7 +98,7 @@ def sparql_all_lables(qids:Union[str,List[str]]) -> Union[Tuple[str,set],Dict[st
     labels_dict=dict()
     for qid in qids:
         labels_dict[qid]=("",set())
-    data = sparql_query(query)
+    data = sparql_query(query, session=session)
     if "results" not in data or "bindings" not in data["results"]:
         raise ValueError(f"No results found for {qids}")
     for result in data["results"]["bindings"]:
@@ -112,7 +115,7 @@ def sparql_all_lables(qids:Union[str,List[str]]) -> Union[Tuple[str,set],Dict[st
         f"    FILTER (lang(?altLabel) = 'en')\n"
         f"}}\n"
     )
-    data = sparql_query(query)
+    data = sparql_query(query, session=session)
     if "results" not in data or "bindings" not in data["results"]:
         raise ValueError(f"No results found for {qids}")
     for result in data["results"]["bindings"]:
@@ -121,7 +124,7 @@ def sparql_all_lables(qids:Union[str,List[str]]) -> Union[Tuple[str,set],Dict[st
     res=labels_dict if len(qids)>1 else labels_dict[qids[0]]
     return res
 
-def sparql_descriptions(qids:Union[str,List[str]]) -> Union[str,Dict[str,str]]:
+def sparql_descriptions(qids:Union[str,List[str]], session=None) -> Union[str,Dict[str,str]]:
     """
     Returns the english description for a given QID or a list of QIDs
     """
@@ -143,7 +146,7 @@ def sparql_descriptions(qids:Union[str,List[str]]) -> Union[str,Dict[str,str]]:
     descs_dict=dict()
     for qid in qids:
         descs_dict[qid]=""
-    data = sparql_query(query)
+    data = sparql_query(query, session=session)
     if "results" not in data or "bindings" not in data["results"]:
         print(query)
         raise ValueError(f"No results found for {qids}")
@@ -155,7 +158,7 @@ def sparql_descriptions(qids:Union[str,List[str]]) -> Union[str,Dict[str,str]]:
     return res
 
 #get number of sitelinks for a given QID
-def sparql_sitelinks(qids:Union[str,List[str]]) -> Union[int,Dict[str,int]]:
+def sparql_sitelinks(qids:Union[str,List[str]], session=None) -> Union[int,Dict[str,int]]:
     #if its a single qid, convert to list
     if not isinstance(qids, list):
         assert isinstance(qids, str)
@@ -175,7 +178,7 @@ def sparql_sitelinks(qids:Union[str,List[str]]) -> Union[int,Dict[str,int]]:
     sitelinks_dict=dict()
     for qid in qids:
         sitelinks_dict[qid]=0
-    data = sparql_query(query)
+    data = sparql_query(query, session=session)
     if "results" not in data or "bindings" not in data["results"]:
         print(query)
         raise ValueError(f"No results found for {qids}")
@@ -186,14 +189,14 @@ def sparql_sitelinks(qids:Union[str,List[str]]) -> Union[int,Dict[str,int]]:
     res=sitelinks_dict if len(qids)>1 else sitelinks_dict[qids[0]]
     return res
 
-def get_all_qids(batch_size=1000,offset=0)->List[str]:
+def get_all_qids(batch_size=1000,offset=0, session=None)->List[str]:
     sparql_qids="""PREFIX wikibase: <http://wikiba.se/ontology#>
     SELECT ?qid WHERE {
         ?qid a wikibase:Item.
     }
     """
     query=f"{sparql_qids} LIMIT {batch_size} OFFSET {offset}"
-    RESPONSE=sparql_request(query, accept="text/csv")
+    RESPONSE=sparql_request(query, accept="text/csv", session=session)
     data=RESPONSE.text.split("\n")[1:]
     res=[]
     for line in data: # <http://www.wikidata.org/entity/Q100140262>
@@ -203,7 +206,7 @@ def get_all_qids(batch_size=1000,offset=0)->List[str]:
             res.append(url_qid.split("/")[-1])
     return res
 
-def sparql_entity_types(qid:str)->Dict[str,str]:
+def sparql_entity_types(qid:str, session=None)->Dict[str,str]:
     query = (
         f"PREFIX wd: <http://www.wikidata.org/entity/>\n"
         f"PREFIX wdt: <http://www.wikidata.org/prop/direct/>\n"
@@ -217,7 +220,7 @@ def sparql_entity_types(qid:str)->Dict[str,str]:
         f"    }}\n"
         f"}}"
     )
-    data = sparql_query(query)
+    data = sparql_query(query ,session=session)
     res=dict()
     if "results" not in data or "bindings" not in data["results"]:
         raise ValueError(f"No results found for {qid}")
@@ -227,7 +230,7 @@ def sparql_entity_types(qid:str)->Dict[str,str]:
         res[qid_type]=label_type
     return res
 
-def sparql_entity_images(qid:str)->List[str]:
+def sparql_entity_images(qid:str, session=None)->List[str]:
     query = (
         f"PREFIX wd: <http://www.wikidata.org/entity/>\n"
         f"PREFIX wdt: <http://www.wikidata.org/prop/direct/>\n"
@@ -236,7 +239,7 @@ def sparql_entity_images(qid:str)->List[str]:
         f"    ?entity wdt:P18 ?image.\n"
         f"}}"
     )
-    data = sparql_query(query)
+    data = sparql_query(query, session=session)
     res=[]
     if "results" not in data or "bindings" not in data["results"]:
         raise ValueError(f"No results found for {qid}")
@@ -245,12 +248,12 @@ def sparql_entity_images(qid:str)->List[str]:
     return res
 
 
-def summarize_qid(qid:str)->Dict:
-    label,altLabels=sparql_all_lables(qid)
-    description=sparql_descriptions(qid)
-    sitelinks=sparql_sitelinks(qid)
-    types_dict=sparql_entity_types(qid)
-    images=sparql_entity_images(qid)
+def summarize_qid(qid:str, session=None)->Dict:
+    label,altLabels=sparql_all_lables(qid, session=session)
+    description=sparql_descriptions(qid, session=session)
+    sitelinks=sparql_sitelinks(qid, session=session)
+    types_dict=sparql_entity_types(qid, session=session)
+    images=sparql_entity_images(qid, session=session)
     entity_summary={
         "qid":qid,
         "labels":{
