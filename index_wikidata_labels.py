@@ -6,7 +6,7 @@ import argparse
 from multiprocessing import Pool
 from tqdm import tqdm
 
-batch_size=100
+batch_size=1000
 
 def process_batch(offset):
     try:
@@ -18,28 +18,33 @@ def process_batch(offset):
         documents = []
         for qid, (label,alt) in labels.items():
             #if no character in label or any of the alt labels is an uppercase letter, skip
-            if not any(c.isupper() for c in label) and not any(any(c.isupper() for c in alt_label) for alt_label in alt):
-                #print(f"Skipping {qid} because no uppercase letter in label or alt labels")
-                continue
+            is_ne=any(c.isupper() for c in label) or any(any(c.isupper() for c in alt_label) for alt_label in alt)
+            # if not is_ne:
+            #     #print(f"Skipping {qid} because no uppercase letter in label or alt labels")
+            #     continue
             site_links_count=site_links[qid]
             doc={
                 "id": qid,
                 "qid_s": qid,
                 "label_txt_en": label,
-                "sitelinks_i": site_links_count
+                "sitelinks_i": site_links_count,
+                "is_ne_b": is_ne
             }
-            documents.append(doc)
+            if label:
+                documents.append(doc)
             for i,label in enumerate(alt):
                 id=f"{qid}_{i}"
                 doc={
                     "id": id,
                     "qid_s": qid,
-                    "qid": qid,
                     "label_txt_en": label,
-                    "sitelinks_i": site_links_count
+                    "sitelinks_i": site_links_count,
+                    "is_ne_b": is_ne
                 }
-                documents.append(doc)
-        solrq.solr_index_documents(documents)
+                if label:
+                    documents.append(doc)
+        if len(documents)>0:
+            solrq.solr_index_documents(documents)
     except Exception as e:
         print(f"Error processing batch {offset}: {e}")
         raise e

@@ -1,19 +1,28 @@
-from typing import Dict, Generator, List, Tuple, Union
+import time
+from typing import Dict, List, Tuple, Union
 import requests
-import json
 from dotenv import dotenv_values
 
 #url = "http://127.0.0.1:7001"
 config = dotenv_values(".env")
 url = config["QLEVER_API"]
+agent = config["USER_AGENT"]
 
 def sparql_request(query, accept="application/sparql-results+json"):
+    global s
     headers = {
         "Accept": accept,
-        "Content-type": "application/sparql-query"
+        "Content-type": "application/sparql-query",
+        "User-Agent": agent
     }
-    response = requests.post(url, headers=headers, data=query)
-    return response
+    try:
+        with requests.post(url, headers=headers, data=query) as response:
+            return response
+    except Exception as e:
+        print("Connection error retrying in 30 seconds")
+        time.sleep(30)
+        response = requests.post(url, headers=headers, data=query)
+        return response
 
 def sparql_query(query):
     response = sparql_request(query, accept="application/sparql-results+json")
@@ -81,8 +90,7 @@ def sparql_all_lables(qids:Union[str,List[str]]) -> Union[Tuple[str,set],Dict[st
         f"    VALUES ?qid {{{" ".join(wd_qids)}}}\n"
         f"    ?qid rdfs:label ?label.\n"
         f"    FILTER (lang(?label) = 'en')\n"
-        f"}}"
-        f"LIMIT 1000"
+        f"}}\n"
     )
     labels_dict=dict()
     for qid in qids:
@@ -102,8 +110,7 @@ def sparql_all_lables(qids:Union[str,List[str]]) -> Union[Tuple[str,set],Dict[st
         f"    VALUES ?qid {{{" ".join(wd_qids)}}}\n"
         f"    ?qid skos:altLabel ?altLabel.\n"
         f"    FILTER (lang(?altLabel) = 'en')\n"
-        f"}}"
-        f"LIMIT 1000"
+        f"}}\n"
     )
     data = sparql_query(query)
     if "results" not in data or "bindings" not in data["results"]:
@@ -131,13 +138,8 @@ def sparql_descriptions(qids:Union[str,List[str]]) -> Union[Tuple[str,set],Dict[
         f"    VALUES ?qid {{{wd_qids_values}}} \n" \
         "    ?qid schema:description ?desc .\n" \
         "    FILTER (lang(?desc) = 'en')\n" \
-        "}\n" \
-        "LIMIT 1000"
+        "}\n"
     
-    # query = f"PREFIX wd: <http://www.wikidata.org/entity/>\n" \
-    #     f"SELECT ?qid WHERE {{\n" \
-    #     f"    VALUES ?qid {{{" ".join(wd_qids)}}}\n" \
-    #     f"}}\n"
     descs_dict=dict()
     for qid in qids:
         descs_dict[qid]=""
@@ -214,19 +216,23 @@ def count_qids():
 
 if __name__ == "__main__":
     #print(sparql_entity_qid("The Starry Night"))
-    print(sparql_all_lables("Q25931702"))
-    print(sparql_all_lables("Q5582"))
-    print(sparql_all_lables(["Q25931702","Q5582"]))
+    # print(sparql_all_lables("Q25931702"))
+    # print(sparql_all_lables("Q5582"))
+    # print(sparql_all_lables(["Q25931702","Q5582"]))
 
-    print(get_all_qids(10,0))
-    print(get_all_qids(10,10))
-    print(get_all_qids(10,1000000000000))
+    # print(get_all_qids(10,0))
+    # print(get_all_qids(10,10))
+    # print(get_all_qids(10,1000000000000))
 
-    print(sparql_descriptions("Q25931702"))
-    print(sparql_descriptions("Q5582"))
-    print(sparql_descriptions(["Q1","Q25931702","Q5582"]))
-    print(sparql_descriptions("Q1"))
+    # print(sparql_descriptions("Q25931702"))
+    # print(sparql_descriptions("Q5582"))
+    # print(sparql_descriptions(["Q1","Q25931702","Q5582"]))
+    # print(sparql_descriptions("Q1"))
 
-    print(sparql_sitelinks(["Q1","Q25931702","Q5582"]))
+    # print(sparql_sitelinks(["Q1","Q25931702","Q5582"]))
+
+    #generate a list of strings with Q1, Q2, ..., Q1000
+    qids=[f"Q{i}" for i in range(1,501)]
+    print(sparql_all_lables(qids))
 
     
