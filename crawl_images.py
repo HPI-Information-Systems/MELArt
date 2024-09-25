@@ -5,6 +5,7 @@ import requests
 from tqdm import tqdm
 from dotenv import dotenv_values
 import argparse
+import paths
 
 
 wiki_access_token = None
@@ -28,8 +29,8 @@ if __name__ == '__main__':
         }
         if "USER_AGENT" in config:
             headers["User-Agent"] = config["USER_AGENT"]
-    parser = argparse.ArgumentParser()
-    parser.add_argument('input', type=str)
+    parser = argparse.ArgumentParser(description="Crawl images from wikimedia commons based on a text file with the image names", formatter_class=argparse.ArgumentDefaultsHelpFormatter)
+    parser.add_argument('--input', type=str, help="File with the list of images to download", default=paths.IMAGES_TXT_PATH)
     args = parser.parse_args()
     
     input_path=Path(args.input)
@@ -41,7 +42,7 @@ if __name__ == '__main__':
             #get time now
             time_now=time.time()
             #if file exists, skip
-            res_file=base_path / "combined" / line.strip()
+            res_file=base_path / "files" / line.strip()
             if res_file.exists():
                 continue
             os.makedirs(res_file.parent,exist_ok=True)
