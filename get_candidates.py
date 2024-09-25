@@ -9,6 +9,9 @@ import sparqlqueries as sq
 from multiprocessing import Pool
 import requests
 
+batch_size=100
+workers=8
+
 def process_candidate_batch(batch):
     folder = paths.CANDIDATES_FOLDER_PATH
     with requests.Session() as session:
@@ -21,6 +24,9 @@ def process_candidate_batch(batch):
                     json.dump(res_obj, fp)
 
 def main(args):
+
+    batch_size=args.batch_size
+    workers=args.workers
 
     # Read the artpedia.json file
     with open(args.file_path) as file:
@@ -96,10 +102,9 @@ def main(args):
     #             json.dump(res_obj, fp)
 
     #process the candidates in batches
-    batch_size=100
     candidates_list=list(candidates_set)
     batches=[candidates_list[i:i + batch_size] for i in range(0, len(candidates_list), batch_size)]
-    with Pool(8) as p:
+    with Pool(workers) as p:
         for _ in tqdm(p.imap_unordered(process_candidate_batch, batches), total=len(batches), desc="Processing candidates in batches"):
             pass
 
@@ -128,6 +133,8 @@ def main(args):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Get the candidates from wikidata, and build a file with all the images urls')
     parser.add_argument('--file_path', type=str, help='artpedia2wiki_matched.json file path', default=paths.ARTPEDIA2WIKI_MATCHED_PATH)
+    parser.add_argument('--batch_size', type=int, default=batch_size, help='Batch size for processing candidates')
+    parser.add_argument('--workers', type=int, default=workers, help='Number of worker processes to use')
     args = parser.parse_args()
     main(args)
 
