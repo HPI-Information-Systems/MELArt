@@ -16,6 +16,7 @@ The code for the experiments with the baselines and for generating model-specifi
 1. Download the Artpedia dataset from [https://aimagelab.ing.unimore.it/imagelab/page.asp?IdPage=35](https://aimagelab.ing.unimore.it/imagelab/page.asp?IdPage=35) and place the `artpedia.json` file in the `input_files/` folder.
 <!-- 2. Download the Wikidata dump `latest-all.json.bz2` [https://dumps.wikimedia.org/wikidatawiki/entities/](https://dumps.wikimedia.org/wikidatawiki/entities/) the dump from 2023-03-22 was used to generate MELArt. The file should be put into or linked from `input_files/`. -->
 <!-- TODO describe QLever setup -->
+<!-- TODO describe Solr setup -->
 
 You can also avoid having the `input_files/` folder, by adjusting the paths in the `paths.py` script.
 

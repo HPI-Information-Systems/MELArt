@@ -126,7 +126,7 @@ def main(args):
                     except:
                         pass
 
-    with open(paths.CANDIDATES_IMAGES_TXT_PATH, 'w') as f:
+    with open(paths.IMAGES_TXT_PATH, 'w') as f:
         for item in image_urls:
             f.write("%s\n" % item)
 
