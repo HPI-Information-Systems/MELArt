@@ -6,6 +6,7 @@ import paths
 from tqdm import tqdm
 from multiprocessing import Pool
 from pathlib import Path
+from urllib.parse import unquote
 
 batch_size=100
 workers=8
@@ -61,6 +62,10 @@ def main(args):
         image_urls.append(img_url)
 
     image_urls = set(image_urls)
+
+    #url decode the names (for instance Albert%20II%20of%20Austria.jpg -> Albert_II_of_Austria.jpg)
+    image_urls = {unquote(url) for url in image_urls}
+
     #sort the set
     image_urls = sorted(image_urls)
 
