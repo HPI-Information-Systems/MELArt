@@ -55,19 +55,20 @@ def main(args):
     file_path = paths.DICT_CANDIDATES_PATH
 
     if os.path.exists(file_path):
-        print("Loading candidates from file, no need to search for them again")
+        print("Loading previous candidates from file, no need to search for them again")
         with open(file_path) as f:
             dict_candidates = json.load(f)
 
-    else:
-        for mention in tqdm(mentions_set, "Serching for candidates"):
-            candidate_ids_relevance = set(solrq.solr_search(mention, rows=25))
-            candidate_ids_popularity = set(solrq.solr_search(mention, rows=25, by_popularity=True))
-            candidate_ids = list(candidate_ids_relevance.union(candidate_ids_popularity))
-            dict_candidates[mention] = candidate_ids
+    for mention in tqdm(mentions_set, "Serching for candidates"):
+        if mention in dict_candidates:
+            continue
+        candidate_ids_relevance = set(solrq.solr_search(mention, rows=25))
+        candidate_ids_popularity = set(solrq.solr_search(mention, rows=25, by_popularity=True))
+        candidate_ids = list(candidate_ids_relevance.union(candidate_ids_popularity))
+        dict_candidates[mention] = candidate_ids
 
-        with open(file_path, 'w') as fp:
-            json.dump(dict_candidates, fp)
+    with open(file_path, 'w') as fp:
+        json.dump(dict_candidates, fp)
 
     candidates_set = set()
 
