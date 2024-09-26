@@ -34,15 +34,15 @@ if __name__ == '__main__':
     args = parser.parse_args()
     
     input_path=Path(args.input)
-    base_path=input_path.parent
+    files_path=paths.IMAGES_FILES_FOLDER_PATH
 
     urls=[]
-    with open(args.input,'r') as f:
+    with open(input_path,'r') as f:
         for line in tqdm(f.readlines()):
             #get time now
             time_now=time.time()
             #if file exists, skip
-            res_file=base_path / "files" / line.strip()
+            res_file=files_path / line.strip()
             if res_file.exists():
                 continue
             os.makedirs(res_file.parent,exist_ok=True)
