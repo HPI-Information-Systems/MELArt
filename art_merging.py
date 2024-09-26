@@ -145,7 +145,20 @@ def artpedia2wiki(artpedia_file):
         "The Peace of Amiens (Ziegler)": "Q28004368",#deleted wikipedia page
         "The Congress of Paris (Dubufe)": "Q17492872",#deleted wikipedia page
         "Jacob wrestling with the Angel (Delacroix)": "Q3837491",#deleted wikipedia page
-        "La Grenouillère (Renoir)": "Q10908882"#page changed title and this title corresponds to the disambiguation page
+        "La Grenouillère (Renoir)": "Q10908882",#page changed title and this title corresponds to the disambiguation page,
+        "St. Jerome in Penance": "Q3947313", #the title correspond to the disambiguation page,
+        "St John Altarpiece": "Q1698794", #the title correspond to the disambiguation page,
+        "Madonna del Sacco": "Q3213753", #the title correspond to the disambiguation page,
+        "Esther before Ahasuerus" : "Q27957610", # found via search and vaölidated with the file name
+        "Ecce Homo (Caravaggio)" : "Q2325834", #the title correspond to the disambiguation page
+        "The Three Musicians (painting)" : "Q389198", #the title correspond to the disambiguation page,
+        "St. Matthew and the Angel" : "Q9396869", #the title correspond to the disambiguation page,
+        "Diana and Endymion": "Q20087509", #the title correspond to the disambiguation page
+        "Abraham's Sacrifice of Isaac" : "Q22671007", #the title correspond to the main sbject and not the painting
+        "Portrait of the Duke of Wellington": "Q7232352", #the title correspond to the disambiguation page
+        "Woman with a Parrot": "Q8030760", #the title correspond to the disambiguation page
+        "Boulevard des Capucines (Monet)": "Q4949676", #the title correspond to the series and not the artwork
+        "Three Musicians" : "Q30332241", #the title correspond to the disambiguation page
     }
 
     get_wikipedia_redirects(annotation)
