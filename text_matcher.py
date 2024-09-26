@@ -75,7 +75,11 @@ def read_entity_labels(artpedia2wiki_obj):
     for qid, obj in tqdm(artpedia2wiki_obj.items(), desc="Reading entities file to get the labels"):
         for url in obj['P180']:
             qid=url.split('/')[-1]
-            _, all_labels = sq.sparql_all_lables(qid)
+            main_label, alt_labels = sq.sparql_all_lables(qid)
+            all_labels = [main_label]
+            all_labels.extend(alt_labels)
+            #remove empty labels (with trim)
+            all_labels = [label for label in all_labels if label.strip()]
             entities_dict[qid] = all_labels
 
 def main(args):
