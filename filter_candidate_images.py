@@ -5,39 +5,55 @@ import os
 from pathlib import Path
 import urllib
 import shutil
+from urllib.parse import unquote
+
+from tqdm import tqdm
 import paths
 
 def main(args):
-    #Read the list of image files from the folder el_candidates/images/combined
 
-    folder_path = Path(args.images_folder)
-    image_files = os.listdir(folder_path)
+    artpedia_matches_path = Path(args.file_path)
+    artpedia_matches=json.load(open(artpedia_matches_path,"r"))
 
-    #read the painintg images from artpedia2wiki_el.json
+    image_urls = set()
 
-    discarded_images_folder = folder_path / 'discarded'
-    discarded_images_folder.mkdir(parents=True, exist_ok=True)
+    for qid, obj in artpedia_matches.items():
+        img_url = obj.get('img_url')
+        #get the file name from the url
+        img_url = Path(img_url).name
+        image_urls.add(img_url)
 
-    counter=0
+    #url decode the names (for instance Albert%20II%20of%20Austria.jpg -> Albert_II_of_Austria.jpg)
+    image_urls = {unquote(url) for url in image_urls}
 
-    with open(args.file_path) as f:
-        artpedia2wiki = json.load(f)
-        for painting in artpedia2wiki.values():
-            if painting['image_url'] is not None:
-                image_urls = painting['image_url']
-                for image_url in image_urls:
-                    image_name = image_url.split('/')[-1]
-                    image_name = urllib.parse.unquote(image_name)
-                    if image_name in image_files and (folder_path / image_name).exists():
-                        shutil.move(folder_path / image_name, discarded_images_folder / image_name)
-                        counter += 1
+    candidates_folder = Path(args.candidates_folder)
 
-    print(f"Moved {counter} images to discarded folder")
+    commons_prefix="http://commons.wikimedia.org/wiki/Special:FilePath/"
+    commons_prefix_len=len(commons_prefix)
+
+    for candidate_file in tqdm(os.listdir(candidates_folder), desc="Processing candidates"):
+        if candidate_file.endswith('.json'):
+            remove = False
+            with open(candidates_folder / candidate_file, 'r') as f:
+                data = json.load(f)
+                images = data["images"]
+                for image in images:
+                    commons_url = image
+                    file_name = commons_url[commons_prefix_len:]
+                    file_name = unquote(file_name)
+                    if file_name in image_urls:
+                        images.remove(image)
+                        remove = True
+                data["images"] = images
+            if remove:
+                with open(candidates_folder / candidate_file, 'w') as f:
+                    json.dump(data, f)
+                print(f"Removed image from {candidate_file}")
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Checks candidate images and moves the ones that are paintings to a discarded folder')
-    parser.add_argument('file_path', type=str, help='artpedia2wiki_matched.json file path', default=paths.ARTPEDIA2WIKI_MATCHED_PATH)
-    parser.add_argument('images_folder', type=str, help='folder containing all candidate images', default=paths.CANDIDATES_IMAGES_PATH)
+    parser.add_argument('--file_path', type=str, help='artpedia2wiki_matched.json file path', default=paths.ARTPEDIA2WIKI_MATCHED_PATH)
+    parser.add_argument('--candidates_folder', type=str, help='folder containing all candidate json files', default=paths.CANDIDATES_FOLDER_PATH)
     args = parser.parse_args()
     main(args)
 
