@@ -27,6 +27,8 @@ ARTPEDIA_REDIRECTS_CSV_PATH=WIKIPEDIA_DUMP_FILES_PATH / "artpedia-20240901-redir
 
 CANDIDATE_TYPES_DICT_PATH=AUX_OUTPUT_PATH / "candidate_types_dict.json"
 
+NOT_FOUND_IMAGES=AUX_OUTPUT_PATH / "not_found_images.txt"
+
 OUTPUT_FILES_PATH=Path("./output_files/")
 #mkdir output_files
 os.makedirs(OUTPUT_FILES_PATH, exist_ok=True)

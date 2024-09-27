@@ -1,3 +1,5 @@
+commons_prefix="http://commons.wikimedia.org/wiki/Special:FilePath/"
+
 def is_iterable(obj):
     try:
         iter(obj)
@@ -12,6 +14,8 @@ def is_named_entiy(obj):
         return any([is_named_entiy(item) for item in obj])
     elif isinstance(obj, tuple) and len(obj) == 2 and isinstance(obj[0], str) and is_iterable(obj[1]):
         return is_named_entiy(obj[0]) or is_named_entiy(obj[1])
+    
+
         
 if __name__ == '__main__':
     print(is_named_entiy("Hello"))

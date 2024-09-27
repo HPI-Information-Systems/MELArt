@@ -7,11 +7,12 @@ from tqdm import tqdm
 from multiprocessing import Pool
 from pathlib import Path
 from urllib.parse import unquote
+import utils
 
 batch_size=100
 workers=8
 
-commons_prefix="http://commons.wikimedia.org/wiki/Special:FilePath/"
+commons_prefix=utils.commons_prefix
 commons_prefix_len=len(commons_prefix)
 
 def process_candidate_batch(candidate_files):
@@ -58,7 +59,8 @@ def main(args):
     for qid, obj in artpedia_matches.items():
         img_url = obj.get('img_url')
         #get the file name from the url
-        img_url = Path(img_url).name
+        if img_url.startswith(utils.commons_prefix):
+            img_url = Path(img_url).name
         image_urls.append(img_url)
 
     image_urls = set(image_urls)

@@ -3,9 +3,8 @@ import argparse
 import json
 import os
 from pathlib import Path
-import urllib
-import shutil
 from urllib.parse import unquote
+import utils
 
 from tqdm import tqdm
 import paths
@@ -28,8 +27,7 @@ def main(args):
 
     candidates_folder = Path(args.candidates_folder)
 
-    commons_prefix="http://commons.wikimedia.org/wiki/Special:FilePath/"
-    commons_prefix_len=len(commons_prefix)
+    commons_prefix_len=len(utils.commons_prefix)
 
     for candidate_file in tqdm(os.listdir(candidates_folder), desc="Processing candidates"):
         if candidate_file.endswith('.json'):

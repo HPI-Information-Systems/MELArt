@@ -2,6 +2,7 @@ import time
 from typing import Dict, List, Tuple, Union
 import requests
 from dotenv import dotenv_values
+import utils
 
 #url = "http://127.0.0.1:7001"
 config = dotenv_values(".env")

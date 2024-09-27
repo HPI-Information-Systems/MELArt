@@ -8,18 +8,22 @@ from dotenv import dotenv_values
 from tqdm import tqdm
 import pandas as pd
 import sparqlqueries as sq
+import utils
 
 config = dotenv_values(".env")
 HTTP_AGENT=config["USER_AGENT"]
 
 def dump_json(obj,save_path):
     with open(save_path, 'w') as outfile:
-        json.dump(obj, outfile)
+        json.dump(obj, outfile, indent=4)
 
 def load_json(file_path):
     if os.path.exists(file_path):
-        file=open(file_path,"r")
-        return json.load(file)
+        try:
+            file=open(file_path,"r")
+            return json.load(file)
+        except:
+            return {}
     return {}
 
 dict_redirects = None
@@ -75,46 +79,12 @@ def get_wiki_entityid(wikipedia_title):
                 return get_wiki_entityid(redirect)
     return None
 
-def generate_query(entityid):
-    return f"""
-    SELECT ?description ?image ?movementLabel ?genreLabel ?depicts ?depictsLabel ?creatorOfWork ?creatorOfWorkLabel WHERE {{
-      OPTIONAL {{
-        wd:{entityid} schema:description ?description FILTER (lang(?description) = "en").
-      }}
-      OPTIONAL {{
-        wd:{entityid} wdt:P18 ?image.
-      }}
-      OPTIONAL {{
-        wd:{entityid} wdt:P135 ?movement.
-        ?movement rdfs:label ?movementLabel FILTER (lang(?movementLabel) = "en").
-      }}
-      OPTIONAL {{
-        wd:{entityid} wdt:P136 ?genre.
-        ?genre rdfs:label ?genreLabel FILTER (lang(?genreLabel) = "en").
-      }}
-      OPTIONAL {{
-        wd:{entityid} wdt:P180 ?depicts.
-        ?depicts rdfs:label ?depictsLabel FILTER (lang(?depictsLabel) = "en").
-      }}
-      OPTIONAL {{
-        wd:{entityid} wdt:P170 ?creatorOfWork.
-        ?creatorOfWork rdfs:label ?creatorOfWorkLabel FILTER (lang(?creatorOfWorkLabel) = "en").
-      }}
-    }}
-    """
-
-def query_wikidata(query):
-    endpoint_url = "https://query.wikidata.org/sparql"
-    headers = {
-        "User-Agent": HTTP_AGENT,  # Add your email or app name here
-        "Accept": "application/sparql-results+json"
-    }
-    response = requests.get(endpoint_url, params={"query": query}, headers=headers)
-    response.raise_for_status()  # Raise an exception for HTTP errors
-    return response.json()
-
 def query_painting_by_id(entity_id):
     record={"P180":sq.sparql_depicted_entities(entity_id)}
+    images=sq.sparql_entity_images(entity_id)
+    commons_images=[image for image in images if image.startswith(utils.commons_prefix)]
+    record["P18"]=commons_images
+
     # for result in results["results"]["bindings"]:
     #     # print(result)
     #     if "movementLabel" in result:
@@ -179,7 +149,11 @@ def artpedia2wiki(artpedia_file):
             art2wiki[id]["visual_sentences"]=record["visual_sentences"]
             art2wiki[id]["contextual_sentences"] = record["contextual_sentences"]
             art2wiki[id]["title"] = record["title"]
-            art2wiki[id]["img_url"] = record["img_url"]
+            if art2wiki[id].get("P18"):
+                art2wiki[id]["img_url"]=art2wiki[id]["P18"][0]
+                art2wiki[id]["old_img_url"]= record["img_url"]
+            else:
+                art2wiki[id]["img_url"] = record["img_url"]
             art2wiki[id]["split"] = record["split"]
             art2wiki[id]["year"] = record["year"]
             if "P31" in art2wiki[id]:
