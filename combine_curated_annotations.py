@@ -20,6 +20,8 @@ train=set(random.sample(list(train_val), train_size))
 val=train_val-train
 
 #iterate artworks and assign the split. additionally replace the annotations for the test set with the all_anns information
+combined_anns={}
+final_auto_anns={}
 for qid, artwork_info in automatic_anns.items():
     if qid in test:
         automatic_anns[qid]["split"]="test"
@@ -39,10 +41,15 @@ for qid, artwork_info in automatic_anns.items():
         automatic_anns[qid]["split"]="val"
     else:
         print(f"Qid {qid} not found in any split")
+    if any(len(sentence_match)>0 for sentence_match in automatic_anns[qid]["visual_el_matches"]) or any(len(sentence_match)>0 for sentence_match in automatic_anns[qid]["contextual_el_matches"]):
+        combined_anns[qid]=automatic_anns[qid]
+        final_auto_anns[qid]=automatic_anns[qid]
+    else:
+        print(f"Qid {qid} has no matches")
 
 new_path=paths.MELART_ANNOTATIONS_PATH
-json.dump(automatic_anns, open(new_path, "w"), indent=2)
-
+json.dump(combined_anns, open(new_path, "w"), indent=2)
+json.dump(final_auto_anns, open(paths.MELART_AUTO_ANNOTATIONS_PATH, "w"), indent=2)
 
 
 

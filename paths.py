@@ -33,6 +33,7 @@ OUTPUT_FILES_PATH=Path("./output_files/")
 #mkdir output_files
 os.makedirs(OUTPUT_FILES_PATH, exist_ok=True)
 MELART_ANNOTATIONS_PATH=OUTPUT_FILES_PATH / "melart_annotations.json"
+MELART_AUTO_ANNOTATIONS_PATH=OUTPUT_FILES_PATH / "melart_automatic_annotations.json"
 
 CANDIDATES_FOLDER_PATH=OUTPUT_FILES_PATH / "el_candidates"
 os.makedirs(CANDIDATES_FOLDER_PATH, exist_ok=True)
