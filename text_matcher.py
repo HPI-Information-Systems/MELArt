@@ -4,6 +4,7 @@ import json
 import argparse
 import paths
 import sparqlqueries as sq
+import utils
 
 from tqdm import tqdm
 
@@ -52,7 +53,7 @@ def process_painting(painting_qid, sentence_obj, nlp):
         if qid in entities_dict:
             labels=entities_dict[qid]
             #if any label starts wuth uppercase, add it to the matcher (we just keep named entities)
-            if any([label[0].isupper() for label in labels]):
+            if utils.is_named_entiy(labels):
                 patterns = [nlp.make_doc(text) for text in labels]
                 matcher.add(qid, patterns)
     sentences=sentence_obj['visual_sentences']
@@ -93,6 +94,10 @@ def main(args):
     
     with open(args.output_file, 'w') as f:
         json.dump(new_artpedia, f, indent=4)
+
+    with open(paths.ARTPEDIA2WIKI_DEPICTED_LABELS_PATH, 'w') as f:
+        json.dump(entities_dict, f, indent=4)
+
     print("Visual matches: ", count_visual_matches)
     print("Contextual matches: ", count_contextual_matches)
     print("Visual sentence matches: ", count_visual_sentence_matches)

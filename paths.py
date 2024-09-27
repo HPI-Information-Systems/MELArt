@@ -16,6 +16,7 @@ ARTPEDIA2WIKI_PATH=AUX_OUTPUT_PATH / "artpedia2wiki.json"
 ARTPEDIA_DEPICTED_IDS_FILTER_PATH=AUX_OUTPUT_PATH / 'artpedia_depicted_ids_filter.txt'
 ARTPEDIA_DEPICTED_ENTITIES_PATH=AUX_OUTPUT_PATH / 'artpedia_depicted_entities.ndjson'
 ARTPEDIA2WIKI_MATCHED_PATH=AUX_OUTPUT_PATH / "artpedia2wiki_matched.json"
+ARTPEDIA2WIKI_DEPICTED_LABELS_PATH=AUX_OUTPUT_PATH / "artpedia2wiki_depicted_labels.json"
 DICT_CANDIDATES_PATH=AUX_OUTPUT_PATH / "dict_candidates.json"
 WIKIPEDIA_DUMP_FILES_PATH=AUX_OUTPUT_PATH / "enwiki"
 #mkdir enwiki

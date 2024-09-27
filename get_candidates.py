@@ -8,6 +8,7 @@ from tqdm import tqdm
 import sparqlqueries as sq
 from multiprocessing import Pool
 import requests
+import utils
 
 batch_size=100
 workers=8
@@ -35,22 +36,28 @@ def main(args):
     # Create an empty set to store the mentions
     mentions_set = set()
 
-    ground_truth_qids = set()
+    depicted_nes_qids = set()
 
     # Iterate over each element in the data
-    for element in data.values():
-        for matches_fiels in ['visual_el_matches', 'contextual_el_matches']:
-            for match in element[matches_fiels]:
-                for v in match:
-                    # Add the mention to the set
-                    mentions_set.add(v['text'])
-                    match_qid_url=v['qid']
-                    match_qid=match_qid_url.split('/')[-1]
-                    ground_truth_qids.add(match_qid)
+    # for element in data.values():
+    #     for matches_fiels in ['visual_el_matches', 'contextual_el_matches']:
+    #         for match in element[matches_fiels]:
+    #             for v in match:
+    #                 # Add the mention to the set
+    #                 mentions_set.add(v['text'])
+    #                 match_qid_url=v['qid']
+    #                 match_qid=match_qid_url.split('/')[-1]
+    #                 ground_truth_qids.add(match_qid)
+
+    with open(paths.ARTPEDIA2WIKI_DEPICTED_LABELS_PATH, 'r') as f:
+        entities_dict = json.load(f)
+
+    for qid, labels in entities_dict.items():
+        if utils.is_named_entiy(labels):
+            depicted_nes_qids.add(qid)
 
     dict_candidates = {}
 
-    
     #save dictionary to json file
     file_path = paths.DICT_CANDIDATES_PATH
 
@@ -75,7 +82,7 @@ def main(args):
     for candidate_ids in dict_candidates.values():
         candidates_set.update(candidate_ids)
 
-    candidates_set.update(ground_truth_qids)
+    candidates_set.update(depicted_nes_qids)
 
     lengths=[]
     for candidate_ids in dict_candidates.values():

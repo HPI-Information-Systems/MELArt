@@ -1,10 +1,9 @@
-import os
-import time
 import sparqlqueries as sq
 import solrqueries as solrq
 import argparse
 from multiprocessing import Pool
 from tqdm import tqdm
+import utils
 
 batch_size=1000
 
@@ -18,7 +17,7 @@ def process_batch(offset):
         documents = []
         for qid, (label,alt) in labels.items():
             #if no character in label or any of the alt labels is an uppercase letter, skip
-            is_ne=any(c.isupper() for c in label) or any(any(c.isupper() for c in alt_label) for alt_label in alt)
+            is_ne=utils.is_named_entiy((label,alt))
             # if not is_ne:
             #     #print(f"Skipping {qid} because no uppercase letter in label or alt labels")
             #     continue
