@@ -1,12 +1,33 @@
 import argparse
-from pathlib import Path
-import requests
 import json
 import os
 from tqdm import tqdm
 import paths
+import solrqueries as solrq
+from tqdm import tqdm
+import sparqlqueries as sq
+from multiprocessing import Pool
+import requests
+import utils
+
+batch_size=100
+workers=8
+
+def process_candidate_batch(batch):
+    folder = paths.CANDIDATES_FOLDER_PATH
+    with requests.Session() as session:
+        for candidate_ids in batch:
+            candidate_path=folder / f"{candidate_ids}.json"
+            if not candidate_path.exists():
+                candidate_summary = sq.summarize_qid(candidate_ids, session=session)
+                res_obj = candidate_summary
+                with open(candidate_path, 'w') as fp:
+                    json.dump(res_obj, fp)
 
 def main(args):
+
+    batch_size=args.batch_size
+    workers=args.workers
 
     # Read the artpedia.json file
     with open(args.file_path) as file:
@@ -15,36 +36,43 @@ def main(args):
     # Create an empty set to store the mentions
     mentions_set = set()
 
-    ground_truth_qids = set()
+    depicted_nes_qids = set()
 
     # Iterate over each element in the data
-    for element in data.values():
-        for matches_fiels in ['visual_el_matches', 'contextual_el_matches']:
-            for match in element[matches_fiels]:
-                for v in match:
-                    # Add the mention to the set
-                    mentions_set.add(v['text'])
-                    match_qid_url=v['qid']
-                    match_qid=match_qid_url.split('/')[-1]
-                    ground_truth_qids.add(match_qid)
+    # for element in data.values():
+    #     for matches_fiels in ['visual_el_matches', 'contextual_el_matches']:
+    #         for match in element[matches_fiels]:
+    #             for v in match:
+    #                 # Add the mention to the set
+    #                 mentions_set.add(v['text'])
+    #                 match_qid_url=v['qid']
+    #                 match_qid=match_qid_url.split('/')[-1]
+    #                 ground_truth_qids.add(match_qid)
+
+    with open(paths.ARTPEDIA2WIKI_DEPICTED_LABELS_PATH, 'r') as f:
+        entities_dict = json.load(f)
+
+    for qid, labels in entities_dict.items():
+        if utils.is_named_entiy(labels):
+            depicted_nes_qids.add(qid)
 
     dict_candidates = {}
 
-    for mention in mentions_set:
-        #make an http request to wbsearchentities in wikidata
-        #https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&type=item&continue=0&search=Madonna&limit=50
-        url=f"https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&type=item&continue=0&search={mention}&limit=50"
-        response = requests.get(url)
-        res_obj = response.json()
-        search_res_obj = res_obj.get('search',[])
-        candidate_ids = []
-        for res in search_res_obj:
-            candidate_ids.append(res['id'])
-        dict_candidates[mention] = candidate_ids
-        
-
     #save dictionary to json file
     file_path = paths.DICT_CANDIDATES_PATH
+
+    if os.path.exists(file_path):
+        print("Loading previous candidates from file, no need to search for them again")
+        with open(file_path) as f:
+            dict_candidates = json.load(f)
+
+    for mention in tqdm(mentions_set, "Serching for candidates"):
+        if mention in dict_candidates:
+            continue
+        candidate_ids_relevance = set(solrq.solr_search(mention, rows=25))
+        candidate_ids_popularity = set(solrq.solr_search(mention, rows=25, by_popularity=True))
+        candidate_ids = list(candidate_ids_relevance.union(candidate_ids_popularity))
+        dict_candidates[mention] = candidate_ids
 
     with open(file_path, 'w') as fp:
         json.dump(dict_candidates, fp)
@@ -52,9 +80,9 @@ def main(args):
     candidates_set = set()
 
     for candidate_ids in dict_candidates.values():
-        candidates_set.update(candidate_ids[:20])
+        candidates_set.update(candidate_ids)
 
-    candidates_set.update(ground_truth_qids)
+    candidates_set.update(depicted_nes_qids)
 
     lengths=[]
     for candidate_ids in dict_candidates.values():
@@ -72,15 +100,21 @@ def main(args):
 
     folder = paths.CANDIDATES_FOLDER_PATH
 
-    for candidate_ids in tqdm(candidates_set):
-        #request to wikidata to get the information about the candidate https://www.wikidata.org/w/rest.php/wikibase/v0/entities/items/Q7617093
-        candidate_path=folder / f"{candidate_ids}.json"
-        if candidate_path.exists():
-            url=f"https://www.wikidata.org/w/rest.php/wikibase/v0/entities/items/{candidate_ids}"
-            response = requests.get(url)
-            res_obj = response.json()
-            with open(candidate_path, 'w') as fp:
-                json.dump(res_obj, fp)
+    # for candidate_ids in tqdm(candidates_set):
+    #     #request to wikidata to get the information about the candidate https://www.wikidata.org/w/rest.php/wikibase/v0/entities/items/Q7617093
+    #     candidate_path=folder / f"{candidate_ids}.json"
+    #     if not candidate_path.exists():
+    #         candidate_summary = sq.summarize_qid(candidate_ids)
+    #         res_obj = candidate_summary
+    #         with open(candidate_path, 'w') as fp:
+    #             json.dump(res_obj, fp)
+
+    #process the candidates in batches
+    candidates_list=list(candidates_set)
+    batches=[candidates_list[i:i + batch_size] for i in range(0, len(candidates_list), batch_size)]
+    with Pool(workers) as p:
+        for _ in tqdm(p.imap_unordered(process_candidate_batch, batches), total=len(batches), desc="Processing candidates in batches"):
+            pass
 
     # iterate trough the json files in /el_candidates/ and extract the image urls into a set, then save the set in a text file line by line
 
@@ -91,22 +125,24 @@ def main(args):
         if path.is_file() and path.suffix == ".json":
             with open(path) as f:
                 data = json.load(f)
-                if data.get('statements', {}).get('P18'):
-                    for image in data['statements']['P18']:
-                        try:
-                            commons_url = image["value"]["content"]
-                            if not commons_url.startswith("http"):#from a different domain
-                                image_urls.add(commons_url)
-                        except:
-                            pass
+                images=data["images"]
+                for image in images:
+                    try:
+                        commons_url = image
+                        if not commons_url.startswith("http"):#from a different domain
+                            image_urls.add(commons_url)
+                    except:
+                        pass
 
-    with open(paths.CANDIDATES_IMAGES_TXT_PATH, 'w') as f:
+    with open(paths.IMAGES_TXT_PATH, 'w') as f:
         for item in image_urls:
             f.write("%s\n" % item)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Get the candidates from wikidata, and build a file with all the images urls')
     parser.add_argument('--file_path', type=str, help='artpedia2wiki_matched.json file path', default=paths.ARTPEDIA2WIKI_MATCHED_PATH)
+    parser.add_argument('--batch_size', type=int, default=batch_size, help='Batch size for processing candidates')
+    parser.add_argument('--workers', type=int, default=workers, help='Number of worker processes to use')
     args = parser.parse_args()
     main(args)
 

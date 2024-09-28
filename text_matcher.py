@@ -3,6 +3,8 @@ from spacy.matcher import PhraseMatcher
 import json
 import argparse
 import paths
+import sparqlqueries as sq
+import utils
 
 from tqdm import tqdm
 
@@ -46,11 +48,14 @@ def process_painting(painting_qid, sentence_obj, nlp):
     matcher = PhraseMatcher(nlp.vocab)
     new_sentence_obj = sentence_obj.copy()
     depicts = sentence_obj['P180']
-    for key, value in depicts.items():
-        qid = key.split('/')[-1]
-        if qid in entities_dict and value[0].isupper():
-            patterns = [nlp.make_doc(text) for text in entities_dict[qid]]
-            matcher.add(key, patterns)
+    for url in depicts:
+        qid = url.split('/')[-1]
+        if qid in entities_dict:
+            labels=entities_dict[qid]
+            #if any label starts wuth uppercase, add it to the matcher (we just keep named entities)
+            if utils.is_named_entiy(labels):
+                patterns = [nlp.make_doc(text) for text in labels]
+                matcher.add(qid, patterns)
     sentences=sentence_obj['visual_sentences']
     visual_el_matches = process_sentences(sentences, matcher, nlp)    
     new_sentence_obj['visual_el_matches'] = visual_el_matches
@@ -66,42 +71,33 @@ def process_painting(painting_qid, sentence_obj, nlp):
         paintings_with_matches += 1
     return new_sentence_obj
 
-def read_entities(entities_path):
+def read_entity_labels(artpedia2wiki_obj):
     global entities_dict
-    with open(entities_path) as f:
-        for line in tqdm(f, desc="Reading entities file"):
-            if line[-2] == ',':
-                line = line[:-2]
-            else:
-                line = line[:-1]
-            entity = json.loads(line)
-            qid = entity['id']
-            labels=[]
-            if "en" in entity['labels']:
-                labels.append(entity['labels']['en']['value'])
-            if "en" in entity['aliases']:
-                labels.extend([alias_obj["value"] for alias_obj in entity['aliases']['en']])
-            #remove labels with no uppercase letter
-            labels = [label for label in labels if any(c.isupper() for c in label)]
-            #expand labels removing articles
-            new_labels = []
-            for label in labels:
-                if label.startswith("The ") or label.startswith("the "):
-                    new_labels.append(label[4:])
-            labels.extend(new_labels)
-            entities_dict[qid] = labels
+    for qid, obj in tqdm(artpedia2wiki_obj.items(), desc="Reading entities file to get the labels"):
+        for url in obj['P180']:
+            qid=url.split('/')[-1]
+            main_label, alt_labels = sq.sparql_all_lables(qid)
+            all_labels = [main_label]
+            all_labels.extend(alt_labels)
+            #remove empty labels (with trim)
+            all_labels = [label for label in all_labels if label.strip()]
+            entities_dict[qid] = all_labels
 
 def main(args):
     nlp = spacy.load("en_core_web_sm")
-    read_entities(args.entities_path)
     file_path = args.file_path
-    artpedia=json.load(open(file_path))
+    artpedia2wiki=json.load(open(file_path))
+    read_entity_labels(artpedia2wiki)
     new_artpedia = {}
-    for qid, painting in tqdm(artpedia.items(), desc="Processing artpedia file"):
+    for qid, painting in tqdm(artpedia2wiki.items(), desc="Processing artpedia file"):
         new_artpedia[qid] = process_painting(qid, painting, nlp)
     
     with open(args.output_file, 'w') as f:
         json.dump(new_artpedia, f, indent=4)
+
+    with open(paths.ARTPEDIA2WIKI_DEPICTED_LABELS_PATH, 'w') as f:
+        json.dump(entities_dict, f, indent=4)
+
     print("Visual matches: ", count_visual_matches)
     print("Contextual matches: ", count_contextual_matches)
     print("Visual sentence matches: ", count_visual_sentence_matches)
@@ -111,7 +107,6 @@ def main(args):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Process sentences and label dictionary to output annotations in JSON format', formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument('--file_path', type=str, help='artpedia2wiki.json file path', default=paths.ARTPEDIA2WIKI_PATH)
-    parser.add_argument('--entities_path', type=str, help='ndjson file with all the information about the entities', default=paths.ARTPEDIA_DEPICTED_ENTITIES_PATH)
     parser.add_argument('--output_file', type=str, help='path to output JSON file', default=paths.ARTPEDIA2WIKI_MATCHED_PATH)
     args = parser.parse_args()
     main(args)
