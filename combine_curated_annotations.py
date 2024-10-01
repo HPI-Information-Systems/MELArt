@@ -25,6 +25,7 @@ final_auto_anns={}
 for qid, artwork_info in automatic_anns.items():
     if qid in test:
         automatic_anns[qid]["split"]="test"
+        final_auto_anns[qid]=automatic_anns[qid]
         for sentence in curated_anns[qid]:
             corresponding_list="visual_sentences" if sentence["sentence_type"]=="visual" else "contextual_sentences"
             #get the sentence index
@@ -43,7 +44,7 @@ for qid, artwork_info in automatic_anns.items():
         print(f"Qid {qid} not found in any split")
     if any(len(sentence_match)>0 for sentence_match in automatic_anns[qid]["visual_el_matches"]) or any(len(sentence_match)>0 for sentence_match in automatic_anns[qid]["contextual_el_matches"]):
         combined_anns[qid]=automatic_anns[qid]
-        final_auto_anns[qid]=automatic_anns[qid]
+        #final_auto_anns[qid]=automatic_anns[qid]
     else:
         print(f"Qid {qid} has no matches")
 
