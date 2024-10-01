@@ -13,6 +13,11 @@
       "sentence_type": "visual"
     },
     {
+      "text": "The landscape background is typical of Perugino, with mountains and hills in deep perspective.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
       "text": "To the left of the cross stand saint Jerome (inspiration for the Jesuati) and Francis of Assisi.",
       "entities": [
         {
@@ -59,6 +64,26 @@
         }
       ],
       "sentence_type": "visual"
+    },
+    {
+      "text": "The work's dating and attribution are both uncertain - Venturi and Schmarsow attribute it to a pupil of Perugino, whilst other art historians attribute it to Perugino alone or with assistance from Signorelli.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The deep chiaroscuro is comparable to Signorelli's style elsewhere or to the early style of Perugino whilst he was still heavily influenced by Verrochio.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It is usually dated to between 1470 and 1478 or to between 1480 and 1490 - if it is the latter, it was one of three paintings produced for the church of the Jesuati monastery of San Giusto alle mura in Florence - the other two are Piet\u00e0 and Agony in the Garden.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "After that monastery was suppressed the Crucifixion passed through several different hands before being bought by its current owner the Uffizi in 1904 for 30,000 lira.",
+      "entities": [],
+      "sentence_type": "contextual"
     }
   ],
   "Q1224572": [
@@ -105,6 +130,16 @@
       "sentence_type": "contextual"
     },
     {
+      "text": "The two main versions of this painting that exist are in the Louvre in Paris and the Walker Art Gallery in Liverpool, England.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Queen Victoria also obtained a reduced version of it.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "The work was inspired by Jacques-Louis David's series of five Napoleon Crossing the Alps paintings (1801\u20131805).",
       "entities": [
         {
@@ -147,6 +182,21 @@
       "sentence_type": "contextual"
     },
     {
+      "text": "Delaroche was commissioned to paint a realistic portrait; the style of which was emerging at the time.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "While the painting largely represented\u2014and was one of the pioneers of\u2014an emerging style, the work was criticised by several authorities on the subject.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The reasons for this varied from Delaroche's depiction of the scene to a general disapproval of Delaroche himself.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "Many of those who were in the latter state of mind felt that Delaroche was trying to match the genius of Napoleon in some way, and had failed miserably in doing so.",
       "entities": [
         {
@@ -185,6 +235,11 @@
       "sentence_type": "visual"
     },
     {
+      "text": "One of the latter, with a flashing red mantle, is kneeling in front of her; his crown with fur edges lies on the ground next to him, together with a container full of gold coins.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
       "text": "Joseph, behind Mary, is perhaps pointing at them with an amazed expression.",
       "entities": [
         {
@@ -197,6 +252,31 @@
       "sentence_type": "visual"
     },
     {
+      "text": "Behind the first king are another one, also kneeling and aged, and a younger one standing, with black skin.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The former, who has a hand on his chest while another is catching the gift, wears a crown above a red velvet beret, and has a fur-lined hood which partially hides a sword hilt.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "His garments are completed by a saddlebag decorated by two pearls and two daisies.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The last king is already holding his gift; he is also dressed sumptuously, including the spurs, and is accompanied by three servants.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "In the background are several shepherds, including a bearded one with a fur hat decorated by feather, who could be the artist's self-portrait.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
       "text": "All the characters' glances converge on the baby Jesus, who, instead, looks towards the observer.",
       "entities": [
         {
@@ -206,6 +286,11 @@
           "text": "Jesus"
         }
       ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Symbolic details scattered in the picture include an iris flower at left and a small still life with a bowl, a pot, a wooden spoon and a piece of bread in a wall niche.",
+      "entities": [],
       "sentence_type": "visual"
     },
     {
@@ -233,6 +318,11 @@
       "sentence_type": "visual"
     },
     {
+      "text": "In the upper part are two pink and yellow drapes.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
       "text": "The Monforte Altarpiece  (c. 1470) is an oil on oak panel painting of the Adoration of the Magi by the Flemish painter Hugo van der Goes, now in the Gem\u00e4ldegalerie,  Berlin, Germany.",
       "entities": [
         {
@@ -245,6 +335,16 @@
       "sentence_type": "contextual"
     },
     {
+      "text": "The altarpiece was originally the central panel of a triptych with movable wings that are now lost; these were probably painted on both sides.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "This is shown by the hinges remaining in the original frame.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "Old copies of the work show the Nativity and Circumcision of Jesus on the wing panels.",
       "entities": [
         {
@@ -254,6 +354,16 @@
           "text": "Jesus"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The central panel has been reduced in size at the top.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "As usual in early Netherlandish art, the ground in the lower part is painted in wide angle perspective.",
+      "entities": [],
       "sentence_type": "contextual"
     },
     {
@@ -301,6 +411,16 @@
       "sentence_type": "contextual"
     },
     {
+      "text": "Whether this was from personal choice or at the request of patrons is unknown, but it gave Caravaggio the opportunity to explore the potential - from an artist's perspective - of aged and wrinkled flesh.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The painting is probably from the Giustiniani collection (the collection of Caravaggio's patron the banker Vincenzo Giustiniani and his brother the cardinal Benedetto).",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "Benedetto built up a large collection of religious works by the artist, and a St Jerome of the same dimensions as this one is in the Giustiniani inventory of 1638.",
       "entities": [
         {
@@ -310,6 +430,11 @@
           "text": "Jerome"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Caravaggio biographer Peter Robb points out that the brooding, introverted mood of this painting is strikingly similar to that of John the Baptist, now in Kansas City at the Nelson Atkins Museum, painted at about the same time.",
+      "entities": [],
       "sentence_type": "contextual"
     }
   ],
@@ -325,6 +450,91 @@
         }
       ],
       "sentence_type": "visual"
+    },
+    {
+      "text": "The procession is led through a dusty landscape by robed, Orthodox priests holding icons, festoons and banners over their heads.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Behind them follow a crowd mostly of peasants, but ranging from beggars and cripples, police and military officers to figures from the provincial elite.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Religious Procession led to controversy when first exhibited due to the icon being held by a man who appears to be drunk.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "At the right, burly peasants carry a platform holding the icon inside an elaborate neo-classical case; only gleams of light reflecting off the gold riza icon-cover can be made out.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Lines of peasants joining hands hold back the crowd, the foremost at the left trying to stop the crippled boy breaking through the cordon with his stick.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Alongside ride peasant or priest stewards and officials and police in uniform, some of the latter beating back the crowd with their riding crops.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Behind the icon follow priests and better-dressed people, carrying icons in front of their chest, and an \"effete, dandified and bored priest\" in vestments carefully straightens his hair.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "There is a comic effect with a stout middle-aged woman in a yellow dress and bonnet carrying an icon behind him, who looks very like a priest in his vestments.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "An empty icon-case, presumably that of the icon carried by the wealthy woman behind, is carried with as much reverence as the icon itself.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The hillside at right appears to have been recently cleared of timber, with fresh tree stumps.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Further back another platform, holding what appears to be a circular icon, is preceded by two large banners, and behind that a large processional cross can be made out through the cloud of dust.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Religious Procession in Kursk Governorate (also known as Easter Procession in the District of Kursk or A Religious Procession in Kursk Gubernia')",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "\u041a\u0440\u0435\u0441\u0442\u043d\u044b\u0439 \u0445\u043e\u0434 \u0432 \u041a\u0443\u0440\u0441\u043a\u043e\u0439 \u0433\u0443\u0431\u0435\u0440\u043d\u0438\u0438) is a large oil on canvas painting by the Russian realist painter and sculptor Ilya Repin (1844\u20131930).",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The work is a continuation of Repin's social commentary in his work, and highlights perceived abuses by both church and state.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "He wrote of the work, \" am applying all of my insignificant forces to try to give true incarnation to my ideas; life around me disturbs me a great deal and gives me no peace \u2013 it begs to be captured on canvas...\"",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The Procession is representative of Repin's style from the period, in that it first appears to be a scene from everyday life in Russia.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "In fact, it pointedly shows people from a range of social strata united and moving collectively towards their destination at Korennaya.",
+      "entities": [],
+      "sentence_type": "contextual"
     }
   ],
   "Q2270778": [
@@ -356,6 +566,11 @@
           "text": "La Negazione di Pietro"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The painting is housed in the Metropolitan Museum of Art in New York City.",
+      "entities": [],
       "sentence_type": "contextual"
     }
   ],
@@ -439,6 +654,21 @@
       "sentence_type": "contextual"
     },
     {
+      "text": "Stylistically, Lotto used expressive gestures and somewhat under-size heads.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The number of carefully painted details show the influence of Northern European paintings: they include the baldachin bed, the small window with sealed glasses, the shelf with a small still life, the hatstand, the stool with an hourglass, the prie-dieu and a scared cat which is fleeing.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The baldachin was inspired by a relief by Andrea Sansovino at Loreto.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "According to Italian art historian Giulio Carlo Argan:\n\nTitian's Virgin is a praying queen who nobly turns to receive the divine messenger in her palace.",
       "entities": [
         {
@@ -503,6 +733,16 @@
       "sentence_type": "visual"
     },
     {
+      "text": "The three young boys kneeling on the left were added later by another artist, and are markedly lower in quality.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "is a painting by the Italian Renaissance master Titian and his workshop, executed in the early 1540s, and now in the National Gallery in London.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "The canvas was commissioned by the patrician Vendramin family, and portrays, as dictated by Venetian custom, only male members of the dynasty.",
       "entities": [
         {
@@ -527,6 +767,21 @@
       "sentence_type": "contextual"
     },
     {
+      "text": "However Andrea was apparently only three years older than Gabriele, which one would not think from the two figures here.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It remains uncertain which is which.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The figures are next an altar holding a reliquary of the True Cross, which still exists.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "This was connected with a miracle in 1370-82 depicted by Vittorio Carpaccio, Gentile Bellini and other artists - when accidentally dropped into a canal during a congested procession it did not sink but hovered over the water, evading others trying to help, until an earlier Andrea Vendramin dived in and retrieved it.",
       "entities": [
         {
@@ -536,6 +791,26 @@
           "text": "Vendramin"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "This Andrea had been presented with the relic in 1369, in his capacity as head of the confraternity or Scuola Grande di San Giovanni Evangelista; they still hold the relc and its reliquary.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Both the large Bellini painting, The Miracle of the True Cross near San Lorenzo Bridge, of 1496-1500,[1], and the Carpaccio of 1494, are now in the Accademia museum in Venice.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Titian's painting has been described as, \"one of the greatest group portraits in history\".",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It balances youth and wisdom as well as demonstrating the power of this family and their public commitments to the Republic.",
+      "entities": [],
       "sentence_type": "contextual"
     },
     {
@@ -561,6 +836,11 @@
         }
       ],
       "sentence_type": "contextual"
+    },
+    {
+      "text": "The lighting and very low vanishing point suggest that the primary viewing point was anticipated to be at the left of the canvas, with the lower edge at about head height.",
+      "entities": [],
+      "sentence_type": "contextual"
     }
   ],
   "Q1059211": [
@@ -583,6 +863,11 @@
       "sentence_type": "visual"
     },
     {
+      "text": "The angel to the left is recorded as having been painted by the youthful Leonardo, a fact which has excited so much special comment and mythology, that the importance and value of the picture as a whole and within the \u0153uvre of Verrocchio is often overlooked.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
       "text": "The Baptism of Christ is a painting finished around 1475 in the studio of the Italian Renaissance painter Andrea del Verrocchio and generally ascribed to him and his pupil Leonardo da Vinci.",
       "entities": [
         {
@@ -593,9 +878,29 @@
         }
       ],
       "sentence_type": "contextual"
+    },
+    {
+      "text": "Some art historians discern the hands of other members of Verrocchio's  workshop in the painting as well.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Modern critics also attribute much of the landscape in the background to Leonardo da Vinci as well.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The painting is housed in the Uffizi Gallery in Florence.",
+      "entities": [],
+      "sentence_type": "contextual"
     }
   ],
   "Q3399482": [
+    {
+      "text": "An infant's head is also shown in the cot - this is Am\u00e9d\u00e9e de Pastoret, a future conseiller d'Etat, painted by Ingres in 1826.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
     {
       "text": "Portrait of Madame Pastoret is a 1791 portrait by Jacques-Louis David.",
       "entities": [
@@ -618,6 +923,41 @@
           "text": "Ad\u00e9laide Pastoret"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "He was a friend of the Pastoret family but broke with them in 1792 after they became more politically radical.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "With his portraits of Philippe-Laurent de Joubert and Madame Trudaine, it was one of three paintings left incomplete due to the advance of the French Revolution - all three figures were arrested or emigrated.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It was still in his studio on his death, when it was sold for 400 francs to its subject and remained in her family until the 1890 death without issue of her grand-daughter, the marquise de Roug\u00e9 du Plessis-Belli\u00e8re, n\u00e9e Marie de Pastoret.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It was catalogued as on show to the public in her collection at her ch\u00e2teau in Moreuil in 1884",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "A visitor described it in 1890.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Her collections were auctioned in May 1897, with the portrait sold for 17900 francs as lot 21 to M. Cheramy",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It has been in the Art Institute of Chicago since 1967.",
+      "entities": [],
       "sentence_type": "contextual"
     }
   ],
@@ -653,6 +993,11 @@
       "sentence_type": "visual"
     },
     {
+      "text": "Judas holds his right hand to his mouth with his eyes avoiding direct contact with the other figures in the painting creating a nervous expression.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
       "text": "Jesus is dressed in red and has a yellow halo surrounding his head with his face tilted upwards.",
       "entities": [
         {
@@ -675,6 +1020,76 @@
         }
       ],
       "sentence_type": "visual"
+    },
+    {
+      "text": "Out of all of the figures, he is the most in the light with the figures to the farthest left being the most in shadow.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The scene thus represents a perfect conflation of the theological significance of the Last Supper\u201d meaning the conflation between the blessing of the bread and the wine while still being pivotal in the sense of revealing the betrayal.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The Last Supper (1630\u20131631) is an oil painting by Peter Paul Rubens.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It was commissioned by Catherine Lescuyer as a commemorative piece for her father.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Rubens created it as part of an altarpiece in the Church of St. Rombout (Rumbold) in Mechelen.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "As in many other Northern European depictions, a dog with a bone can be seen in the scene, probably a simple pet.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It may represent  faith, dogs are traditionally symbols of and are representing faith.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "According to J. Richard Judson the dog near Judas perhaps represents greed or evil, as the companion of Judas, as in John 13:27.This painting followed the first unsuccessful attempt by Rubens to produce a Last Supper in 1611, when his patrons backed out the last minute, perhaps due to the high price of 4,000 Guilder asked by Rubens.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Leonardo da Vinci's Last Supper fresco was a significant influence on Rubens who created an etching after the Davinci Last Supper, which was one of Rubens first attempts to express the full range of human emotion printed by Pieter Soutman.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Rubens was also influenced by his humanist ideals from which he extracts biblical themes.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Rubens often made engravings following the completion of his works.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Other artists used these engravings to serve as a basis of their own works.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "These copies were even collected.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The engravings and copies helped to lead to the popularity of Rubens\u2019 works during his lifetime.",
+      "entities": [],
+      "sentence_type": "contextual"
     }
   ],
   "Q649408": [
@@ -691,6 +1106,16 @@
       "sentence_type": "visual"
     },
     {
+      "text": "It includes St. Anne's bed, the midwives with the daughter and St. Joachim riding a stair with something in his hand.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The predominant part of the work is the church background, where angels fly to form a large circle: in the middle is a young angel with a thurible for the incense.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
       "text": "The Nativity of the Virgin is a  painting by the  German Renaissance artist Albrecht Altdorfer, dating to c. 1520, which is currently housed in the Alte Pinakothek of Munich, Germany.",
       "entities": [
         {
@@ -703,6 +1128,11 @@
       "sentence_type": "contextual"
     },
     {
+      "text": "The work uses a scenic composition typical of the Danube school of the time.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "The edifice, symbolizing the analogy between Mary and the Catholic church (a subject later abolished by the Protestant Reformation), is organized in a complicated and original fashion: the ambulatory and the  column galleries are Romanesque, the ogival windows are Gothic, the vaults and the shell-shaped niches are  in Renaissance style.",
       "entities": [
         {
@@ -712,6 +1142,11 @@
           "text": "Mary"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "This attention to architectural elements was typical of Altdorfer's work in the period he spent at the court of Maximilian I.",
+      "entities": [],
       "sentence_type": "contextual"
     }
   ],
@@ -729,6 +1164,31 @@
       "sentence_type": "visual"
     },
     {
+      "text": "The Raising of Lazarus, c. 1609, in the Museo Regionale, Messina, is a painting by the Italian artist Caravaggio (1571\u20131610).",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "In August 1608 Caravaggio fled from Malta, where he had been imprisoned for an unknown crime, and took refuge in Sicily with his friend, the artist Mario Minniti.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Through Minniti's intercession he procured a number of important commissions, including this for the church of the Padri Crociferi in Messina, where it was presented by the wealthy Genoese merchant Giovanni Battista de' Lazzari on 10 June 1609.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The fee was a thousand scudi, more than double any Caravaggio had received previously.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Lazarus, the brother of Martha and Mary, was the patron saint of Giovanni Battista de' Lazzari, to whom Caravaggio was contracted to paint an altarpiece in the church of the Padri Crociferi.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "The Gospel of John tells how he fell sick, died, was buried and then miraculously raised from the dead by Christ.",
       "entities": [
         {
@@ -738,6 +1198,21 @@
           "text": "Christ"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "As in several paintings from this period of Caravaggio's career, the scene is set against blank walls that overwhelm the frieze of human actors.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The interaction of the relief of figures caught in corporate effort and emotion, with a large void above, is quite different from the closely focussed individualised dramas of his early and middle periods.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The old story that Caravaggio had a freshly buried body exhumed for this painting is \"probably apocryphal, but not beyond the bounds of possibility\" (John Gash, see below).",
+      "entities": [],
       "sentence_type": "contextual"
     },
     {
@@ -756,6 +1231,21 @@
           "text": "Christ"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The painting is in poor condition and much restored, and it's possible that some passages are the work of assistants.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "According to Francesco Susinno, Caravaggio had produced a first version that he destroyed with a razor after adverse criticism.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Subsequently he would have finished in record time the present version, but probably this account is fanciful.",
+      "entities": [],
       "sentence_type": "contextual"
     }
   ],
@@ -785,6 +1275,11 @@
       "sentence_type": "contextual"
     },
     {
+      "text": "It is part of the Thyssen-Bornemisza Collection of Madrid.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "Saint Catherine of Alexandria was a popular figure in Catholic iconography.",
       "entities": [
         {
@@ -794,6 +1289,21 @@
           "text": "Saint Catherine of Alexandria"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "She was of noble origins, and dedicated herself as a Christian after having a vision.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "At the age of 18 she confronted the Roman Emperor Maximus (presumably this refers to Galerius Maximianus), debated his pagan philosophers, and succeeded in converting many of them to Christianity.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Imprisoned by the emperor, she converted his empress and the leader of his armies.",
+      "entities": [],
       "sentence_type": "contextual"
     },
     {
@@ -809,6 +1319,21 @@
       "sentence_type": "contextual"
     },
     {
+      "text": "Maximus then had her beheaded.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "She became patron saint of libraries and librarians, as well as teachers, archivists, and all those associated with wisdom and teaching, and all those whose livelihoods depended upon wheels.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The year of her martyrdom was traditionally held to have been 305, (the year of a major persecution of Christians under Galerius), and her feastday was celebrated on 25 November.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "In 1969 the Church, persuaded by the overwhelming opinion of historians that Catherine had probably never existed, removed her from the calendar of saints; by 2002, while the majority of historians had not changed their minds, the Church had, and she was reinstated.",
       "entities": [
         {
@@ -818,6 +1343,11 @@
           "text": "Catherine"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Her qualities are supposed to be those of beauty, fearlessness, virginity, and intelligence.",
+      "entities": [],
       "sentence_type": "contextual"
     }
   ],
@@ -835,6 +1365,31 @@
       "sentence_type": "visual"
     },
     {
+      "text": "Across the river is the Gare d'Orl\u00e9ans train station and the Place Carnot square.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "His Rouen series instead focuses on the bustle of the modern city.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Pissarro deliberately sought out a view of the busy industrial section of the town, and produced a number of paintings of the view from the hotel in different light conditions and different weather.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "In a letter written that year, Pissarro himself describes the painting: \"The theme is the bridge near the Placede la Bourse with the effects of rain, crowds of people coming and going, smoke from the boats, quays with cranes, workers in the foreground, and all this in grey colors glistening in the rain.\"",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "He further wrote, \"what particularly interests me is the motif off the iron bridge in wet weather with all the vehicles, pedestrians, workers on the embankment, boats, smoke, haze in the distance; it's so spirited, so alive.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
       "text": "Pont Boieldieu in Rouen,",
       "entities": [
         {
@@ -844,6 +1399,11 @@
           "text": "Pont Boieldieu"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Rainy Weather is an 1896 painting by Camille Pissarro in the collection of the Art Gallery of Ontario.",
+      "entities": [],
       "sentence_type": "contextual"
     },
     {
@@ -859,6 +1419,21 @@
       "sentence_type": "contextual"
     },
     {
+      "text": "Pissarro spent time in Rouen in 1896 seeking to paint the industrial modernity of the area.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "He had earlier made a trip in 1883, and did one series of images of the city then.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "On his 1896 trip he stayed at the H\u00f4tel de Paris in Rouen, from January to April 1896, and it is in this period that this painting was made.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "His room overlooked the Seine, and it is from this vantage point that it is painted.",
       "entities": [
         {
@@ -868,6 +1443,16 @@
           "text": "Seine"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The painting shows Pissarro's interest in moving beyond traditional landscape paintings of verdant rural scenes.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The Rouen pictures would be followed by a series of paintings of urban Paris.",
+      "entities": [],
       "sentence_type": "contextual"
     },
     {
@@ -883,6 +1468,11 @@
       "sentence_type": "contextual"
     },
     {
+      "text": "Rainy Weather is a return to Impressionism after a decade of experimenting with Post-Impressionism and Pointalism.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "He did another picture of the Pont Boieldieu from the same angle, but in a foggy sunset that is today at the Mus\u00e9e des Beaux-Arts de Rouen.",
       "entities": [
         {
@@ -892,6 +1482,16 @@
           "text": "Pont Boieldieu"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The painting was donated to the Art Gallery of Ontario by Reuben Wells Leonard upon his death in 1937.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It is one of six Pissarros on public display in Canada, with two others at the AGO, and the others being at the National Gallery of Canada, Art Gallery of Hamilton and the Art Gallery of Greater Victoria.",
+      "entities": [],
       "sentence_type": "contextual"
     }
   ],
@@ -909,6 +1509,11 @@
       "sentence_type": "visual"
     },
     {
+      "text": "The biblical event takes place in an open gallery in the middle distance, while three figures in the foreground on the right-hand side apparently pay no attention to the event unfolding behind them.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
       "text": "The Flagellation is particularly admired for the realistic rendering of the hall in which the flagellation scene is situated in relation to the size of the figures and for the geometrical order of the composition.",
       "entities": [
         {
@@ -918,6 +1523,11 @@
           "text": "The Flagellation"
         }
       ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The portrait of the bearded man at the front is considered unusually intense for Piero's time.",
+      "entities": [],
       "sentence_type": "visual"
     },
     {
@@ -933,6 +1543,11 @@
       "sentence_type": "contextual"
     },
     {
+      "text": "Called by one writer an \"enigmatic little painting,\" the composition is complex and unusual, and its iconography has been the subject of widely differing theories.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "Kenneth Clark placed The Flagellation in his personal list of the best ten paintings, calling it \"the greatest small painting in the world\".",
       "entities": [
         {
@@ -942,6 +1557,16 @@
           "text": "The Flagellation"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The panel is much admired for its use of linear perspective and the air of stillness that pervades the work, and it has been given the epithet \"the Greatest Small Painting in the World\" by the art historian Kenneth Clark.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The painting is signed under the seated emperor OPVS PETRI DE BVRGO S[AN]C[T]I SEPVLCRI \u2013 \"the work of Piero of Borgo Santo Sepolcro\" (his native town).",
+      "entities": [],
       "sentence_type": "contextual"
     }
   ],
@@ -957,6 +1582,41 @@
         }
       ],
       "sentence_type": "visual"
+    },
+    {
+      "text": "In a depiction related to Christ's crucifixion, the centrally themed woman is in an elevated position against the sky, balanced by a large crowd gathered at the foot of the cross, including executioners and common people.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "A typical element is the fainting man supported by his neighbors.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The sides show two cities: at right, a port characterized by fanciful domed buildings and several sunken ships; at left is city on fire, occupied by demons.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "At the bottom are several parapets, with, at left, a hermit with a dark hood (perhaps St. Anthony in Meditation), and, at right, a monk and a soldier who point at the central panel, traditionally identified as slave-dealers.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The Crucifixion of St Julia is a triptych by the Dutch painter Hieronymus Bosch.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Like many  Bosch paintings, the date of this work was long disputed, until dendochronologic analysis assigned it to around 1497.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It is housed at the Palazzo Ducale in Venice.",
+      "entities": [],
+      "sentence_type": "contextual"
     }
   ],
   "Q1608116": [
@@ -971,6 +1631,21 @@
         }
       ],
       "sentence_type": "visual"
+    },
+    {
+      "text": "The throne is similar to the Maest\u00e0 painted by Cimabue in the Basilica of San Francesco di Assisi (1288\u20131292).",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The Maest\u00e0 is a painting by the Italian artist   Cimabue, painted around 1280 and housed in Mus\u00e9e du Louvre of Paris, France.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The work is considered to be from around 1280, thus preceding the Santa Trinita Maest\u00e0.",
+      "entities": [],
+      "sentence_type": "contextual"
     },
     {
       "text": "This work established a new canon for the Madonna with Child theme, which was subsequently used by other painters, such as Duccio di Buoninsegna in his Rucellai Maest\u00e0.",
@@ -1101,6 +1776,11 @@
       "sentence_type": "visual"
     },
     {
+      "text": "The gold urn inscribed with the artist's signature (TICIANVS) may also have been familiar to the Duke as one of the antiquities in his collection.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
       "text": "Bacchus and Ariadne (1522\u20131523) is an oil painting by Titian.",
       "entities": [
         {
@@ -1119,6 +1799,11 @@
       "sentence_type": "contextual"
     },
     {
+      "text": "It is one of a cycle of paintings on mythological subjects produced for Alfonso I d'Este, Duke of Ferrara, for the Camerino d'Alabastro \u2013 a private room in his palazzo in Ferrara decorated with paintings based on classical texts.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "An advance payment was given to Raphael, who originally held the commission for the subject of a Triumph of Bacchus.",
       "entities": [
         {
@@ -1128,6 +1813,11 @@
           "text": "Bacchus"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "At the time of Raphael's death in 1520, only a preliminary drawing was completed and the commission was then handed to Titian.",
+      "entities": [],
       "sentence_type": "contextual"
     },
     {
@@ -1146,6 +1836,21 @@
           "text": "Ariadne"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The painting, considered one of Titian's greatest works, now hangs in the National Gallery in London.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The other major paintings in the cycle are The Feast of the Gods (mostly by Giovanni Bellini, now in the National Gallery of Art, Washington, D.C), and Titian's The Bacchanal of the Andrians and The Worship of Venus (both now in the Museo del Prado, Madrid).",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "There are two possible variations of the story both going back to Ovid.",
+      "entities": [],
       "sentence_type": "contextual"
     },
     {
@@ -1209,6 +1914,11 @@
       "sentence_type": "contextual"
     },
     {
+      "text": "The composition is divided diagonally into two triangles, one of blue sky (using the expensive ultramarine pigment) and still but for the two lovers caught in movement, the other a riot of movement and predominantly green/brown in colour.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "The follower of Bacchus who struggles with a snake is sometimes falsely associated with the antique sculpture of Laoco\u00f6n and His Sons who had been killed by snakes.",
       "entities": [
         {
@@ -1218,6 +1928,26 @@
           "text": "Bacchus"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "This statue had recently been discovered in Rome.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "But the satyr in Titian's painting is not in a mortal combat with the snakes, he is merely girding himself with them as is described in the original text by Catullus.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The King Charles Spaniel that barks at the boy satyr is a common motif in Titian's work and was probably a court pet.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The analysis of pigments used by Titian in this painting has been undertaken by scientists at the National Gallery in London and this analysis is illustrated at ColourLex.",
+      "entities": [],
       "sentence_type": "contextual"
     }
   ],
@@ -1230,6 +1960,29 @@
           "end": 34,
           "qid": "Q345",
           "text": "Mary's"
+        },
+        {
+          "start": 35,
+          "end": 39,
+          "qid": "Q5194627",
+          "text": "lily"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "There are donor portraits of Matteo Palmieri, who commissioned the work, kneeling on the left, and his wife on the right.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "In Heaven above, surrounded by the nine choirs of angels, Jesus raises his hand in blessing to his kneeling mother.",
+      "entities": [
+        {
+          "start": 58,
+          "end": 63,
+          "qid": "Q302",
+          "text": "Jesus"
         }
       ],
       "sentence_type": "visual"
@@ -1238,10 +1991,22 @@
       "text": "Among the lesser angels around Jesus and Mary are saints.",
       "entities": [
         {
+          "start": 31,
+          "end": 36,
+          "qid": "Q302",
+          "text": "Jesus"
+        },
+        {
           "start": 41,
           "end": 45,
           "qid": "Q345",
           "text": "Mary"
+        },
+        {
+          "start": 50,
+          "end": 56,
+          "qid": "Q43115",
+          "text": "saints"
         }
       ],
       "sentence_type": "visual"
@@ -1263,9 +2028,21 @@
       "entities": [
         {
           "start": 12,
-          "end": 18,
-          "qid": "Q345",
-          "text": "Mary's"
+          "end": 29,
+          "qid": "Q162691",
+          "text": "Mary's assumption"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Together with Palmieri's poem La citt\u00e0 di vita, this mixing of saints with angels raised questions about the orthodoxy of the donor Palmieri, and possibly that of the painter Botticini himself.",
+      "entities": [
+        {
+          "start": 63,
+          "end": 69,
+          "qid": "Q43115",
+          "text": "saints"
         }
       ],
       "sentence_type": "contextual"
@@ -1295,9 +2072,29 @@
         }
       ],
       "sentence_type": "visual"
+    },
+    {
+      "text": "The back panel shows pilgrims on the way to the Saint Catherine's Monastery in Egypt as if on their way to Heaven.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The Modena Triptych is 1568 triptych (three panel painting) by the artist El Greco, who was also known as Dom\u00e9nikos Theotok\u00f3poulos.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "This portable altarpiece is painted on both sides and has an Italian Renaissance frame.",
+      "entities": [],
+      "sentence_type": "contextual"
     }
   ],
   "Q2066739": [
+    {
+      "text": "The three predellas,  stripped by the French in 1797 along with the main picture (restored to Verona in 1815), are now replaced by copies.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
     {
       "text": "Eight saints are placed at the sides, according to the commissioner's preferences: on the left are Peter, Paul, John the Evangelist and Zeno; on the right, Benedict, Lawrence, Gregory and John the Baptist.",
       "entities": [
@@ -1315,6 +2112,31 @@
         }
       ],
       "sentence_type": "visual"
+    },
+    {
+      "text": "The entire composition is full of detail referring to classical Antiquity: the frieze with the angels which hold two garlands or the throne, which reminds the viewer of a sarcophagus.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The San Zeno Altarpiece is a triptych by the Italian Renaissance painter Andrea Mantegna, from c.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It is located in the Basilica di San Zeno, the main church of Verona.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The originals are in the Louvre (Crucifixion) and in the Mus\u00e9e des Beaux-Arts in Tours (Resurrection and Agony in the Garden).",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The work was commissioned by the Abbot Gregorio Correr.",
+      "entities": [],
+      "sentence_type": "contextual"
     },
     {
       "text": "In the centre is the Madonna enthroned with the Child, portrayed according to the Byzantine iconography of the Victorious Madonna and surrounded by chanting angels.",
@@ -1338,6 +2160,21 @@
           "text": "Madonna"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The frame, probably designed by Mantegna himself, is the original one.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It was probably the first good example of the Renaissance art in Verona.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It was a model for painters, for example Girolamo dai Libri.",
+      "entities": [],
       "sentence_type": "contextual"
     }
   ],
@@ -1377,6 +2214,26 @@
         }
       ],
       "sentence_type": "contextual"
+    },
+    {
+      "text": "The portrait was the first Eakins made of someone outside his family.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It is a prelude to what he considered his most important painting, The Gross Clinic (1875).",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Rand donated it to Jefferson Medical College when he retired.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It was purchased by Alice L. Walton for an estimated US$20 million in April 2007, to be housed at the Crystal Bridges Museum of American Art.",
+      "entities": [],
+      "sentence_type": "contextual"
     }
   ],
   "Q2899286": [
@@ -1408,6 +2265,11 @@
           "text": "Berthe Morisot"
         }
       ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "She wears black mourning dress and hat, with her face surrounded by black ribbons and scarves, against a lighter background, and an earring in each ear.",
+      "entities": [],
       "sentence_type": "visual"
     },
     {
@@ -1459,6 +2321,26 @@
       "sentence_type": "contextual"
     },
     {
+      "text": "Manet also created an etching and two lithographs of the same composition.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The half-length portrait is on a canvas measuring 55.5 \u00d7 40.5 centimetres (21.9 \u00d7 15.9 in)",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "\u2013 71.5 \u00d7 57.5 centimetres (28.1 \u00d7 22.6 in) with frame \u2013 and is signed \"Manet 72\" in the upper right corner.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It is a study in shades of black.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "Unusually for Manet's portraits, which typically have an even light, Morisot is lit from one side, so that she is brightly illuminated on her right side and the left is in deep shadow.",
       "entities": [
         {
@@ -1468,6 +2350,26 @@
           "text": "Morisot"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Manet also painted violets in his Woman with a Parrot of 1866.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The dark costume and eyes may allude to Manet's impression that she looked Spanish.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Manet had earlier painted a similar portrait of his own mother in mourning, made in 1863, which shows his mother clad in black, on a dark background.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The painting was followed by a similar etching \u2013 probably the first copy, with the pose reversed \u2013 and two lithographs, all made in 1872 to 1874.",
+      "entities": [],
       "sentence_type": "contextual"
     },
     {
@@ -1521,6 +2423,11 @@
       "sentence_type": "visual"
     },
     {
+      "text": "The wringing of her hair is a direct imitation of Apelles's lost masterwork of the same title.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
       "text": "It is smaller than usual in the birth of Venus scenes, such as Botticelli's, and is just intended to identify the subject rather than be a boat-like vessel for Venus, as in Sandro Botticelli's The Birth of Venus and other depictions.",
       "entities": [
         {
@@ -1567,6 +2474,56 @@
         }
       ],
       "sentence_type": "contextual"
+    },
+    {
+      "text": "Titian deliberately included this detail to prove that he could rival the art of antiquity in which the goddess was also washing her hair \u2014 a fact mentioned in Pliny's Natural History.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The painting is in exceptionally fine condition.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It was once owned by Christina of Sweden, and passed via the Orleans Collection to 6th Duke of Sutherland, who lent it and 26 other paintings to the National Galleries of Scotland in 1945.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "On the death of the childless Duke in 2000, the work was acquired from his cousin, Francis Egerton, 7th Duke of Sutherland for more than \u00a311m in 2003, with the aid of the National Arts Collection Fund.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Also contributing to the purchase were the Wolfson Foundation, the Heritage Lottery Fund (\u00a37.6m), and the Scottish Executive (\u00a32.5m).",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "To facilitate the sale, \u00a32.4m of the picture's value was offset against inheritance tax.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The market value has been estimated at \u00a320m.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "After the sale, the 7th Duke said, \"To all intents and purposes nothing has changed, except the painting will now belong to the nation.\"",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It soon afterwards formed the centrepiece of an exhibition in 2004 and the anniversary exhibition \"Saved!\"",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "for the National Art Collections Fund.",
+      "entities": [],
+      "sentence_type": "contextual"
     }
   ],
   "Q698015": [
@@ -1601,6 +2558,21 @@
       "sentence_type": "visual"
     },
     {
+      "text": "The faces are put into light while all other objects are darker, e.g. the carnation is covered by a shadow.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The child is looking up, the mother is looking down \u2014 there is no eye contact.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The setting of the portrait is a room with two windows on each side of the figures.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
       "text": "The Madonna of the Carnation, a.k.a. Madonna with Vase or Madonna with Child, is a Renaissance oil painting by Leonardo da Vinci created around 1478-1480.",
       "entities": [
         {
@@ -1631,6 +2603,16 @@
       "sentence_type": "contextual"
     },
     {
+      "text": "It is permanently displayed at the Alte Pinakothek gallery in Munich, Germany.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Originally this painting was thought to have been created by Andrea del Verrocchio but subsequent art historians agree that it is Leonardo's work.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "The Madonna and Child was a common motif in Christian art during the Middle Ages.",
       "entities": [
         {
@@ -1647,9 +2629,54 @@
         }
       ],
       "sentence_type": "contextual"
+    },
+    {
+      "text": "This painting is the only work by Leonardo which is permanently on display in Germany.",
+      "entities": [],
+      "sentence_type": "contextual"
     }
   ],
   "Q661803": [
+    {
+      "text": "In this self-portrait as painter he depicted himself as a stylish Boulevardier in front of a dark background.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The depicted wears a black top hat and a brown jacket, under which is a white shirt, of which only the collar can be seen.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The neckline of the suit jacket covers a black silk tie which is affixed by a tie pin.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "In the right, only vaguely depicted hand he holds a long wooden brush with red paint on the tip; the left hand holds a painting palette with about three more brushes.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The figure is lit from the left by which the shadows beneath the left arm and the right half of the face are created.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "His pose is slightly turned to the right, so that the right half of the body is darker than the forward, left half.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The painter's gaze is directed forwards at the viewer.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Self-Portrait with Palette (French:",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
     {
       "text": "Autoportrait \u00e0 la palette) is an 1878\u201379 oil-on-canvas painting by the French artist \u00c9douard Manet.",
       "entities": [
@@ -1660,6 +2687,11 @@
           "text": "\u00c9douard Manet"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "This late impressionistic work is one of his two self-portraits.",
+      "entities": [],
       "sentence_type": "contextual"
     },
     {
@@ -1675,6 +2707,16 @@
       "sentence_type": "contextual"
     },
     {
+      "text": "A long series of prominent collectors have owned this painting.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Most recently, it sold for $29.48 million at Sotheby's on 22 June 2010.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "The 83 \u00d7 67 cm (33 \u00d7 26 in) painting shows a half-length portrait of the painter \u00c9douard Manet.",
       "entities": [
         {
@@ -1684,6 +2726,11 @@
           "text": "\u00c9douard Manet"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "No further accessories are shown.",
+      "entities": [],
       "sentence_type": "contextual"
     },
     {
@@ -1743,6 +2790,21 @@
       "sentence_type": "contextual"
     },
     {
+      "text": "It is housed in the Museo del Prado of  Madrid, Spain.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It is signed \"REMBRANDT F: 1634\".",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The subject of the picture was unclear for centuries.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "Today it is considered to be Judith at the banquet of Holofernes.",
       "entities": [
         {
@@ -1768,6 +2830,36 @@
     }
   ],
   "Q1752990": [
+    {
+      "text": "In the painting, an old man in a white robe sits upright on a bed, one hand extended over a cup, the other gesturing in the air.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "He is surrounded by other men of varying ages, most showing emotional distress, unlike the stoic old man.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The young man handing him the cup looks the other way, with his face in his free hand.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Another young man clutches the thigh of the old man.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "An elderly man sits at the end of the bed, slumped over and looking in his lap.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "To the left, other men are seen through an arch set in the background wall.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
     {
       "text": "The Death of Socrates (French: La Mort de Socrate) is an oil on canvas painted by French painter Jacques-Louis David in 1787.",
       "entities": [
@@ -1895,9 +2987,24 @@
         }
       ],
       "sentence_type": "contextual"
+    },
+    {
+      "text": "It is now held in the Galleria Palatina of the Palazzo Pitti in Florence.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It also features in the 1772 painting The Tribuna of the Uffizi by Zoffany.",
+      "entities": [],
+      "sentence_type": "contextual"
     }
   ],
   "Q3139726": [
+    {
+      "text": "It depicts a number of key figures from the once secret brotherhood of Les Nabis (Hebr.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
     {
       "text": "Homage to C\u00e9zanne (French: Hommage \u00e0 C\u00e9zanne) is a painting in oil on canvas by the French artist Maurice Denis dating from 1900.",
       "entities": [
@@ -1908,6 +3015,11 @@
           "text": "Maurice Denis"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The painting is a retrospective; by 1900 the group was breaking up as its members matured.",
+      "entities": [],
       "sentence_type": "contextual"
     }
   ],
@@ -1922,6 +3034,16 @@
           "text": "Virgin"
         }
       ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The angel is kneeling next to her, also with a hand on his breast a greeting sign.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The scene is framed into a portico opening to a close garden.",
+      "entities": [],
       "sentence_type": "visual"
     },
     {
@@ -1940,6 +3062,11 @@
           "text": "Annunciation"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It is housed in the Alte Pinakothek, Munich, Germany.",
+      "entities": [],
       "sentence_type": "contextual"
     }
   ],
@@ -2005,6 +3132,31 @@
       "sentence_type": "visual"
     },
     {
+      "text": "However, the extreme height of the throne is most unusual and creates a very different effect from the pictures of this type by Giovanni Bellini and other painters, where the throne is only slightly raised and the figures are at roughly the same level.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The armored figure has formerly been identified as the fighting saint St. George or St. Liberalis, patron of Castelfranco.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The traditional scheme of composition is lightened by the novel use of such elements as the throne and the landscape, which takes up a good portion of the background.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "It remains in the equivalent of its original setting, in a side-chapel of the Cathedral of Castelfranco Veneto, Giorgione's native city, in Veneto, northern Italy, although the present church dates to the 18th century.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It is one of a handful of paintings - perhaps three - which can be very firmly attributed to Giorgione.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "Matteo and his brother Bruto Muzio were members of the Knights of Rhodes, whose ensign is borne by St. Nicasius (a martyred saint who had also belonged to the Hospitallier order).",
       "entities": [
         {
@@ -2014,6 +3166,26 @@
           "text": "St. Nicasius"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Noteworthy is also the absence of any reference to ecclesiastical elements of architecture.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The technique of painting is an example of what Vasari called pittura sanza disegno (painting without drawing).",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "This was a new approach to painting which revolutionised the Venetian school and is famously used in The Tempest.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Titian, a pupil of Giorgione, later became one of the most important exponents of this style.",
+      "entities": [],
       "sentence_type": "contextual"
     },
     {
@@ -2079,6 +3251,11 @@
       "sentence_type": "visual"
     },
     {
+      "text": "He is dressed in the finery of a medieval canon, including white surplice, as he piously reads from a book of hours.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
       "text": "He is presented to Mary by Saint George, his name saint, who holds aloft his metal helmet in respect.",
       "entities": [
         {
@@ -2118,6 +3295,11 @@
           "text": "Virgin's"
         }
       ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The panel has an overall sculptural look; the throne, windows, arches and hanging canvases borrow from the conventions of Romanesque architecture.",
+      "entities": [],
       "sentence_type": "visual"
     },
     {
@@ -2175,6 +3357,16 @@
       "sentence_type": "contextual"
     },
     {
+      "text": "He was then a wealthy clergyman from Bruges, but elderly and gravely ill, and intended the work as his memorial.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The saints are identifiable from Latin inscriptions lining the borders of the imitation bronze frame, which is original.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "Van der Paele is identifiable from historical records.",
       "entities": [
         {
@@ -2184,6 +3376,16 @@
           "text": "Van der Paele"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The panel is noted for the finery of clothing, including exquisite representations of furs, silks and brocades, and the elaborate and detailed religious iconography.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The painting is lined with a series of inscriptions which comment on the saints, and include van Eyck's signature.",
+      "entities": [],
       "sentence_type": "contextual"
     },
     {
@@ -2220,6 +3422,11 @@
           "text": "Mary"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "After the \"Adoration of the Mystic Lamb\" panel of the Ghent Altarpiece, it is van Eyck's second largest extant painting, and the only one in a horizontal framing.",
+      "entities": [],
       "sentence_type": "contextual"
     },
     {
@@ -2269,9 +3476,29 @@
         }
       ],
       "sentence_type": "contextual"
+    },
+    {
+      "text": "Van Eyck's mastery at handling oil can be seen in the differing breadths of brush strokes.",
+      "entities": [],
+      "sentence_type": "contextual"
     }
   ],
   "Q3138273": [
+    {
+      "text": "The prince is shown in the uniform of a captain-general (adapted to his infant state but still including a commander's baton in his right hand, a shoulder sash and a sword hilt in his left hand).",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The dwarf holds an apple and a rattle, to contrast with the heir to the most powerful monarchy in Europe, who is shown as already in military training and not needing these usual children's attributes.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The prince's static posture, in contrast to the dynamism of the dwarf's figure, turning to contemplate the prince, has caused some art historians to think that the painting was originally only of the prince, with the dwarf added later.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
     {
       "text": "With a Dwarf is a 1631 portrait by Diego Vel\u00e1zquez of Balthasar Charles, Prince of Asturias and a court dwarf.",
       "entities": [
@@ -2283,9 +3510,29 @@
         }
       ],
       "sentence_type": "contextual"
+    },
+    {
+      "text": "It is now in the Museum of Fine Arts in Boston.",
+      "entities": [],
+      "sentence_type": "contextual"
     }
   ],
   "Q924655": [
+    {
+      "text": "The colours are darker in the near subjects, while the figures in the background are white, nearly transparent.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The strange red sky is roiling with ominous clouds, riven with a thunderbolt, affording the painting a heavy, dynamic atmosphere.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Tintoretto himself is portrayed within the work as the bearded man beside the camel.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
     {
       "text": "St Mark's Body Brought to Venice, The Abduction of the Body of Saint Mark  or Translation of the Body of Saint Mark is a painting by Tintoretto.",
       "entities": [
@@ -2351,6 +3598,11 @@
         }
       ],
       "sentence_type": "contextual"
+    },
+    {
+      "text": "The painting is notable for its striking, deep perspective background lines.",
+      "entities": [],
+      "sentence_type": "contextual"
     }
   ],
   "Q1170194": [
@@ -2370,6 +3622,16 @@
           "text": "Child"
         }
       ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The throne's backrest is covered with a green drape and by a  baldachin which is also held by two flying cherubim.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Below is an angel playing a lute, an evident homage to Giovanni Bellini's altarpieces.",
+      "entities": [],
       "sentence_type": "visual"
     },
     {
@@ -2469,6 +3731,11 @@
       "sentence_type": "visual"
     },
     {
+      "text": "On the right, nearby a lush Alpine landscape, is the artist's self-portrait with a cartouche in a hand: here is the signature with a short inscription, reporting the time needed to complete the work (five months).",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
       "text": "The characters next to the painter are likely   Leonhard Vilt, founder of the Brotherhood of the Rosary in Venice, and (in black)  Hieronymus of Augsburg, the architect of the new  Fondaco dei Tedeschi.",
       "entities": [
         {
@@ -2515,9 +3782,29 @@
         }
       ],
       "sentence_type": "contextual"
+    },
+    {
+      "text": "Annexed is the donor's portrait.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The style of the work is reminiscent of some Bellini's works featuring the same quiet monumental appearance, such as  the San Giobbe Altarpiece (1487) or the San Zaccaria Altarpiece (1505), especially regarding the guitar playing angel in the center.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Most the work was subject to later repainting, including the great part of the heads and some half of the panel",
+      "entities": [],
+      "sentence_type": "contextual"
     }
   ],
   "Q636537": [
+    {
+      "text": "The painting shows the radical journalist lying dead in his bath on July 13, 1793, after his murder by Charlotte Corday.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
     {
       "text": "The Death of Marat (French: La Mort de Marat or Marat Assassin\u00e9) is a 1793 painting by Jacques-Louis David of the murdered French revolutionary leader Jean-Paul Marat.",
       "entities": [
@@ -2528,6 +3815,16 @@
           "text": "Jean-Paul Marat"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It is one of the most famous images of the French Revolution.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "David was the leading French painter, as well as a Montagnard and a member of the revolutionary Committee of General Security.",
+      "entities": [],
       "sentence_type": "contextual"
     },
     {
@@ -2569,6 +3866,11 @@
       "sentence_type": "visual"
     },
     {
+      "text": "It is set within a spacious loggia with a rich decoration of columns and bas-reliefs.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
       "text": "In the background is a landscape with a city on a river, probably intended to be Autun in Burgundy, Rolin's hometown.",
       "entities": [
         {
@@ -2578,6 +3880,11 @@
           "text": "Rolin's"
         }
       ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "A wide range of well detailed palaces, churches, an island, a towered bridge, hills and fields is portrayed, subject to a uniform light.",
+      "entities": [],
       "sentence_type": "visual"
     },
     {
@@ -2593,6 +3900,11 @@
       "sentence_type": "visual"
     },
     {
+      "text": "A haze covers a mountain range in the far distance.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
       "text": "The small garden with many flowers identifiable (including lilies, irises, paeonies and roses), visible just outside the columns, symbolizes Mary's virtues.",
       "entities": [
         {
@@ -2602,6 +3914,16 @@
           "text": "Mary's"
         }
       ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Beyond, two male figures wearing chaperons are looking through the crenellations of what looks to be a fortified balcony or bridge.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The figure on the right wears a similar red chaperon to the probable van Eyck self-portrait in the National Gallery, London.",
+      "entities": [],
       "sentence_type": "visual"
     },
     {
@@ -2647,6 +3969,11 @@
       "sentence_type": "visual"
     },
     {
+      "text": "The perfectionist rendering of details and textures, such as the capitals, the checquered pavement, the goldwork of the angel's crown or the garments is characteristic of Jan van Eyck's work, of which this is one of the finest examples.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
       "text": "Comparison of the floor-tiles with other elements shows that the figures are only about six feet from the columned loggia screen, and that Rolin might have to squeeze himself through the opening to get out that way.",
       "entities": [
         {
@@ -2687,6 +4014,36 @@
         }
       ],
       "sentence_type": "contextual"
+    },
+    {
+      "text": "After a period in Autun Cathedral, it was moved to the Louvre in 1805.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "As in many Early Netherlandish paintings, the steepness of the hills and mountains is shown as much greater than that found locally, for dramatic effect.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "There has been speculation that they may represent van Eyck and an assistant, after the pattern of his Arnolfini Portrait.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The interior has complex light sources, typical of van Eyck, with light coming both from the central portico and the side windows.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "As in other van Eycks, the depiction of the space is not as straightforward as it first appears.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Many van Eycks show an interior space that is actually very small, but the depiction is subtly managed to retain a sense of intimacy, but without feeling constricted.",
+      "entities": [],
+      "sentence_type": "contextual"
     }
   ],
   "Q2609235": [
@@ -2700,6 +4057,16 @@
           "text": "Saint Francis of Assisi"
         }
       ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Two flaming wings rose straight upward, two others opened out horizontally, and two more covered the figure.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "And the wounds in the hands and feet and heart were blazing rays of blood.",
+      "entities": [],
       "sentence_type": "visual"
     },
     {
@@ -2733,6 +4100,21 @@
       "sentence_type": "contextual"
     },
     {
+      "text": "It is held in the Wadsworth Atheneum, Hartford, Connecticut.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The painting was the first of Caravaggio's religious canvasses, and is thought to date from 1595, when he had recently entered the household of Cardinal Francesco Maria Del Monte.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It was presumably painted at the behest of Del Monte, and is thought to be one of the first paintings done by the artist as \"Del Monte's painter\", as he is believed to have described himself over the next few years while living in Palazzo Madama.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "The story is told by one of Francis' companions, Brother Leo.",
       "entities": [
         {
@@ -2757,6 +4139,11 @@
       "sentence_type": "contextual"
     },
     {
+      "text": "On the mountainside at night",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "Brother Leo saw a six-winged seraph (one of the higher Orders of angels) come down to Francis in answer to the saint's prayer that he might know both Christ's suffering and His love:\n\nAll of a sudden there was a dazzling light.",
       "entities": [
         {
@@ -2769,6 +4156,11 @@
       "sentence_type": "contextual"
     },
     {
+      "text": "It was as though the heavens were exploding and splashing forth all their glory in millions of waterfalls of colours and stars.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "And in the centre of that bright whirlpool was a core of blinding light that flashed down from the depths of the sky with terrifying speed until suddenly it stopped, motionless and sacred, above a pointed rock in front of Francis.",
       "entities": [
         {
@@ -2778,6 +4170,21 @@
           "text": "Francis"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It was a fiery figure with wings, nailed to a cross of fire.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The sparkling features of the Being wore an expression of supernatural beauty and grief.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It was the face of Jesus, and Jesus spoke.",
+      "entities": [],
       "sentence_type": "contextual"
     },
     {
@@ -2805,6 +4212,16 @@
       "sentence_type": "contextual"
     },
     {
+      "text": "And it vanished within him.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Another cry pierced the air.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "Then, with nails and wounds through his body, and with his soul and spirit aflame, Francis sank down, unconscious, in his blood.",
       "entities": [
         {
@@ -2814,6 +4231,41 @@
           "text": "Francis"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Caravaggio's painting is less dramatic than the account given by Leo - the six-winged seraph is replaced by a two-winged angel, and there is none of the violent confrontation described by Leo - no streams of fire, no pools of blood, no shouts or fiery images of Christ.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The subject had been a popular one ever since the 13th century: Giotto treated it about 1290, and Giovanni Bellini painted a famous version about 1480-85.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Caravaggio's version is much more intimate and marks a sharp change of key: the saint, who has the features of Del Monte, seems to sink back peacefully into the arms of a boy (who bears a marked resemblance to the boy in Boy Peeling a Fruit and to the winged Cupid on the far left of The Musicians, and even more to the boy being cheated in Cardsharps) wearing a sheet and some stage-prop wings.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "There is very little to indicate the subject beyond the saint's Franciscan robe - no sign of the Stigmata, or blood, except the wound in his heart, nor of the fearsome seraph.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Yet the atmosphere remains genuinely spiritual, the two figures lit by an unearthly effulgence in the dark night-time landscape where strange glimmerings flicker on the horizon.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The scene is at once real and unreal.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Del Monte kept it till the end of his life, and several copies went into circulation and were greatly valued.",
+      "entities": [],
       "sentence_type": "contextual"
     }
   ],
@@ -2855,6 +4307,21 @@
       "sentence_type": "contextual"
     },
     {
+      "text": "Completed in 1507, the work followed a 1504 copper engraving by D\u00fcrer on the same subject, one which offered D\u00fcrer the opportunity to depict the ideal human figure.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Painted in Nuremberg soon after his return from Venice, the panels were influenced by Italian art.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "D\u00fcrer's observations on his second trip to Italy provided him with new approaches to portraying the human form.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "Adam and Eve's first home was the Prague Castle, the property of collector Rudolf II.",
       "entities": [
         {
@@ -2870,6 +4337,26 @@
           "text": "Eve's"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "During the Thirty Years' War, armies plundered the castle and the panels came to be owned by Gustavus Adolphus of Sweden.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "His daughter, Christina, gave the work to Philip IV of Spain in 1654.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Later King Charles III ordered in 1777 that the painting be hidden in the Real Academia de Bellas Artes de San Fernando.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It arrived at its current home, Madrid's Museo del Prado, in 1827, but was not publicly displayed until 1833.",
+      "entities": [],
       "sentence_type": "contextual"
     }
   ],
@@ -2983,6 +4470,16 @@
       "sentence_type": "visual"
     },
     {
+      "text": "It is housed in the Galleria Borghese, Rome.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The painting, which was in the collection of Cardinal Scipione Borghese in 1650, has been dated as early as 1605 and as late as 1609\u20131610, with more recent scholars tending towards the former.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "Caravaggio also treated this subject in a work dated c. 1607, currently in the Kunsthistorisches Museum in Vienna, and in an early work dated c. 1600 in the Prado in Madrid.",
       "entities": [
         {
@@ -2992,6 +4489,11 @@
           "text": "Caravaggio"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The decision to depict him as pensive rather than jubilant creates an unusual psychological bond between him and Goliath.",
+      "entities": [],
       "sentence_type": "contextual"
     },
     {
@@ -3071,9 +4573,9 @@
       "entities": [
         {
           "start": 100,
-          "end": 105,
-          "qid": "Q41370",
-          "text": "David"
+          "end": 117,
+          "qid": "Q13472331",
+          "text": "David and Goliath"
         }
       ],
       "sentence_type": "contextual"
@@ -3141,6 +4643,51 @@
       "sentence_type": "visual"
     },
     {
+      "text": "Cleopas wears the scallop shell of a pilgrim.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The other apostle wears torn clothes.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Cleopas gesticulates in a perspectively-challenging extension of arms in and out of the frame of reference.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The standing groom, forehead smooth and face in darkness, appears oblivious to the event.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The painting is unusual for the life-sized figures, the dark and blank background.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The table lays out a still-life meal.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Like the world these apostles knew, the basket of food teeters perilously over the edge.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The Supper at Emmaus is a painting  by the Italian Baroque master Caravaggio, executed in 1601, and now in the National Gallery in London.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Originally this painting was commissioned and paid for by Ciriaco Mattei, brother of cardinal Girolamo Mattei.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "In the Gospel of Mark (16:12) Female Jesus is said to have appeared to them \"in another form\", which may be why he is depicted beardless here, as opposed to the bearded Christ in Calling of St Matthew, where a group of seated money counters is interrupted by the recruiting Christ.",
       "entities": [
         {
@@ -3165,6 +4712,11 @@
       "sentence_type": "contextual"
     },
     {
+      "text": "It is also a recurring theme in Caravaggio's paintings to find the sublime interrupting the daily routine.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "The unexalted humanity is apt for this scene, since the human Female Jesus has made himself unrecognizable to his disciples, and at once confirms and surmounts his humanity.",
       "entities": [
         {
@@ -3186,6 +4738,26 @@
           "text": "Jesus"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The dark background envelops the tableau.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Caravaggio painted another version of the Supper at Emmaus (now in the Brera, Milan) in 1606.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "By comparison, the gestures of figures are far more restrained, making presence more important than performance.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "This difference possibly reflects the circumstances of Caravaggio's life at that point (he had fled Rome as an outlaw following the death of Ranuccio Tomassoni), or possibly, recognising the ongoing evolution of his art, in the intervening five years he had come to recognise the value of understatement.",
+      "entities": [],
       "sentence_type": "contextual"
     }
   ],
@@ -3221,6 +4793,11 @@
       "sentence_type": "visual"
     },
     {
+      "text": "It is now in the Accademia Carrara in Bergamo.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "It dates to after the painter's trip to Rome and belongs to a group of small-format Madonnas for private devotion - others include Madonna with Sleeping Child (Berlin), the Poldi Pezzoli Madonna and the Butler Madonna (New York).",
       "entities": [
         {
@@ -3248,6 +4825,11 @@
           "text": "Madonna"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The Bergamo work is unique among them in that it has a happy rather than melancholic atmosphere.",
+      "entities": [],
       "sentence_type": "contextual"
     }
   ],
@@ -3299,6 +4881,36 @@
         }
       ],
       "sentence_type": "contextual"
+    },
+    {
+      "text": "It is on display in the National Gallery, London, United Kingdom.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It was formerly housed in the Palais Lanckoro\u0144ski in Vienna, belonging to Count Lanckoro\u0144ski and sold by his son and heir Anton in 1959 through Mr Farago.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The first mention of it being there is 1898.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Gothicizing tendencies in Paolo Uccello's art are nowhere  more apparent than in this painting.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "An earlier less dramatic version of the same subject by the Italian artist is in the Mus\u00e9e Jacquemart-Andr\u00e9, Paris.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The painting is used as the basis for the U. A. Fanthorpe poem, Not My Best Side, and may have served as inspiration for Sir John Tenniel's illustration of the Jabberwock in Through the Looking-Glass, and What Alice Found There.",
+      "entities": [],
+      "sentence_type": "contextual"
     }
   ],
   "Q3226022": [
@@ -3327,6 +4939,11 @@
       "sentence_type": "contextual"
     },
     {
+      "text": "It is an Italian Renaissance painting, influenced by Michelangelo's work on the Sistine Chapel ceiling.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "He carries a scroll inscribed with a supplication in Hebrew for entry into Heaven (Isaiah XXVI:2\u20133).",
       "entities": [
         {
@@ -3336,6 +4953,21 @@
           "text": "Isaiah"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Above him is a dedication in Greek to Saint Anne.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Due to wear, Raphael's work has been retouched by other painters over time.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "In 1960, the fresco was restored to Raphael's vision.",
+      "entities": [],
       "sentence_type": "contextual"
     }
   ],
@@ -3359,6 +4991,11 @@
       "sentence_type": "visual"
     },
     {
+      "text": "Included among the group is a self-portrait of Eakins, who is seen at the right-hand side of the painting, next to the tunnel railing, with a white cuffed sleeve sketching or writing.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
       "text": "Seen over Dr. Gross's right shoulder is the clinic clerk, Dr. Franklin West, taking notes on the operation.",
       "entities": [
         {
@@ -3368,6 +5005,11 @@
           "text": "Dr. Gross's"
         }
       ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Eakins's signature is painted into the painting, on the front of the surgical table.",
+      "entities": [],
       "sentence_type": "visual"
     },
     {
@@ -3395,6 +5037,26 @@
       "sentence_type": "visual"
     },
     {
+      "text": "Here, surgeons crowd around the anesthetized patient in their frock coats.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "It is assumed that the patient depicted in The Gross Clinic was a teenage boy, although the exposed body is not entirely discernible as male or female; the painting is shocking for both the odd presentation of this figure and the matter-of-fact goriness of the procedure.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Adding to the drama is the lone woman in the painting seen in the middle ground, possibly the patient's mother, cringing in distress.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Her dramatic figure functions as a strong contrast to the calm, professional demeanor of the men who surround the patient.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
       "text": "The Gross Clinic, or, The Clinic of Dr. Gross, is an 1875 painting by American artist Thomas Eakins.",
       "entities": [
         {
@@ -3404,6 +5066,46 @@
           "text": "Dr. Gross"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It is oil on canvas and measures 8 feet (240 cm) by 6.5 feet (200 cm).",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Many art historians consider The Gross Clinic to be one of the best American paintings ever made.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Admired for its uncompromising realism, The Gross Clinic has an important place documenting the history of medicine\u2014both because it honors the emergence of surgery as a healing profession (previously, surgery was associated primarily with amputation), and because it shows us what the surgical theater looked like in the nineteenth century.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "This is just prior to the adoption of a hygienic surgical environment (see asepsis).",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The Gross Clinic is thus often contrasted with Eakins's later painting The Agnew Clinic (1889), which depicts a cleaner, brighter, surgical theater, with the participants in \"white coats\".",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "In comparing the two, the advancement in understanding of the prevention of infection is seen.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Another noteworthy difference in the later painting is the presence of a professional nurse, Mary Clymer, in the operating theater.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "This bloody and very blunt depiction of surgery was shocking at the time it was first exhibited.",
+      "entities": [],
       "sentence_type": "contextual"
     }
   ],
@@ -3445,6 +5147,16 @@
       "sentence_type": "visual"
     },
     {
+      "text": "In the bottom right corner is the impenitent thief, who sneers against three men who are mocking him.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The penitent thief is at top right: he is portrayed with a very pale skin, while being confessed by a horribly ugly monk.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
       "text": "The bottom left corner houses Veronica with the holy shroud, her eyes half-open and the face looking back.",
       "entities": [
         {
@@ -3479,9 +5191,74 @@
         }
       ],
       "sentence_type": "contextual"
+    },
+    {
+      "text": "It was painted in the early 16th century, presumably between 1500 and 1535.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The work is housed in the Museum of Fine Arts in Ghent, Belgium.",
+      "entities": [],
+      "sentence_type": "contextual"
     }
   ],
   "Q241455": [
+    {
+      "text": "Thousands of horse and foot soldiers immersed in a sea of spears and lances populate the foreground.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The two armies are distinguished by their dress, anachronistic though it is: whereas Alexander's men clad themselves and their horses in full suits of heavy armour, many of Darius' wear turbans and ride naked mounts.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The bodies of the many fallen soldiers lie underfoot.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "A front of Macedonian warriors in the centre pushes against the crumbling enemy force, who flee the battlefield on the far left.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The Persian king joins his army on his chariot of three horses, and is narrowly pursued by Alexander and his uniformly attired Companion cavalry.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The tract of soldiers continues down the gently sloped battlefield to the campsite and cityscape by the water, gravitating toward the mountainous rise at the scene's centre.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Beyond is the Mediterranean Sea and the island of Cyprus.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The Nile River meanders in the far distance, emptying its seven arms into the Mediterranean at the Nile Delta.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "A fierce sky caught in the dichotomy between the setting sun and the crescent moon dominates more than a third of the painting.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The rain-heavy clouds swirling ominously around each celestial entity are separated by a gulf of calmness, intensifying the contrast and infusing the heavens with an unearthly glow.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Light from the sky spills onto the landscape: while the western continent and the Nile are bathed in the sun's light, the east and the Tower of Babel are cloaked in shadow.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
     {
       "text": "The Battle of Alexander at Issus (German: Alexanderschlacht) is a 1529 oil painting by the German artist Albrecht Altdorfer (c. 1480\u20131538), a pioneer of landscape art and a founding member of the Danube school.",
       "entities": [
@@ -3513,6 +5290,11 @@
       "sentence_type": "contextual"
     },
     {
+      "text": "The painting is widely regarded as Altdorfer's masterpiece, and is one of the most famous examples of the type of Renaissance landscape painting known as the world landscape, which here reaches an unprecedented grandeur.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "Duke William IV of Bavaria commissioned The Battle of Alexander at Issus in 1528 as part of a set of historical pieces that was to hang in his Munich residence.",
       "entities": [
         {
@@ -3522,6 +5304,21 @@
           "text": "The Battle of Alexander at Issus"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Modern commentators suggest that the painting, through its abundant use of anachronism, was intended to liken Alexander's heroic victory at Issus to the contemporary European conflict with the Ottoman Empire.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "In particular, the defeat of Suleiman the Magnificent at the Siege of Vienna may have been an inspiration for Altdorfer.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "A religious undercurrent is detectable, especially in the extraordinary sky; this was probably inspired by the prophecies of Daniel and contemporary concern within the Church about an impending apocalypse.",
+      "entities": [],
       "sentence_type": "contextual"
     },
     {
@@ -3547,6 +5344,81 @@
         }
       ],
       "sentence_type": "contextual"
+    },
+    {
+      "text": "The vertical format was dictated by the space available in the room for which the painting was commissioned \u2013 each in William's set of eight was made to be the same size.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "At an unknown date, the panel was cut down on all sides, particularly at the top, so the sky was originally larger and the moon further from the corner of the scene.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The scene is approached from an impossible viewpoint \u2013 at first only feet from the fray, the perspective gradually ascends to encompass the seas and continents in the background and eventually the curvature of the Earth itself.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Here, a transition in hue is made, from the browns that prevail in the lower half of the painting to the aquas that saturate the upper half.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "South of Cyprus is the Sinai Peninsula, which forms a land bridge between Africa and Southwest Asia.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The Red Sea lies beyond, eventually merging \u2013 as the mountain ranges to its left and right do \u2013 with the curved horizon.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The painting's subject is explained in the tablet suspended from the heavens.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The wording, probably supplied by William's court historian Johannes Aventinus, was originally in German but was later replaced by a Latin inscription.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It translates:\n\nAlexander the Great defeating the last Darius, after 100,000 infantry and more than 10,000 cavalrymen had been killed amongst the ranks of the Persians.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Whilst King Darius was able to flee with no more than 1,000 horsemen, his mother, wife, and children were taken prisoner.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "No date is provided for the battle alongside these casualty figures.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The lower left-hand corner features Altdorfer's monogram \u2013",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "an 'A' within an 'A' \u2013 and the lower edge of the tablet is inscribed with \"ALBRECHT ALTORFER ZU REGENSPVRG FECIT\" (\"Albrecht Altdorfer from Regensburg made [this]\").",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Tiny inscriptions on their chariot and harness identify Darius and Alexander, respectively.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Each army bears a banner that reports both its total strength and its future casualties.",
+      "entities": [],
+      "sentence_type": "contextual"
     }
   ],
   "Q533619": [
@@ -3563,6 +5435,16 @@
       "sentence_type": "visual"
     },
     {
+      "text": "Many of the people depicted show the characteristic blank features that Bruegel used to portray fools.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Running themes in Bruegel's paintings are the absurdity, wickedness and foolishness of humans, and this is no exception.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "The painting's original title, The Blue Cloak or The Folly of the World, indicates that Bruegel's intent was not just to illustrate proverbs, but rather to catalog human folly.",
       "entities": [
         {
@@ -3572,6 +5454,16 @@
           "text": "The Blue Cloak"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "His son, Pieter Brueghel the Younger, specialised in making copies of his father's work and painted at least 16 copies of Netherlandish Proverbs.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Not all versions of the painting, by father or son, show exactly the same proverbs and they also differ in other minor details.",
+      "entities": [],
       "sentence_type": "contextual"
     }
   ],
@@ -3587,6 +5479,11 @@
         }
       ],
       "sentence_type": "visual"
+    },
+    {
+      "text": "It is now in the Kunsthistorisches Museum in Vienna.",
+      "entities": [],
+      "sentence_type": "contextual"
     }
   ],
   "Q3630748": [
@@ -3601,6 +5498,16 @@
         }
       ],
       "sentence_type": "visual"
+    },
+    {
+      "text": "It was painted around 1615.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It is currently in a private collection.",
+      "entities": [],
+      "sentence_type": "contextual"
     },
     {
       "text": "An inscription on the reverse confirms that it is painted by Gentileschi.",
@@ -3647,6 +5554,11 @@
       "sentence_type": "visual"
     },
     {
+      "text": "On her right John the Baptist stands, on her left Saint Nicholas is reading.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
       "text": "The Ansidei Madonna (Italian: Pala Ansidei) is a 1505\u20131507 painting by the Italian High Renaissance artist Raphael, painted during his Florentine period.",
       "entities": [
         {
@@ -3656,6 +5568,16 @@
           "text": "Madonna"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "At the time the painting was commissioned, there were other paintings that made up the grouping for the altarpiece.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Of the predellas, the only that remains is Saint John the Baptist Preaching, the others are inexplicably lost.",
+      "entities": [],
       "sentence_type": "contextual"
     },
     {
@@ -3709,6 +5631,11 @@
       "sentence_type": "visual"
     },
     {
+      "text": "The works were associated with the devotions of pregnant women, praying for a safe delivery.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
       "text": "Here the Virgin wears the Girdle of Thomas, a belt of knotted cloth cord that was a relic held in Prato Cathedral, which many depictions wear.",
       "entities": [
         {
@@ -3719,6 +5646,11 @@
         }
       ],
       "sentence_type": "visual"
+    },
+    {
+      "text": "Examples include works by Taddeo Gaddi, Bernardo Daddi and Nardo di Cione.",
+      "entities": [],
+      "sentence_type": "contextual"
     },
     {
       "text": "Sometimes, as with a statue by Sansovino in the Basilica of Sant'Agostino in Rome, the depiction is of a Virgin and Child, but known as a Madonna del Parto because it was especially associated with devotions over pregnancy.",
@@ -3740,6 +5672,31 @@
     }
   ],
   "Q2610936": [
+    {
+      "text": "Boy with a Basket of Fruit, c.1593, is a painting generally ascribed to Italian Baroque master Michelangelo Merisi da Caravaggio, currently in the Galleria Borghese, Rome.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "At one level the painting is a genre piece designed to demonstrate the artist's ability to depict everything from the skin of the boy to the skin of a peach, from the folds of the robe to the weave of the basket.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The fruit is especially exquisite, and Professor Jules Janick of the Department of Horticulture and Landscape Architecture at Purdue University, Indiana, has analysed them from a horticulturalist's perspective:\n\nThe basket ... contains a great many fruits, all in nearly perfect condition and including a bi-colored peach with a bright red blush; four clusters of grapes \u2014 two black, one red, and one \"white;\" a ripe pomegranate split open, disgorging its red seeds; four figs, two of them dead-ripe, black ones, both split and two light-colored; two medlars; three apples\u2014two red, one blushed and the other striped, and one yellow with a russet basin and a scar; two branches with small pears, one of them with five yellow ones with a bright red cheek and the other, half-hidden, with small yellow, blushed fruits.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "There are also leaves showing various disorders: a prominent virescent grape leaf with fungal spots and another with a white insect egg mass resembling that of the oblique banded leaf roller (Choristoneura rosaceana), and peach leaves with various spots.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The painting dates from the time when Caravaggio, newly arrived in Rome from his native Milan, was making his way in the competitive Roman art world.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
     {
       "text": "The model was his friend and companion, the Sicilian painter Mario Minniti, at about 16 years old.",
       "entities": [
@@ -3787,9 +5744,39 @@
         }
       ],
       "sentence_type": "contextual"
+    },
+    {
+      "text": "Vittorio Sgarbi notes certain Murillesque portraiture qualities in the painting that could easily point to other painters in the Arpino workshop.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The analysis indicates that Caravaggio is being realistic, in capturing only what was in the fruit basket; he idealizes neither their ripeness nor their arrangement\u2014yet almost miraculously, we are still drawn in to look at it; for the viewer it is very much a beautiful and exquisite subject.",
+      "entities": [],
+      "sentence_type": "contextual"
     }
   ],
   "Q2528741": [
+    {
+      "text": "Both arms draw a subtle curve, instead of forming a triangle.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The loincloth is painted rather small, thus showing the nude body as much as possible.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The head shows a narrow halo, as if it came from the figure itself; the face is resting on the chest, showing just enough of his features.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The long, straight hair covers a great part of the face, perhaps foreshadowing the death, already inflicted as shown by the wound on the right side.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
     {
       "text": "Christ Crucified is a 1632 painting by Diego Vel\u00e1zquez depicting the Crucifixion of Jesus.",
       "entities": [
@@ -3809,6 +5796,31 @@
       "sentence_type": "contextual"
     },
     {
+      "text": "The work, painted in oil on canvas, measures 249 \u00d7 170 cm and is owned by the Museo del Prado.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "During his stay in Rome, Vel\u00e1zquez made various nude studies he used in later paintings, such as Apollo at the Forge of Vulcan (1630) and Joseph's Tunic (1630).",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Art critics assert that the nude study for this painting is exceptional and masterly in its fusion of serenity, dignity and nobility.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It is a life-size frontal nude, without the support of a narrative scene.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Vel\u00e1zquez followed the accepted iconography in the 17th century.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "His master, Francisco Pacheco, a big supporter of classicist painting, painted the crucified Christ using the same iconography later adopted by Vel\u00e1zquez: four nails, feet together and supported against a little wooden brace, in a classic contrapposto posture.",
       "entities": [
         {
@@ -3819,12 +5831,23 @@
         }
       ],
       "sentence_type": "contextual"
+    },
+    {
+      "text": "It lacks the characteristic dramatic qualities of Baroque painting.",
+      "entities": [],
+      "sentence_type": "contextual"
     }
   ],
   "Q1899740": [
     {
       "text": "On the ground are the Apostles, tightly packed in a group and in a variety of dramatic poses, most looking up at the unprecedented sight of the Virgin Mary rising to heaven.",
       "entities": [
+        {
+          "start": 22,
+          "end": 30,
+          "qid": "Q4155679",
+          "text": "Apostles"
+        },
         {
           "start": 140,
           "end": 155,
@@ -3838,10 +5861,39 @@
       "text": "Above is God the Father, who is about to be handed a crown for Mary by the angel to the right (see above).",
       "entities": [
         {
+          "start": 9,
+          "end": 23,
+          "qid": "Q186350",
+          "text": "God the Father"
+        },
+        {
           "start": 63,
           "end": 67,
           "qid": "Q345",
           "text": "Mary"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The sky contrasts with the golden heavenly light in the upper zones, which recalls the gold ground traditional in mosaics such as those still being made in San Marco, and the gold ground paintings of the Gothic period.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Saint Peter sits at the centre with his hands together in prayer, and Saint John the Evangelist is the younger man in red to the left of him; the others are probably not intended to be identifiable.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 11,
+          "qid": "Q33923",
+          "text": "Saint Peter"
+        },
+        {
+          "start": 70,
+          "end": 95,
+          "qid": "Q328804",
+          "text": "Saint John the Evangelist"
         }
       ],
       "sentence_type": "visual"
@@ -3877,6 +5929,31 @@
       "sentence_type": "contextual"
     },
     {
+      "text": "It is the largest altarpiece in the city, with the figures well over life-size, necessitated by the large church, with a considerable distance between the altar and the congregation.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It marked a new direction in Titian's style, that reflected his awareness of the developments in High Renaissance painting further south, in Florence and Rome,  by artists including Raphael and Michelangelo.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The agitated figures of the Apostles marked a break with the usual meditative stillness of saints in Venetian painting, in the tradition of Giovanni Bellini and others.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It was perhaps originally rather shocking for the Venetian public, but soon recognised as a masterpiece that confirmed Titian's position as the leading artist in Venice, and one of the most important in all Italy, a rival to Michelangelo and Raphael.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The figures are in three zones, divided by spaces filled only with light.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "They are shown in a variety of poses, ranging from gazing in awe, to kneeling and reaching for the skies, \"monumental figures ... massed in collective movement, united with shadow, heroic gestures are given a silhouette of unprecedented boldness\".In the centre zone, the Virgin Mary stands on clouds, wrapped in a red robe and blue mantle, and also makes a gesture of astonishment.",
       "entities": [
         {
@@ -3886,6 +5963,33 @@
           "text": "the Virgin Mary"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Around her \"throngs of angels are melted into clouds irradiated by heavenly light\".",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Titian broke with tradition by omitting all landscape elements, although the blue-grey sky above the apostles shows the scene is set outdoors.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Altogether there are twelve apostles, some only visible by a small area of their face.",
+      "entities": [
+        {
+          "start": 21,
+          "end": 36,
+          "qid": "Q4155679",
+          "text": "twelve apostles"
+        }
+      ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The painting is signed \"TITIANUS\" on the sarcophagus below St Peter.",
+      "entities": [],
       "sentence_type": "contextual"
     }
   ],
@@ -3900,6 +6004,21 @@
           "text": "Christ"
         }
       ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Behind him is a damask cloth held by two angels and, at the sides, a landscape inspired to the Venetian hills; the castle on the right is similar to that of Udine.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "In the foreground are four angels with the Instruments of the Passion: from the left, the Holy Lance, the nails from the cross, the sticks of the Flagellation and the Holy Sponge.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "On the cross is the Crown of Thorns and the inscription  \"INRI\".",
+      "entities": [],
       "sentence_type": "visual"
     },
     {
@@ -3937,6 +6056,31 @@
         }
       ],
       "sentence_type": "contextual"
+    },
+    {
+      "text": "The work was painted for the church of St. Peter Martyr of Udine.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It was acquired by the Austrians after the Napoleonic Wars, and assigned to the Hofmuseum in Vienna in 1838.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It was given back to Italy in 1919.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The work is signed and dated VICTORIS CHARPATJO / VENETI OPVS / 1496 on a cartouche attached to the basement.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It is contemporary of Carpaccio's cycle of the Legend of Saint Ursula and shows some influences of  Giovanni Bellini.",
+      "entities": [],
+      "sentence_type": "contextual"
     }
   ],
   "Q3207987": [
@@ -3962,6 +6106,11 @@
           "text": "the Virgin Mary"
         }
       ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The three tall trees behind St Bernard may symbolise the Holy Trinity.",
+      "entities": [],
       "sentence_type": "visual"
     },
     {
@@ -3993,6 +6142,26 @@
         }
       ],
       "sentence_type": "contextual"
+    },
+    {
+      "text": "It is his most notable work in Florence, forming part of the sacred conversation style.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It was a commission from the Pucci family - Antonio Billi's account book reports Dionigi and Giovanna Pucci commissioning a work from \"Master Piero della Pieve a Chastello, a Perugian\" on 20 November 1493 and paying 55 gold ducats on its completion on 20 April 1496.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The work is also mentioned in 16th century sources, although it was forgotten after the monastery passed to Carmelite nuns in 1628.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "In 1867 the nuns moved out and the convent was abandoned, leading to the rediscovery of the fresco.",
+      "entities": [],
+      "sentence_type": "contextual"
     }
   ],
   "Q2388965": [
@@ -4018,6 +6187,11 @@
           "text": "D\u00fcrer"
         }
       ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "His white jacket has black lining under a white pleated shirt of which the verticals match the horizontals of his headdress.",
+      "entities": [],
       "sentence_type": "visual"
     },
     {
@@ -4081,6 +6255,11 @@
       "sentence_type": "contextual"
     },
     {
+      "text": "Painted after his first trip to Italy, he is depicted bearing an arrogant, cocky expression which betrays the assured self-confidence of a young artist at the height of his ability.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "D\u00fcrer's presence dominates the pictorial space, from his hat which almost reaches the top of the canvas to his arm positioned on the lower ledge, where he rests his fingers enclosed in fine rich gloves.",
       "entities": [
         {
@@ -4103,9 +6282,34 @@
         }
       ],
       "sentence_type": "contextual"
+    },
+    {
+      "text": "Today it is in the Museo del Prado in Madrid.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Light spills from the window, falling along his head to highlight both his delicate skin tones and long blond hair.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "His low-necked shirt or chemise is of fine linen, gathered and trimmed with a band of gold braid or embroidery, and worn under an open-fronted doublet and a cloak tied over one shoulder.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "He looks out at the viewer with a cool ironic stare.",
+      "entities": [],
+      "sentence_type": "contextual"
     }
   ],
   "Q3837491": [
+    {
+      "text": "A stranger appears, blocking his path, and engages him in a fierce struggle -",
+      "entities": [],
+      "sentence_type": "visual"
+    },
     {
       "text": "[ The mystery in Full Daylight] -- 'certainly questionable on the significance of the scene painted by Delacroix'.In Delacroix's composition, a caravan procession--a convoy of servants, flocks, Jacob's sons and wives--appears then fades, only to reappear briefly at the bend of a ravine.",
       "entities": [
@@ -4116,6 +6320,11 @@
           "text": "Jacob's"
         }
       ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Three huge trees dominate the scene; the gorge with misty contours is the painting's final destination.",
+      "entities": [],
       "sentence_type": "visual"
     },
     {
@@ -4131,6 +6340,11 @@
       "sentence_type": "visual"
     },
     {
+      "text": "He bears the mark for ever in his flesh',  victorious but wounded, whereas before the meeting with the angel he is all tricks and cheating.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
       "text": "Thus Delacroix depicted a pile of clothes left in the foreground by Jacob, as he has still his bulky animal skin, symbol of animal human nature and the lower instincts, and wears a lion skin across his shoulder: one of whose paws can be seen flying in the air near his right calf.",
       "entities": [
         {
@@ -4140,6 +6354,16 @@
           "text": "Jacob"
         }
       ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Nature as depicted [here] is not very eastern--the stream, the vegetation, the rise with the three trees definitely belong to the landscape of the Ile de France--Senart forest.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Delacroix liked to walk in the woods and be around the decomposing organic matter--had a  saprophiliac side to his nature--a fascination with destruction and putrefaction, squelching in mud and breathing in the air of the secluded paths\".",
+      "entities": [],
       "sentence_type": "visual"
     },
     {
@@ -4167,6 +6391,16 @@
       "sentence_type": "contextual"
     },
     {
+      "text": "The painting decorates the wall of the Chapel of the Holy Angels in the Paris church of Saint-Sulpice.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Another mural by Delacroix, Heliodorus Driven from the Temple, drawn from  the Book of the Maccabees, a scene of someone  taking a beating in the Jerusalem Temple, is also there.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "In an invitation sent out by Delacroix in July 1861 to inspect the Chapel of the Holy Angels in the church of Saint-Sulpice he wrote : \"Jacob is travelling with the flocks and other gifts he is taking to his brother Esau in the hope of appeasing his anger.",
       "entities": [
         {
@@ -4176,6 +6410,26 @@
           "text": "Jacob"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The holy books see this struggle as a symbol of the trials God sometimes sends His chosen ones. \"",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Delacroix does not indicate in what holy books he found such an interpretation.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Maurice Barres wrote that it was 'a final page of autobiography, a summary of the experience of a great life, the last will and testament written by an old artist on the wall of the Angels'.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "He called it Delacroix's  'spiritual testament ' --\nalthough the French writer Jean-Paul Kauffmann calls Barres' book Mystere en pleine lumiere",
+      "entities": [],
       "sentence_type": "contextual"
     },
     {
@@ -4191,6 +6445,41 @@
       "sentence_type": "contextual"
     },
     {
+      "text": "He left Champrosay in the morning, took the train to Ris station, and returned in the evening to sleep at the hermitage. \"",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "(Kauffman)\nDelacroix wanted to work in the church on Sundays.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "There were sung masses and the music inspired him.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "When the Abb\u00e9 Croquant objected, Delacroix went as far as to request the Emperor and Empress to intervene.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Preparing the wall in Sant-Sulpice--worried by absorption (walls swallow liquid preparations)--\"the great enemy is the dampness of the walls:in short the walls are dreadful for any paint.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Oil, sinking in to a great depth, can compensate for the drawback.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "\" The Chapel faces south, so Delacroix played with the light flowing in directly through the window--a solar architecture -  Gnomon of Saint-Sulpice\nGnomon astronomicus - the threat of lead poisoning, brought on by breathing the lead n paint -  the walls contain white-lead.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "'Jacob' is set in an uneven hilly surface.",
       "entities": [
         {
@@ -4200,6 +6489,36 @@
           "text": "Jacob"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Delacroix, who above all studied Rubens, admired the thickness of Rubens' paint and the way its impasto stands out from surfaces.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The Historic Monuments research laboratory has identified an incredible number of layers: indeed, the Angel's robe has up to thirteen.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "In 1856 Delacroix was suffering from tubercular laryngitis,the illness that would kill him.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "A varicocele torments him as its testicular trouble flares up.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The nature of his work on the mural 'means that he is always either standing or perched up on a ladder, increasing his discomfort.'",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "\"The names of angels - what is your name?\"",
+      "entities": [],
       "sentence_type": "contextual"
     },
     {
@@ -4215,6 +6534,71 @@
       "sentence_type": "contextual"
     },
     {
+      "text": "On 28 December 1857 Delacroix moved his lodgings from rue Notre Dame de Lorette to no6 Rue Furstenberg to be nearer Saint-Sulpice, and by 22 July 1861 he had finished the Chapel of the Holy Angels.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "He had only two more years to live, time spent most of it in his refuge at Champrosay.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "1938 - damaged by sandbags\nDeliver me out of the mire, and let me not sink -Psalm 69",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "verse 14 - this is the inscription over the entrance to the Chapel of the Holy Angels.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "In October 1858 Delacroix wrote to Berryer, 'I have made a solid effort.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "I think it will save the work, which was probably bogged down.'",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "On 28 April 1849, the Ministry of the Interior officially commissions Delacroix to do the  mural paintings for the Font Chapel",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "- its name at that time -  he had chosen  subjects to do with original sin, washed away by baptism -  He is 51.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "He will get 26,826 francs  -",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "He learns that the chapel, wrongly called Font Chapel because the baptismal font  was temporarily placed there, is dedicated to  St",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Sulpice - On 2 October 1849, it changes name - and this time invokes the Holy Angels.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The change obliges Delacroix to look for other themes.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "He writes in his journal  'The justifiable anger I felt has really knocked me about.'",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "On 5 October 1850 he  reveals in a letter to  a friend, the painter Constant Dutilleux his subjects, and mentions Jacob wrestling with the angel, Heliodorus, and  the ceiling,  which will have as its subject  the Archangel Michael  slaying the Demon.",
       "entities": [
         {
@@ -4224,6 +6608,21 @@
           "text": "Jacob"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "From 1850-54 Delacroix is busy with another commission however,  the decoration of the Hall of Peace in the Town Hall and then, on 16 June 1854 writes in his Journal -  \"Andrieu has begun work at Saint-Sulpice.\"",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Pierre Andrieu, was a pupil of Delacroix,  before becoming his collaborator from 1850 onwards.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Heim's work  in chapel of souls in purgatory on other side of wall to delacroixs mural - 'prayer for the dead' - less looked at- there was a confessional in the chapel of the holy angels - placed beneath wrestling with the angel, enroached on the bottom part of the painting - it was moved - to the heim chapel  beneath heims prayer for the dead -\nKauffmann - Titian The Martyrdom of St Peter - inspiration for delacroix?",
+      "entities": [],
       "sentence_type": "contextual"
     }
   ],
@@ -4259,6 +6658,11 @@
       "sentence_type": "contextual"
     },
     {
+      "text": "On a canvas of 146 square feet, this painting was first exhibited at the Paris Salon in 1789.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "They had conspired to overthrow the republic and restore the monarchy, and Brutus himself was compelled to order their deaths.",
       "entities": [
         {
@@ -4281,6 +6685,16 @@
         }
       ],
       "sentence_type": "contextual"
+    },
+    {
+      "text": "The painting was a bold allegory of civic virtue with immense resonance for the growing cause of republicanism.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Its themes of virtue, sacrifice, and devotion to the nation sparked much controversy when it was unveiled in the politically charged era of the French Revolution.",
+      "entities": [],
+      "sentence_type": "contextual"
     }
   ],
   "Q3212193": [
@@ -4297,6 +6711,26 @@
       "sentence_type": "visual"
     },
     {
+      "text": "Her close-fitting bodice is adorned with jewellery that includes a gold necklace, bracelets and a large gold brooch.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Her face is heavily made up, and her right hand rests on the back of a chair, and she holds a lace scarf in her left hand.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Alongside her, a clock rests on scarlet drapery.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "She is shown as rather plain looking, wearing an unhappy expression.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
       "text": "Mariana is elegant but holds a pouty expression.",
       "entities": [
         {
@@ -4309,6 +6743,16 @@
       "sentence_type": "visual"
     },
     {
+      "text": "Even so, she holds an unusually rigid and stiff pose and her upper body and head seem to almost suffocate underneath her black dress, which is at least given space and supported by a very wide farthingale.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The width of her dress is emphasised by the broad lace collar, the horizontal patterns of the dress' trimmed borders and her wide collar.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
       "text": "Portrait of Mariana of Austria is bathed in harmonious shades of white, black and red, although the dramatically drawn curtain has been painted over by another hand.",
       "entities": [
         {
@@ -4318,6 +6762,16 @@
           "text": "Mariana of Austria"
         }
       ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "This scarlet velvet curtain is dramatically drawn on the top left hand corner, lending the painting a theatrical air; its presence tends to confine the space occupied by the queen and throw out the painting's the center of balance.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Both the chair and table-clock act as symbols of her royal status.",
+      "entities": [],
       "sentence_type": "visual"
     },
     {
@@ -4351,6 +6805,11 @@
       "sentence_type": "contextual"
     },
     {
+      "text": "She had been intended to marry Prince Baltasar Carlos (b. 1629), her first cousin.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "When he died, his father, and her uncle, Philip IV (b. 1605) sought to marry Mariana so as to preserve the hegemony of the Habsburg in Europe.",
       "entities": [
         {
@@ -4360,6 +6819,16 @@
           "text": "Mariana"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "As such she became Queen consort of Spain.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The picture is bathed in harmonious shades of black and red; the rather dramatically drawn curtain was painted over by another hand.",
+      "entities": [],
       "sentence_type": "contextual"
     },
     {
@@ -4375,6 +6844,11 @@
       "sentence_type": "contextual"
     },
     {
+      "text": "These paintings are marked by an emphasis on brighter hues, dark backgrounds, extravagant head dress, fashionably wide dresses and penetrating physiological examination.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "These court portraits culminates in his 1656 Las Meninas, which includes an older maternal Mariana, and center-stage her daughter, the Infanta Margarita Teresa.",
       "entities": [
         {
@@ -4384,6 +6858,41 @@
           "text": "Mariana"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Based on the description of a portrait sent to Ferdinand in Vienna, the portrait was probably completed by 15 December 1651.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Vel\u00e1zquez wished that his royal commissions would reinvigorate 16th century court portraiture, which art historian Javier Portus described as, until then as \"petrified into a rigid format...with its cliches of gesture and deportment\".",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Vel\u00e1zquez instills his works with an in-dept examination of the sitter's character.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Its material and colour is similar to the long table behind her, on top of which is placed a gilded clock.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "This table and clock are likely intended to represent her courtly duties as Queen consort.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The picture is the only known full-length portrait of Mariana.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "As an official court portrait it adheres to convention, and every attempt is made to convey a sense of her majesty.",
+      "entities": [],
       "sentence_type": "contextual"
     }
   ],
@@ -4398,6 +6907,11 @@
           "text": "Christ"
         }
       ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Differently from Mantegna, Carracci did not paint the mourners at the side, and adopted a more realistic depiction of the body.",
+      "entities": [],
       "sentence_type": "visual"
     },
     {
@@ -4469,6 +6983,11 @@
       "sentence_type": "visual"
     },
     {
+      "text": "It is housed in the Galleria Sabauda of Turin.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "The scene is clearly inspired by a Voyage of Tobias by Botticini, once in the Florentine church of Florence and now in the Uffizi, while the angels resemble those painted by Filippino himself in the Liberation of St. Peter in the Brancacci Chapel.",
       "entities": [
         {
@@ -4478,6 +6997,11 @@
           "text": "Tobias"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The work was once attributed to Sandro Botticelli or his workshop.",
+      "entities": [],
       "sentence_type": "contextual"
     }
   ],
@@ -4505,9 +7029,24 @@
         }
       ],
       "sentence_type": "visual"
+    },
+    {
+      "text": "In 1993 the halo was recognized as a later addition and removed.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The Ducht art historian Hugo van der Velden thinks the main figure may be the famous goldsmith Willem van Vleuten, who by then lived in Bruges.",
+      "entities": [],
+      "sentence_type": "contextual"
     }
   ],
   "Q2622172": [
+    {
+      "text": "A masterwork of Degas' youth, the painting is a portrait of his aunt, her husband, and their two young daughters.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
     {
       "text": "Laura, his father's sister, is depicted in a dress which symbolizes mourning for her father, who had recently died and appears in the framed portrait behind her.",
       "entities": [
@@ -4518,6 +7057,11 @@
           "text": "Laura"
         }
       ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Her husband, by contrast, appears to be separated from his family.",
+      "entities": [],
       "sentence_type": "visual"
     },
     {
@@ -4537,6 +7081,16 @@
         }
       ],
       "sentence_type": "visual"
+    },
+    {
+      "text": "The Bellelli Family, also known as Family Portrait, is an oil painting on canvas by Edgar Degas (1834\u20131917), painted ca.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "1858\u20131867, and housed in the Mus\u00e9e d'Orsay.",
+      "entities": [],
+      "sentence_type": "contextual"
     },
     {
       "text": "While finishing his artistic training in Italy, Degas drew and painted his aunt Laura, her husband the baron Gennaro Bellelli (1812\u20131864), and their daughters Giulia and Giovanna.",
@@ -4569,6 +7123,21 @@
       "sentence_type": "contextual"
     },
     {
+      "text": "Although it is not known for certain when or where Degas executed the painting, it is believed",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "that he utilized studies done in Italy to complete the work after his return to Paris.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The baron was an Italian patriot exiled from Naples, living in Florence.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "Laura Bellelli's countenance is dignified and austere, her gesture connected with those of her daughters.",
       "entities": [
         {
@@ -4578,6 +7147,11 @@
           "text": "Laura Bellelli's"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "His association with business and the outside world is implied by his position at his desk.",
+      "entities": [],
       "sentence_type": "contextual"
     }
   ],
@@ -4595,6 +7169,21 @@
       "sentence_type": "visual"
     },
     {
+      "text": "To Jesus' right is his mother the Virgin Mary and to his left is Moses, holding the tablets showing the Ten Commandments.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Rising up the left hand side of the painting (at Jesus' right hand) are the blessed, whilst the damned fall into hell on the right hand side.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "At the base of the painting are the dead, dying and those just resurrected.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
       "text": "The Great Last Judgement is an oil on canvas altarpiece, painted by the Flemish artist Peter Paul Rubens between 1614 and 1617.",
       "entities": [
         {
@@ -4607,6 +7196,11 @@
       "sentence_type": "contextual"
     },
     {
+      "text": "He created the composition and final touches and his is the only signature on the work, though it is believed between nine and nineteen studio assistants also worked on it.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "Its name distinguishes it from the same artist's The Small Last Judgement of 1619 and his The Fall of the Damned of 1620.",
       "entities": [
         {
@@ -4616,6 +7210,16 @@
           "text": "Last Judgement"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It was one of four altarpieces commissioned from Rubens for the Jesuit church at Neuburg an der Donau by Wolfgang William, Count Palatine of Neuburg.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It later passed into the private collection of Johann Wilhelm, Elector Palatine and is now in the Alte Pinakothek in Munich.",
+      "entities": [],
       "sentence_type": "contextual"
     }
   ],
@@ -4648,6 +7252,16 @@
           "text": "Saint Catherine of Alexandria"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It was painted c. 1507, towards the end of Raphael's sojourn in Florence and shows the young artist in a transitional phase.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The depiction of religious passion in the painting is still reminiscent of Pietro Perugino.",
+      "entities": [],
       "sentence_type": "contextual"
     },
     {
@@ -4687,6 +7301,26 @@
         }
       ],
       "sentence_type": "visual"
+    },
+    {
+      "text": "The subject is portrayed with great care for details, including the wrinkles to the white-yellowish beard.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Also differently from the etching, the memento mori suggestion of the finger above a skull has a greater visual relevance.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Details in the foreground include the inkpot at right and the bookrest at left, as well as a crucifix on the top left.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "It is in the Museu Nacional de Arte Antiga of Lisbon, Portugal.",
+      "entities": [],
+      "sentence_type": "contextual"
     }
   ],
   "Q151047": [
@@ -4725,6 +7359,46 @@
         }
       ],
       "sentence_type": "contextual"
+    },
+    {
+      "text": "The painting is in the Uffizi Gallery in Florence, Italy.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Although the two are not a pair, the painting is inevitably discussed with Botticelli's other very large mythological painting, the Primavera, also in the Uffizi.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "They are among the most famous paintings in the world, and icons of the Italian Renaissance; of the two, the Birth is even better known than the Primavera.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "As depictions of subjects from classical mythology on a very large scale they were virtually unprecedented in Western art since classical antiquity, as was the size and prominence of a nude female figure in the Birth.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It used to be thought that they were both commissioned by the same member of the Medici family, but this is now uncertain.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "They have been endlessly analysed by art historians, with the main themes being: the emulation of ancient painters and the context of wedding celebrations (generally agreed), the influence of Renaissance Neo-Platonism (somewhat controversial), and the identity of the commissioners (not agreed).",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Most art historians agree, however, that the Birth does not require complex analysis to decode its meaning, in the way that the Primavera probably does.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "While there are subtleties in the painting, its main meaning is a straightforward, if individual, treatment of a traditional scene from Greek mythology, and its appeal is sensory and very accessible, hence its enormous popularity.",
+      "entities": [],
+      "sentence_type": "contextual"
     }
   ],
   "Q2290433": [
@@ -4744,6 +7418,16 @@
           "text": "Chios"
         }
       ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "A frieze-like display of suffering characters, military might, ornate and colourful costumes, terror, disease and death is shown in front of a scene of widespread desolation.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The vigour with which the aggressor is painted, contrasted with the dismal rendition of the victims has drawn comment since the work was first hung, and some critics have charged that Delacroix might have tried to show some sympathy with the brutal occupiers.",
+      "entities": [],
       "sentence_type": "visual"
     },
     {
@@ -4781,6 +7465,11 @@
         }
       ],
       "sentence_type": "contextual"
+    },
+    {
+      "text": "The painting was completed and displayed at the Salon of 1824 and presently hangs at the Mus\u00e9e du Louvre in Paris.",
+      "entities": [],
+      "sentence_type": "contextual"
     }
   ],
   "Q2713671": [
@@ -4803,6 +7492,11 @@
       "sentence_type": "visual"
     },
     {
+      "text": "These figures of the New Testament maintain eye contact.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
       "text": "The Canigiani Holy Family or Canigiani Madonna is a painting by the Italian High Renaissance artist Raphael from 1508.",
       "entities": [
         {
@@ -4812,6 +7506,16 @@
           "text": "Madonna"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It is part of the permanent collection of the Alte Pinakothek in Munich, Germany.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The oil painting was bought from the painter by the Canigiani family in Florence for their Home altar.",
+      "entities": [],
       "sentence_type": "contextual"
     }
   ],
@@ -4871,6 +7575,16 @@
       "sentence_type": "contextual"
     },
     {
+      "text": "Leonardo was recorded as being at work on one such picture in Florence in 1501 for Florimond Robertet, a secretary to King Louis XII of France.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "This may have been delivered to the French court in 1507, though scholars are divided on this point.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "The subject is known today from several versions of which two, called the Buccleuch Madonna and the Lansdowne Madonna, are thought to be partly by Leonardo's hand.",
       "entities": [
         {
@@ -4886,6 +7600,11 @@
           "text": "Madonna"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The underdrawings of both paintings show similar experimental changes made to the composition (or pentimenti), suggesting that both evolved concurrently in Leonardo's workshop.",
+      "entities": [],
       "sentence_type": "contextual"
     },
     {
@@ -4937,6 +7656,11 @@
       "sentence_type": "contextual"
     },
     {
+      "text": "The gesture of suspense made with her right hand is repeated from Leonardo's Milanese altarpiece The Virgin of the Rocks.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "The use of a symbol of the Passion as an object of childish play recurs throughout Leonardo's painted oeuvre, appearing for instance in the Benois Madonna and the Virgin and Child with St Anne.",
       "entities": [
         {
@@ -4958,6 +7682,11 @@
           "text": "Child"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "As with later works by Leonardo, the figures appear in a vast unpopulated landscape.",
+      "entities": [],
       "sentence_type": "contextual"
     },
     {
@@ -4994,6 +7723,16 @@
           "text": "Madonna"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It has been proposed that this is a specific location in the valley of the river Adda, as it runs from Lecco to Vaprio, an area familiar to Leonardo and which he mapped.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It is possible that the landscape of the former picture was added by a pupil after Leonardo failed to complete the work.",
+      "entities": [],
       "sentence_type": "contextual"
     },
     {
@@ -5045,6 +7784,16 @@
       "sentence_type": "contextual"
     },
     {
+      "text": "Leonardo also experimented with including some kind of beast of burden \u2013 a horse, ass or ox \u2013 which appears in different positions in the two underdrawings.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Behind these an architectural structure with an arched opening was planned.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "At a later stage the landscape of the Buccleuch picture seems to have had a bridge like that of the Lansdowne Madonna, which was then painted over.",
       "entities": [
         {
@@ -5093,6 +7842,11 @@
         }
       ],
       "sentence_type": "visual"
+    },
+    {
+      "text": "In 1626 Zurbar\u00e1n signed a new contract with the Dominicans of San Pablo de Real Monastery in Seville to produce 21 paintings in 8 months.",
+      "entities": [],
+      "sentence_type": "contextual"
     },
     {
       "text": "One of these was Christ on the Cross, which was so admired by the artist's contemporaries that Seville's city council suggested he moved there permanently in 1629.",
@@ -5151,6 +7905,26 @@
       "sentence_type": "contextual"
     },
     {
+      "text": "It was likely the last work painted by Raphael in Umbria before moving to Florence.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Its name comes from the Conestabile family of Perugia, from whom it was acquired by Alexander II of Russia in 1871.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The Tsar presented it to his consort, Maria Alexandrovna.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Since then, the painting has been on exhibit in the Hermitage Museum of St. Petersburg.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "In 1881, when the picture was moved to canvas, it was discovered that in the original version the Madonna contemplated a pomegranate (symbol of the Passion) instead of the book.",
       "entities": [
         {
@@ -5164,6 +7938,11 @@
     }
   ],
   "Q3819218": [
+    {
+      "text": "It shows the Roman emperor",
+      "entities": [],
+      "sentence_type": "visual"
+    },
     {
       "text": "Theodosius and Ambrose is a 1615/16 painting by Peter Paul Rubens, with assistance from his main pupil Anthony van Dyck.",
       "entities": [
@@ -5180,6 +7959,16 @@
           "text": "Ambrose"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It is now in the Kunsthistorisches Museum in Vienna.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Rubens created the preparatory drawing, with the painting almost entirely done by van Dyck, who painted his own similar version of the subject a few years later.",
+      "entities": [],
       "sentence_type": "contextual"
     },
     {
@@ -5227,6 +8016,11 @@
       "sentence_type": "visual"
     },
     {
+      "text": "In the right background are Catherine of Alexandria with her wheel, an old female saint (Anne or Elisabeth) and an old male saint (Joachim or Joseph).",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
       "text": "On the left are a female saint (possibly Mary Magdalene) and a male saint with a book (possibly John the Evangelist).",
       "entities": [
         {
@@ -5255,9 +8049,29 @@
         }
       ],
       "sentence_type": "contextual"
+    },
+    {
+      "text": "Its top left hand corner is badly damaged.",
+      "entities": [],
+      "sentence_type": "contextual"
     }
   ],
   "Q3464081": [
+    {
+      "text": "He stands on a terrace beneath a monumental arch with grotesque-decorated pilasters and a balustrade.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The deep landscape background is typical of the artist, with wooded hills and mountains.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "To the left are a ruined vault and pillar, symbolising the downfall of the pagan world.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
     {
       "text": "Saint Sebastian is a c.1495 painting of Saint Sebastian by Perugino, now in the Louvre collection.",
       "entities": [
@@ -5277,6 +8091,16 @@
       "sentence_type": "contextual"
     },
     {
+      "text": "It was temporarily on display at the Louvre-Lens branch between 2012 and 2017.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It is probably the work mentioned in the 17th century inventory of the Barberini collection in Rome, which was later dispersed.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "Several pieces from it were taken abroad during the 19th century, with St Sebastian being bought by the Louvre in 1896.",
       "entities": [
         {
@@ -5286,6 +8110,16 @@
           "text": "St Sebastian"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It shows the saint in a contraposto pose drawn from the Doryphoros of Polykleitos, echoed in a later autograph copy now in Sao Paolo.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The symmetrical composition draws on Perugino's earlier works",
+      "entities": [],
       "sentence_type": "contextual"
     },
     {
@@ -5299,9 +8133,29 @@
         }
       ],
       "sentence_type": "contextual"
+    },
+    {
+      "text": "On the base of the platform is the Latin inscription \"SAGITTAE.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "MICHI\", drawn from Psalm 38:2",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "(\"Thy arrows are fixed in me\").",
+      "entities": [],
+      "sentence_type": "contextual"
     }
   ],
   "Q3797775": [
+    {
+      "text": "The work is in a huge gilded and carved frame, with three cusps covered placed on jutting  corbels.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
     {
       "text": "The three arches are decorated with vegetable motifs; over them are three panels (whose upper frame is lost), containing the paintings, from the left, of the Angel of the Annunciation, the Blessing Christ between Cherubims and the Annunciation.",
       "entities": [
@@ -5312,6 +8166,16 @@
           "text": "Christ"
         }
       ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "At the side are two piers with twisting columns on the edges, with paintings of prophets.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "In the lower part is the predella, with six small paintings of the Episodes of the Lives of St. Benedict and St. Bernard of Clairvaux.",
+      "entities": [],
       "sentence_type": "visual"
     },
     {
@@ -5367,6 +8231,21 @@
         }
       ],
       "sentence_type": "contextual"
+    },
+    {
+      "text": "It is dated February 1413 which, in the Florentine calendar (which began in March), corresponded to 1414.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The composition is crowded but, like other Giottoesque paintings, lacks perspective.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The gilded background is typical of Lorenzo's style.",
+      "entities": [],
+      "sentence_type": "contextual"
     }
   ],
   "Q1986597": [
@@ -5393,6 +8272,16 @@
         }
       ],
       "sentence_type": "visual"
+    },
+    {
+      "text": "It was acquired by Philippe II, Duke of Orl\u00e9ans for the Orl\u00e9ans collection, giving it its present name.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It is now in the Mus\u00e9e Cond\u00e9 in Chantilly.",
+      "entities": [],
+      "sentence_type": "contextual"
     }
   ],
   "Q2619037": [
@@ -5413,6 +8302,21 @@
         }
       ],
       "sentence_type": "visual"
+    },
+    {
+      "text": "The pose of a reclining figure looking back over her shoulder was adopted in 1814 by Ingres for his Grande Odalisque.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "He began it in May 1800 but may have left it unfinished when he learned that Fran\u00e7ois G\u00e9rard had been commissioned before him to paint a portrait of the same model (Gerard's portrait was completed in 1802); on the other hand many David portraits have the same bare background.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It is now in the Louvre.",
+      "entities": [],
+      "sentence_type": "contextual"
     },
     {
       "text": "In Creatures in an Alphabet, Djuna Barnes wrote of the subject as\n\nThe Seal, she lounges like a bride,Much too docile, there's no doubt;\nMadame R\u00e9camier, on side,\n(if such she has), and bottom out.",
@@ -5465,6 +8369,41 @@
       "sentence_type": "visual"
     },
     {
+      "text": "The infanta, here eight years old, is shown with a solemn expression.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "She wears a blue silk dress which is adorned with silver borders after the Spanish fashion of the era; the most striking characteristic is the huge expanse of the voluminous crinoline which is accentuated by the trimmed borders and the wide lace collar.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "In one of her hands she holds a brown fur muff, perhaps a present from Vienna.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The young girl, who is presented as pretty and appealing, has a pale countenance which is enhanced by the blue and silver tones.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "In the background, there is a high console table with a round mirror behind it.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Executed in oil on canvas, it measures 127 cm high by 107 cm wide and was one of Vel\u00e1zquez's last paintings, produced in 1659, a year before his death.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Currently, the painting is in the Kunsthistorisches Museum.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "This is one of the several court portraits made by Vel\u00e1zquez on different occasions of Infanta Margaret Theresa who, at fifteen, married her uncle, Leopold I, Holy Roman Emperor.",
       "entities": [
         {
@@ -5474,6 +8413,16 @@
           "text": "Infanta Margaret Theresa"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "She's the little infanta who appears in Las Meninas (1656).",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "These paintings show her in different stages of her childhood; they were sent to Vienna to inform Leopold of what his young fianc\u00e9e looked like.",
+      "entities": [],
       "sentence_type": "contextual"
     },
     {
@@ -5498,6 +8447,11 @@
           "text": "Infanta Margarita"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "In this portrait, Vel\u00e1zquez used the technique of loose brushstrokes that fuse into coherence only when viewed from a certain distance.",
+      "entities": [],
       "sentence_type": "contextual"
     }
   ],
@@ -5569,6 +8523,11 @@
       "sentence_type": "contextual"
     },
     {
+      "text": "The painting has been reproduced in countless imitations and parodies.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "Michelangelo's Creation of Adam is one of the most replicated religious paintings of all time.",
       "entities": [
         {
@@ -5582,6 +8541,11 @@
     }
   ],
   "Q1464531": [
+    {
+      "text": "The night sky and the effects of light at night provided the subject for some of his more famous paintings, including Cafe Terrace at Night (painted earlier the same month) and the later canvas from Saint-R\u00e9my, The Starry Night.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
     {
       "text": "Starry Night Over the Rh\u00f4ne (September 1888, French: Nuit \u00e9toil\u00e9e sur le Rh\u00f4ne) is one of Vincent van Gogh's paintings of Arles at nighttime.",
       "entities": [
@@ -5645,6 +8609,16 @@
   ],
   "Q3564176": [
     {
+      "text": "The left part ended up with the Patti Birch Trust by 1991, on long-term loan to the Metropolitan Museum of Art.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Both halves were displayed together at the Metropolitan and then the Mus\u00e9e Fabre in 2008.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
       "text": "Venus and Adonis or View of Grottaferrata with Venus, Adonis and a River Divinity is a c.1626 painting by Nicolas Poussin, now in the Mus\u00e9e Fabre in Montpellier.",
       "entities": [
         {
@@ -5673,6 +8647,21 @@
         }
       ],
       "sentence_type": "contextual"
+    },
+    {
+      "text": "It was cut in two in the 18th century, with the larger right-hand part entering the Mus\u00e9e Fabre.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "At the end of 2009 the Montpellier Agglom\u00e9ration (guardian of the Mus\u00e9e Fabre) used two private donations to purchase the right part and reunite the painting.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The complete painting was then exhibited at Nature et id\u00e9al : Le paysage \u00e0 Rome 1600-1650, a 2011 exhibition in the Grand Palais in Paris.",
+      "entities": [],
+      "sentence_type": "contextual"
     }
   ],
   "Q3232010": [
@@ -5686,6 +8675,11 @@
           "text": "Kahlo"
         }
       ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "One is wearing a white European-style Victorian dress while the other is wearing a traditional Tehuana dress.",
+      "entities": [],
       "sentence_type": "visual"
     },
     {
@@ -5797,6 +8791,11 @@
       "sentence_type": "contextual"
     },
     {
+      "text": "Her father, Guillermo Kahlo, was German; while her mother, Matilde Calderon, was Mestizo (a mix of Spanish and Native American).",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "Another interpretation is that the Tehuana Frida is the one who was adored by her husband Diego Rivera, while the European Frida is the one that was rejected by him.",
       "entities": [
         {
@@ -5861,9 +8860,19 @@
         }
       ],
       "sentence_type": "contextual"
+    },
+    {
+      "text": "The Two Fridas is housed at the Museo de Arte Moderno in Mexico City.",
+      "entities": [],
+      "sentence_type": "contextual"
     }
   ],
   "Q3428049": [
+    {
+      "text": "However, due to the greater sizes, he enhanced some decorative details, such as the ribbons held by the angels.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
     {
       "text": "Christ is portrayed within an almond hovering at the top center of the panel, surrounded by flying or playing angels, while the frame has heads of cherubims  and seraphims.",
       "entities": [
@@ -5877,6 +8886,11 @@
       "sentence_type": "visual"
     },
     {
+      "text": "The lower group includes Mary and the Apostles, with an Umbrian landscape in the background, characterized by slender trees.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
       "text": "The Ascension of Christ (also known as Sansepolcro Altarpiece; Italian: Pala di Sansepolcro) is a painting by Italian Renaissance master Perugino, dating from around 1510.",
       "entities": [
         {
@@ -5886,6 +8900,21 @@
           "text": "Christ"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It is housed in the Cathedral of Sansepolcro, Tuscany, central Italy.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The works adopts the same composition in the central panel of Perugino's San Pietro Polyptych.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The work also saw a massive collaboration of the artist's workshop.",
+      "entities": [],
       "sentence_type": "contextual"
     }
   ],
@@ -5930,6 +8959,21 @@
           "text": "Christ"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "1435 date is estimated based on the work's style, and because the artist acquired wealth and renown around this time, most likely from the prestige this work allowed him.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It was painted early in his career, shortly after he completed his apprenticeship with Robert Campin and shows the older painter's influence, most notable in the hard sculpted surfaces, realistic facial features and vivid primary colours, mostly reds, whites and blues.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The work was a self-conscious attempt by van der Weyden to create a masterpiece that would establish an international reputation.",
+      "entities": [],
       "sentence_type": "contextual"
     },
     {
@@ -6095,6 +9139,11 @@
       "sentence_type": "contextual"
     },
     {
+      "text": "This swooning was described by theologians with the word spasimo.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "In the early 16th century, such was the popularity of depictions of the swooning Virgin, Pope Julius II was lobbied with a request to designate a holy day as a feast of the spasimo.",
       "entities": [
         {
@@ -6104,6 +9153,11 @@
           "text": "Virgin"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The request was turned down.",
+      "entities": [],
       "sentence_type": "contextual"
     },
     {
@@ -6265,6 +9319,11 @@
       "sentence_type": "visual"
     },
     {
+      "text": "They are accompanied to their left by Cupid with his bow and two cupids with flutes.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
       "text": "The third scene (again on the right hand side) is the swan flying away whilst Leda gets dressed.",
       "entities": [
         {
@@ -6303,6 +9362,36 @@
   ],
   "Q1523473": [
     {
+      "text": "It was first exhibited at the Royal Academy of Arts in 1856.At its first showing Hughes accompanied the painting with an extract from Tennyson's poem \"The Miller's Daughter\":\n\nLove is hurt with jar and fret,\nLove is made a vague regret,\nEyes with idle tears are set,\nIdle habit links us yet;\nWhat is Love?",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "It shows a distinctly Pre-Raphelite style in which a soft approach to nature and femininity is found.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Bright colors and red-haired women as well as an emphasis on nature and symbolism characterize this style which can be found in the late 1800s as a response to industrialization.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The painting depicts a young couple at a moment of emotional crisis.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The male figure is barely visible, his head bent over the young woman's left hand.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The woman is looking down at fallen blossoms, suggesting the end of spring, and of early and young love.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
       "text": "April Love is a painting by the Pre-Raphaelite painter Arthur Hughes which was created between 1855 and 1856.",
       "entities": [
         {
@@ -6312,6 +9401,11 @@
           "text": "April"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Originally acquired by William Morris, the painting was purchased by the Tate Gallery, London (now Tate Britain) in 1909 and has remained in the Tate collection to the present day.",
+      "entities": [],
       "sentence_type": "contextual"
     },
     {
@@ -6357,9 +9451,19 @@
         }
       ],
       "sentence_type": "contextual"
+    },
+    {
+      "text": "The work is one of the world's most expensive paintings.",
+      "entities": [],
+      "sentence_type": "contextual"
     }
   ],
   "Q3207251": [
+    {
+      "text": "It is a depiction of a woman with glowing eyes playing a flute in the moonlight by the edge of a dark jungle with a snake extending toward her from a nearby tree.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
     {
       "text": "The painting has an asymmetric vertical composition with a detailed depiction of the jungle on the right and a woman playing the flute on the left, back-lit by the Moon.",
       "entities": [
@@ -6371,9 +9475,41 @@
         }
       ],
       "sentence_type": "visual"
+    },
+    {
+      "text": "A snake, charmed by the music, stretches horizontally across the painting.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The Snake Charmer (French: La Charmeuse de Serpents) is a 1907 oil painting by French Na\u00efve artist Henri Rousseau (1844\u20131910).",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The Mus\u00e9e d'Orsay described the painting as \"a black Eve in a disquieting Garden of Eden\".",
+      "entities": [],
+      "sentence_type": "contextual"
     }
   ],
   "Q3605055": [
+    {
+      "text": "The two biblical ancestors are portrayed, in two different panels, on a dark background, standing on a barely visible ground.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 26,
+          "qid": "Q58701",
+          "text": "The two biblical ancestors"
+        }
+      ],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Both hold two small branches which cover their sexual organs.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
     {
       "text": "Eve holds the traditional apple, with the snake coming to her from above from the tree of life.",
       "entities": [
@@ -6415,6 +9551,11 @@
         }
       ],
       "sentence_type": "contextual"
+    },
+    {
+      "text": "There are other paintings by the same artist with the same title, for instance at the Museum der bildenden K\u00fcnste in Leipzig and the Art Institute of Chicago.",
+      "entities": [],
+      "sentence_type": "contextual"
     }
   ],
   "Q128910": [
@@ -6455,6 +9596,16 @@
       "sentence_type": "contextual"
     },
     {
+      "text": "It is one of the western world's most recognizable paintings.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The work is presumed to have been started around 1495\u201396 and was commissioned as part of a plan of renovations to the church and its convent buildings by Leonardo's patron Ludovico Sforza, Duke of Milan.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "Leonardo has depicted the consternation that occurred among the Twelve Apostles when Jesus announced that one of them would betray him.",
       "entities": [
         {
@@ -6464,6 +9615,11 @@
           "text": "Jesus"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Due to the methods used, a variety of environmental factors, and intentional damage, very little of the original painting remains today despite numerous restoration attempts, the last being completed in 1999.",
+      "entities": [],
       "sentence_type": "contextual"
     }
   ],
@@ -6481,6 +9637,26 @@
       "sentence_type": "visual"
     },
     {
+      "text": "To do this, they produced a woman who had been caught taking part in adultery.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "In contrast, the Jews are \"in the dark\" and appear lower.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "The Woman Taken in Adultery is a painting of 1644 by Rembrandt, bought by the National Gallery, London in 1824, as one of their foundation batch of paintings.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It is in oil on oak, and 83.8 x 65.4 cm.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "In this scene, a few Jews, mainly Scribes and Pharisees, tried to catch Jesus condoning disobedience to the Jewish Law, knowing that Jesus pitied wrong-doers.",
       "entities": [
         {
@@ -6496,6 +9672,21 @@
           "text": "Jesus"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Then, they said \"Teacher, this woman has been caught in the act of adultery.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Now in the law Moses commanded us to stone such.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "What do you say about her?\"",
+      "entities": [],
       "sentence_type": "contextual"
     },
     {
@@ -6537,6 +9728,26 @@
   ],
   "Q1219263": [
     {
+      "text": "It is a fantastical depiction of a lion musing over a sleeping woman on a moonlit night.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "Rousseau described his painting as follows: \"A wandering Negress, a mandolin player, lies with her jar beside her (a vase with drinking water), overcome by fatigue in a deep sleep.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "A lion chances to pass by, picks up her scent yet does not devour her.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "There is a moonlight effect, very poetic.\"",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
       "text": "The Sleeping Gypsy  (French: La Boh\u00e9mienne endormie) is an 1897 oil painting by French Na\u00efve artist Henri Rousseau (1844\u20131910).",
       "entities": [
         {
@@ -6547,9 +9758,49 @@
         }
       ],
       "sentence_type": "contextual"
+    },
+    {
+      "text": "Rousseau first exhibited the painting at the 13th Salon des Ind\u00e9pendants, and tried unsuccessfully to sell it to the mayor of his hometown, Laval.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "Instead, it entered the private collection of a Parisian charcoal merchant where it remained until 1924, when it was discovered by the art critic Louis Vauxcelles.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The Paris-based art dealer Daniel-Henry Kahnweiler purchased the painting in 1924, although a controversy arose over whether the painting was a forgery.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "It was acquired by art historian Alfred H. Barr Jr. for the New York Museum of Modern Art.",
+      "entities": [],
+      "sentence_type": "contextual"
     }
   ],
   "Q507120": [
+    {
+      "text": "In the foreground a wayfarer has stopped to rest.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "He turns his gaze to the background, where a black abyss opens up.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "In those depths a few mountains can be glimpsed.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
+    {
+      "text": "So it is in this painting: in the foreground the sun illuminates the foliage and the clothes of the traveller, and in contrast the darkness of night fills the rest of the image.",
+      "entities": [],
+      "sentence_type": "visual"
+    },
     {
       "text": "Mountain Landscape with Rainbow (1809-10) (German: Gebirgslandschaft mit Regenbogen), is an oil painting by the German Romantic artist Caspar David Friedrich.",
       "entities": [
@@ -6587,6 +9838,11 @@
       "sentence_type": "contextual"
     },
     {
+      "text": "Above the landscape, a rainbow forms in the waning light.",
+      "entities": [],
+      "sentence_type": "contextual"
+    },
+    {
       "text": "In Friedrich's oeuvre, paintings with a sharp contrast between the foreground and background are common, a separation symbolizing the spiritual and physical planes of existence.",
       "entities": [
         {
@@ -6596,6 +9852,11 @@
           "text": "Friedrich's"
         }
       ],
+      "sentence_type": "contextual"
+    },
+    {
+      "text": "The opposites of day and night, and of spirit and matter,  are unified by a rainbow, which in the Genesis account of Noah's ark symbolized the covenant between God and humanity.",
+      "entities": [],
       "sentence_type": "contextual"
     }
   ],
