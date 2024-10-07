@@ -29,14 +29,17 @@ CANDIDATE_TYPES_DICT_PATH=AUX_OUTPUT_PATH / "candidate_types_dict.json"
 
 NOT_FOUND_IMAGES=AUX_OUTPUT_PATH / "not_found_images.txt"
 
+CANDIDATES_FOLDER_PATH=AUX_OUTPUT_PATH / "el_candidates"
+os.makedirs(CANDIDATES_FOLDER_PATH, exist_ok=True)
+
 OUTPUT_FILES_PATH=Path("./output_files/")
 #mkdir output_files
 os.makedirs(OUTPUT_FILES_PATH, exist_ok=True)
 MELART_ANNOTATIONS_PATH=OUTPUT_FILES_PATH / "melart_annotations.json"
 MELART_AUTO_ANNOTATIONS_PATH=OUTPUT_FILES_PATH / "melart_automatic_annotations.json"
 
-CANDIDATES_FOLDER_PATH=OUTPUT_FILES_PATH / "el_candidates"
-os.makedirs(CANDIDATES_FOLDER_PATH, exist_ok=True)
+CANDIDATES_FILE_PATH=OUTPUT_FILES_PATH / "el_candidates.jsonl"
+
 IMAGES_FOLDER_PATH=OUTPUT_FILES_PATH / "images"
 IMAGES_FILES_FOLDER_PATH=IMAGES_FOLDER_PATH / "files"
 os.makedirs(IMAGES_FILES_FOLDER_PATH, exist_ok=True)
