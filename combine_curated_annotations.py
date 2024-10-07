@@ -5,6 +5,7 @@ import re
 from pathlib import Path
 import paths
 import random
+import copy
 random.seed(42)
 
 matched_anns_path=paths.ARTPEDIA2WIKI_MATCHED_PATH
@@ -25,7 +26,7 @@ final_auto_anns={}
 for qid, artwork_info in automatic_anns.items():
     if qid in test:
         automatic_anns[qid]["split"]="test"
-        final_auto_anns[qid]=automatic_anns[qid]
+        final_auto_anns[qid]=copy.deepcopy(automatic_anns[qid])
         for sentence in curated_anns[qid]:
             corresponding_list="visual_sentences" if sentence["sentence_type"]=="visual" else "contextual_sentences"
             #get the sentence index
@@ -34,7 +35,7 @@ for qid, artwork_info in automatic_anns.items():
             automatic_anns[qid][corresponging_el_list][sentence_idx]=[]
             for entity in sentence["entities"]:#{"start": 42,"end": 49,"qid": "Q345", "text": "Madonna"}
                 #change to {"qid": "http://www.wikidata.org/entity/Q345","text": "Madonna","start": 42,"end": 49}
-                full_entity={"qid": f"http://www.wikidata.org/entity/{entity['qid']}","text": entity["text"],"start": entity["start"],"end": entity["end"]}
+                full_entity={"qid": entity['qid'],"text": entity["text"],"start": entity["start"],"end": entity["end"]}
                 automatic_anns[qid][corresponging_el_list][sentence_idx].append(full_entity)
     elif qid in train:
         automatic_anns[qid]["split"]="train"
