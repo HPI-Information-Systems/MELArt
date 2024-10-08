@@ -12,12 +12,23 @@ The code for the experiments with the baselines and for generating model-specifi
 2. Install required libraries. The easiest way is to use the provided conda environment `environment.yaml`
 3. Install spacy English model `python -m spacy download en_core_web_sm`
 
-### Input files
+### Input files and services
 
 1. Download the Artpedia dataset from [https://aimagelab.ing.unimore.it/imagelab/page.asp?IdPage=35](https://aimagelab.ing.unimore.it/imagelab/page.asp?IdPage=35) and place the `artpedia.json` file in the `input_files/` folder.
 <!-- 2. Download the Wikidata dump `latest-all.json.bz2` [https://dumps.wikimedia.org/wikidatawiki/entities/](https://dumps.wikimedia.org/wikidatawiki/entities/) the dump from 2023-03-22 was used to generate MELArt. The file should be put into or linked from `input_files/`. -->
-<!-- TODO describe QLever setup -->
-<!-- TODO describe Solr setup -->
+2. Set up a QLever instance and import the Wikidata dump. For further information on how to set up QLever, please refer to the [QLever documentation](https://github.com/ad-freiburg/qlever/wiki/Using-QLever-for-Wikidata). To reproduce our results, the Wikidata dumps are the following:
+    - `latest-all.ttl.bz2` with the timestamp 2024-09-02T23:00:01Z
+    - `latest-lexemes.ttl.bz2` with the timestamp 2024-09-06T23:00:01Z
+3. Configure the QLever http URL (e.g. http://localhost:7001 ) in the `.env` file
+4. Download the English Wikipedia dumps for these two tables and place them in the `input_files/enwiki` folder:
+    - `enwiki-20240901-page.sql.gz`
+    - `enwiki-20240901-redirect.sql.gz`
+5. Set up a Solr instance and create a core that accepts autoCreateFields. To reproduce our results, the Solr version used was 9.7.0. 
+Typically the creation is with the following command:
+```bash
+solr create -c <core_name>
+```
+6. Configure the Solr core URL in the `.env` file (e.g. http://localhost:8983/solr/<core_name>)
 
 You can also avoid having the `input_files/` folder, by adjusting the paths in the `paths.py` script.
 
