@@ -3,6 +3,8 @@ from typing import Dict, List, Tuple, Union
 import requests
 from dotenv import dotenv_values
 import utils
+import pandas as pd
+from io import StringIO
 
 #url = "http://127.0.0.1:7001"
 config = dotenv_values(".env")
@@ -31,6 +33,14 @@ def sparql_request(query, accept="application/sparql-results+json", session=None
 def sparql_query(query, session=None):
     response = sparql_request(query, accept="application/sparql-results+json", session=session)
     data = response.json()
+    return data
+
+def sparql_pandas_query(query, session=None):
+    response = sparql_request(query, accept="text/csv", session=session)
+    csv_txt = response.content.decode("utf-8")
+    if response.status_code != 200:
+        raise Exception(response.text)
+    data = pd.read_csv(StringIO(csv_txt))
     return data
 
 def sparql_entity_qid(wikipedia_title, session=None):
@@ -267,7 +277,6 @@ def summarize_qid(qid:str, session=None)->Dict:
         "images":images
     }
     return entity_summary
-
 
 def count_qids():
     sparql_qids="""PREFIX wikibase: <http://wikiba.se/ontology#>
