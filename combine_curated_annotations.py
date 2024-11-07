@@ -24,6 +24,7 @@ val=train_val-train
 combined_anns={}
 final_auto_anns={}
 for qid, artwork_info in automatic_anns.items():
+    final_auto_anns[qid]=copy.deepcopy(automatic_anns[qid])
     if qid in test:
         automatic_anns[qid]["split"]="test"
         final_auto_anns[qid]=copy.deepcopy(automatic_anns[qid])
