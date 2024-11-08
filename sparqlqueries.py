@@ -86,7 +86,7 @@ def sparql_depicted_entities(qid, session=None):
         res.append(result["depicted"]["value"])
     return res
 
-def sparql_all_lables(qids:Union[str,List[str]], session=None) -> Union[Tuple[str,set],Dict[str,Tuple[str,set]]]:
+def sparql_all_lables(qids:Union[str,List[str]], lang="en" ,session=None) -> Union[Tuple[str,set],Dict[str,Tuple[str,set]]]:
     """
     Returns the main label and all alternative labels for a given QID or a list of QIDs
     """
@@ -103,7 +103,7 @@ def sparql_all_lables(qids:Union[str,List[str]], session=None) -> Union[Tuple[st
         f"SELECT ?qid ?label WHERE {{\n"
         f"    VALUES ?qid {{{" ".join(wd_qids)}}}\n"
         f"    ?qid rdfs:label ?label.\n"
-        f"    FILTER (lang(?label) = 'en')\n"
+        f"    FILTER (lang(?label) = '{lang}')\n"
         f"}}\n"
     )
     labels_dict=dict()
@@ -123,7 +123,7 @@ def sparql_all_lables(qids:Union[str,List[str]], session=None) -> Union[Tuple[st
         f"SELECT ?qid ?altLabel WHERE {{\n"
         f"    VALUES ?qid {{{" ".join(wd_qids)}}}\n"
         f"    ?qid skos:altLabel ?altLabel.\n"
-        f"    FILTER (lang(?altLabel) = 'en')\n"
+        f"    FILTER (lang(?altLabel) = '{lang}')\n"
         f"}}\n"
     )
     data = sparql_query(query, session=session)
