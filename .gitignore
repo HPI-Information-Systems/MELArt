@@ -4,3 +4,4 @@ input_files/artpedia.json
 input_files/enwiki*
 aux_files/*
 output_files/*
+figures/*
