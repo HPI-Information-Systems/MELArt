@@ -1,8 +1,12 @@
 # MELArt. A Multimodal Entity Linking  Dataset for Art
 
-Code for the generation of MELArt. A Multimodal Entity Linking  Dataset for Art.
+Code for the generation of MELArt. A Multimodal Entity Linking  Dataset for Art. Described in the paper
 
-The code for the experiments with the baselines and for generating model-specific versions od the dataset can be found [here](https://github.com/HPI-Information-Systems/MELArt_experiments/)
+> Alejandro Sierra-Múnera, Linh Le, Gianluca Demartini, and Ralf Krestel. MELArt: A Multimodal Entity Linking Dataset for Art. In Special Issue on Resources for Graph Data and Knowledge. Transactions on Graph Data and Knowledge (TGDK), Volume 2, Issue 2, pp. 8:1-8:22, Schloss Dagstuhl – Leibniz-Zentrum für Informatik (2024) [https://doi.org/10.4230/TGDK.2.2.8](https://doi.org/10.4230/TGDK.2.2.8)
+
+The final dataset can be found [here](https://doi.org/10.48610/8a1ccdf)
+
+The code for the experiments with the baselines and for generating model-specific versions of the dataset can be found [here](https://github.com/HPI-Information-Systems/MELArt_experiments/)
 
 ## Pre-requisites
 
