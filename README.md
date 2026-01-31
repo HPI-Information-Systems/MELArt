@@ -56,4 +56,8 @@ Execute the following scripts to generate the dataset.
 
 8. `combine_curated_annotations.py`: This script combines the automatically generated annotations, with the manually curated annotations to produce the final dataset in the `output_files/melart_annotations.json` file.
 
-9. `concat_candidates.py`: This script concatenates all the candidate files into a single `el_candidates.jsonl` file in the `output_files` folder.
+9. `complete_candidates.py`: This script completes the candidate entities from the manual annotations.
+
+10. run `filter_candidate_images.py` and `crawl_images.py` again to filter and download the images for the newly added candidates.
+
+11. `concat_candidates.py`: This script concatenates all the candidate files into a single `el_candidates.jsonl` file in the `output_files` folder.
