@@ -21,6 +21,10 @@ def main(args):
         #get the file name from the url
         img_url = Path(img_url).name
         image_urls.add(img_url)
+        if 'old_img_url' in obj:
+            old_img_url = obj.get('old_img_url')
+            old_img_url = Path(old_img_url).name
+            image_urls.add(old_img_url)
 
     #url decode the names (for instance Albert%20II%20of%20Austria.jpg -> Albert_II_of_Austria.jpg)
     image_urls = {unquote(url) for url in image_urls}
